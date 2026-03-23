@@ -8,12 +8,15 @@ draft: false
 
 | | |
 |---|---|
-| **Status** | Draft |
-| **Priority** | MVP |
+| **Status** | In Progress |
+| **Phase** | 1 |
 
 ### Description
 
-Users shall be able to register a new account using their email address and a password.
+Users shall be able to register a new account using  a unique user name, their email address and a password.
+
+#### Notes
+1. The email address is intended for use in multi-user and advanced security features (phase 4).
 
 ---
 
@@ -21,12 +24,12 @@ Users shall be able to register a new account using their email address and a pa
 
 | | |
 |---|---|
-| **Status** | Draft |
-| **Priority** | MVP |
+| **Status** | In Progress |
+| **Phase** | 1 |
 
 ### Description
 
-Registered users shall be able to log in and log out of the application.
+Registered users shall be able to log in and log out of the application usering their user name and password.
 
 ---
 
@@ -34,12 +37,15 @@ Registered users shall be able to log in and log out of the application.
 
 | | |
 |---|---|
-| **Status** | Draft |
-| **Priority** | MVP |
+| **Status** | In Progress |
+| **Phase** | 1 |
 
 ### Description
 
-Users shall be able to reset their password via their registered email address.
+Users shall be able to reset their password via a password reset screen.
+
+#### Notes
+1. A forgotten password feature will be implemented in phase 4 (advanced security) using a link sent by email.
 
 ---
 
@@ -48,11 +54,11 @@ Users shall be able to reset their password via their registered email address.
 | | |
 |---|---|
 | **Status** | Draft |
-| **Priority** | MVP |
+| **Phase** | 4 |
 
 ### Description
 
-Users shall be able to update their profile information including username, email, and avatar.
+Users shall be able to update their profile information including email address, bio and avatar.
 
 ---
 
@@ -61,7 +67,7 @@ Users shall be able to update their profile information including username, emai
 | | |
 |---|---|
 | **Status** | Draft |
-| **Priority** | MVP |
+| **Phase** | 4 |
 
 ### Description
 

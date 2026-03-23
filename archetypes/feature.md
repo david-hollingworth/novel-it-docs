@@ -14,7 +14,7 @@ What the feature does and why it exists from the user's perspective.
 | | |
 |---|---|
 | **Status** | Draft |
-| **Priority** | MVP |
+| **Phase** | MVP |
 
 ## Notes
 
