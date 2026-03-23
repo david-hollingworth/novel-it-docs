@@ -182,7 +182,7 @@ When the novel details are displayed the user shall be able to:
 - Add scenes directly to a chapter
 - Display the chapter details page
 
-## FEAT-0213 Scene Management
+## FEAT-0212 Scene Management
 
 | | |
 |---|---|

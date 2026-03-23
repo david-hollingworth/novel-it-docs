@@ -1,7 +1,99 @@
 ---
 title: "03 Writing Interface"
-description: "Document structure, block-based editor, and editor features"
+description: "Editor features"
 draft: false
 ---
 
-*This section is a placeholder. Content to be completed during the specification rework.*
+## FEAT-0301 Editor
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+Novel-It shall provide the user with a markdown editor that supports the following markdown elements:
+
+- Heading H1 to H6
+- Typography. E.g. Bold, italic, srikethrough
+- Blockquotes
+- Unordered (bullet point) lists
+- Ordered (numbered) lists
+- Horizontal rule
+- Links
+- Image links
+- Code blocks (inline and fenced)
+
+####  Note:
+Tables are not fully supported by the preview mode
+
+## FEAT-0302 Autosave
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+The editor shall automatically save the content every 30 seconds.
+
+## FEAT-0303 Lossless navigation
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+If there are unsaved changes and the user attempts to navigate away from the editor, then the system shall warn the user they will loose their changes and give them the option to continue or to cancel.
+
+## FEAT-0304 Word count
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+- The system shall keep a count of the number of words in the scene. 
+- Word counts are rolled up to chapter, part and novel levels
+
+## FEAT-0305 Preview mode
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+The user shall be able to toggle between edit mode and preview mode. In preview mode the markdown is renderd as it would appear in an exported document.
+
+## FEAT-0305 Distraction free mode
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+The editor shall provide a distraction free mode in which only the editor is displayed.
+
+#### Note:
+The editor is still displayed within the browser viewport and so is not truely fullscreen. 
+
+## FEAT-0306 Automatic cross referencing
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+When a scene is saved the application will automatically search for characters, locations and items mentioned by name in that scene and will records their occurance against the appropriate character, location or item.
