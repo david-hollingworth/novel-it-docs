@@ -10,6 +10,17 @@ more information.**
 [Novel-It](https://github.com/david-hollingworth/novel-it) is a self-hosted, open-source novel writing application. This site contains
 the formal specifications and validation documentation that underpin its development.
 
+## Release phases
+
+Novel-It will be developed in the following phases:
+
+| Phase | Description | Status |
+| ----- | ----------- | ------ |
+| 1 | Minimum Viable Product to allow the user to login, create novels and chapters and to write scenes. Includes basic character, location and item management. | In Progress |
+| 2 | Plotting. Functionality to allow the user to plot a novel | Planned |
+| 3 | Statistics and goals. Enhancements to manuscript features | Planning |
+| 4 | Multi-user features. Collaboration. | To Plan |
+
 ## How this documentation is structured
 
 Features describe what the application does from the user's perspective. Each feature
