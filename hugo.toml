@@ -1,0 +1,35 @@
+baseURL = "https://david-hollingworth.github.io/novel-it-docs/"
+languageCode = "en-gb"
+title = "Novel-It Docs"
+theme = "novel-it-docs"
+
+disablePathToLower = true
+
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[params]
+  description = "Feature specifications, requirements, and traceability documentation for Novel-It"
+  githubURL = "https://github.com/david-hollingworth/novel-it"
+  blogURL = "https://david-hollingworth.github.io/novel-it-site/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = "monochrome"
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 2
