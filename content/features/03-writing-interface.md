@@ -73,7 +73,7 @@ If there are unsaved changes and the user attempts to navigate away from the edi
 
 The user shall be able to toggle between edit mode and preview mode. In preview mode the markdown is renderd as it would appear in an exported document.
 
-## FEAT-0305 Distraction free mode
+## FEAT-0306 Distraction free mode
 
 | | |
 |---|---|
@@ -87,7 +87,7 @@ The editor shall provide a distraction free mode in which only the editor is dis
 #### Note:
 The editor is still displayed within the browser viewport and so is not truely fullscreen. 
 
-## FEAT-0306 Automatic cross referencing
+## FEAT-0307 Automatic cross referencing
 
 | | |
 |---|---|
