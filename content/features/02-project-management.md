@@ -177,10 +177,32 @@ The novel details page shall display:
 
 When the novel details are displayed the user shall be able to:
 - Add new chapters
-- Reorder chapters on the dashboard
+- Drag and drop chapters on the dashboard to reorder them
 - Edit chapters details
 - Add scenes directly to a chapter
 - Display the chapter details page
 
+## FEAT-0213 Scene Management
 
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+When The chapter details are displayed the user shall be able to:
+- Edit the chapter details
+- Delete a chapter. Any scenes attached to the chapter are also deleted.
+- Archive a chapter. Archived chapters no longer appear as part of the novel
+- Unarchive a chapter
+- Add new scenes
+- Drag and drop scenes on the dashboard to reorder them
+- Edit scene details
+- Delete a scene
+- Archive a scene
+- Unarchive a scene
+- Set the scene's status
+- Move scenes between chapters
+- Click on a scene's title to open the editor
 
