@@ -1,5 +1,5 @@
 ---
-title: "09 Writing Statistics and Goals"
+title: "12 Writing Statistics and Goals"
 description: "Statistics dashboard, goal setting, and session tracking"
 draft: false
 ---

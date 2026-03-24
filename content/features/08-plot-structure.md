@@ -1,5 +1,5 @@
 ---
-title: "07 Plot and Structure"
+title: "08 Plot and Structure"
 description: "Plot structure templates, plot points, scene cards, and timeline"
 draft: false
 ---
