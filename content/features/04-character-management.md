@@ -26,6 +26,8 @@ The user shall be able to create new characters. Characters shall have the follo
 - Physical description
 - Interview
 - The lie they believe
+- Goals / motivations
+- Fears / weaknesses
 - Arc in story
 - Character image
 - Relationships
@@ -96,3 +98,4 @@ Once unarchived, the character shall appear on the character dashboard again.
 - If a shared character is edited then the edits appear in all novels where the character exists
 - If a shared character is archived then it is archived for all novels
 - If a shared character is deleted then it is deleted for all novels
+

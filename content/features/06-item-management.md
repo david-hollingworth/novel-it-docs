@@ -71,7 +71,7 @@ Once unarchived, the item shall appear on the item dashboard again.
 - A warning shall be displayed that this is permanent
 - When an item is deleted any manuscript that refers to the item remains unchanged
 
-## FEAT-0606 item sharing
+## FEAT-0606 Item sharing
 
 | | |
 |---|---|
