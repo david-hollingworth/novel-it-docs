@@ -34,6 +34,7 @@ Novels shall have the following attributes:
   - Beta reading
   - Publishing
   - Published
+- Parts required? Yes / No
 
 ## FEAT-002 Novel structure
 
@@ -46,12 +47,9 @@ Novels shall have the following attributes:
 
 Novels shall follow this hierachical structure
 
-1. Parts - these are optional. If a novel is to have more than 1 part then this option can be selected when the novel is created.
+1. Parts - these are optional. If a novel is to have more than 1 part then this option can be enabled when the novel is created, or at a later stage when editing the novel's details.
 2. Chapters. The novel shall consist of one or more chapters. If parts are in use then the chapters are parented off a part, rather than a novel.
 3. Scenes. A chapter shall have one or more scenes
-
-#### Note:
-Parts are a phase 4 feature. Phase 1 shall consist only of Novels, Chapters and Scenes.
 
 ## FEAT-0203 Edit Novel
 
@@ -152,7 +150,8 @@ The novel details page shall display:
 - The novel's premise
 - Buttons to edit the novel's details, archive the novel, add a chapter, view archived chapters.
 - Chapter, scene and word counts.
-- A dashboard of chapters showing a brief summary of the chapter's details.
+- If parts are enabled then a dashboard of parts is displayed showing a brief summary of the part's details.
+- If parts are disabled then dashboard of chapters showing a brief summary of the chapter's details is displayed.
 
 ## FEAT-0210 Duplicate Novel
 
@@ -166,7 +165,7 @@ The novel details page shall display:
 - The user shall be able to duplicate an entire novel
 - When a Novel is duplicated all associated chapters, characters, locations and items are also duplicated and associated with the new novel.
 
-## FEAT-0211 Chapter Management
+## FEAT-0211 Part Management
 
 | | |
 |---|---|
@@ -175,14 +174,46 @@ The novel details page shall display:
 
 ### Description
 
+Parts are an optional top level of the organizational hierachy within the novel.
+
 When the novel details are displayed the user shall be able to:
+- Enable parts if they are disabled
+- Add new parts
+- Drag and drop parts on the dashboard to reorder them
+- Edit part details
+- Add chapters directly to a part
+- Display the part details page
+
+#### Note: Phase 2 Features - extended part management
+
+- If parts are enabled then the user shall be able to move parts from one novel to another.
+- If a part is moved to another novel then all child chapters and scenes shall move to the new novel.
+
+## FEAT-0212 Chapter Management
+
+| | |
+|---|---|
+| **Status** | In Progress |
+| **Phase** | 1 |
+
+### Description
+
+Chapters can be the children of a Novel, if parts are disabled. However, if paarts are enabled for the novel then chapters are the children of a part.
+
+When the novel details are displayed (or part details, if parts are enabled) the user shall be able to:
 - Add new chapters
 - Drag and drop chapters on the dashboard to reorder them
 - Edit chapters details
 - Add scenes directly to a chapter
 - Display the chapter details page
 
-## FEAT-0212 Scene Management
+#### Note: Phase 2 Features - extended chapter management
+
+- Chapters can be moved from one novel to another
+- If the destination novel has parts enabled then the a destination part must be selected for the chapter
+- When a chapter is moved to a new novel or part, then any child scenes are moved along with the chapter;
+
+## FEAT-0213 Scene Management
 
 | | |
 |---|---|
