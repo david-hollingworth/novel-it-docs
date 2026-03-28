@@ -99,7 +99,7 @@ No location-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0008 - Entity relocation](/features/00-base-entity-features#feat-0008-entity-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 

@@ -224,8 +224,8 @@ When a part is deleted all associated chapters and scenes are also deleted.
 | | |
 |---|---|
 | **Status** | Draft |
-| **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity relocation](/features/00-base-entity-features#feat-0008-entity-relocation) |
+| **Phase** | 4 |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
@@ -304,8 +304,8 @@ When a chapter is deleted all associated scenes are also deleted.
 | | |
 |---|---|
 | **Status** | Draft |
-| **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity relocation](/features/00-base-entity-features#feat-0008-entity-relocation) |
+| **Phase** | 4 |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
@@ -387,7 +387,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0008 - Entity relocation](/features/00-base-entity-features#feat-0008-entity-relocation) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 ### Description
 

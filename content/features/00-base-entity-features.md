@@ -37,7 +37,7 @@ The top section displays a summary of the parent entity and provides action butt
 #### Child entity board (below)
 Below the parent summary, the children of the parent entity are displayed as cards. Each card shall display the child entity's name. Additional card content is defined in each concrete entity specification.
 
-Child entity cards can be dragged on the board to reorder them.
+Child entity cards can be dragged on the board to reorder them within their current parent.
 
 ## FEAT-0002 Edit entity
 
@@ -136,18 +136,26 @@ This board is filtered to show only entities with the "archived" property set to
 - The user is warned that any unsaved changes in the entity will be lost when the duplicate is made
 - The new duplicate entity is displayed for editing.
 
-## FEAT-0008 Entity relocation
+## FEAT-0008 Entity reparenting
 
 | | |
 |---|---|
 | **Status** | Draft |
-| **Phase** | 4 |
+| **Phase** | 2 |
 
 ### Description
 
-- With the exception of novel entities, all other entities can be moved to a different novel.
-- All child entities are moved along with the entity being relocated
-- The user is asked to confirm the relocation
+The user shall be able to move an entity to a different parent of the same type within the same novel.
+
+Reparenting shall be achievable by two methods:
+
+- **Drag and drop** — the user drags an entity card from its current parent board and drops it onto the target parent
+- **Reparent dialog** — the user selects a reparent option from the entity and is prompted to choose the destination parent from a list of available parents of the appropriate type
+
+All child entities are moved along with the entity being reparented. Any associations the entity holds (e.g. plot scene to manuscript scene associations) are preserved. The entity appears under its new parent immediately after reparenting.
+
+#### Note:
+Reparenting is distinct from reordering within the same parent. Reordering within a parent is covered by [FEAT-0001 Entity list board](#feat-0001-entity-list-board).
 
 ## FEAT-0009 Entity sharing
 
@@ -182,3 +190,21 @@ The user shall be able to define named relationships between any two planning en
 - Relationships are displayed on the details page of both participating entities
 - The user can add, edit, and delete relationships from either entity's details page
 - Deleting an entity also deletes all relationships in which it participates
+
+## FEAT-0011 Cross-novel relocation
+
+| | |
+|---|---|
+| **Status** | Draft |
+| **Phase** | 4 |
+
+### Description
+
+The user shall be able to move an entity to a different novel entirely.
+
+- With the exception of novel entities, all entities can be relocated to a different novel
+- The user shall be prompted to select the destination novel from a list of novels they own
+- Where the destination novel has a different structure (e.g. parts enabled/disabled, sequences enabled/disabled) the user shall be prompted to select an appropriate destination parent within that novel
+- All child entities are moved along with the entity being relocated
+- Associations between the relocated entity and entities that remain in the source novel (e.g. plot scene to manuscript scene associations) are removed on relocation
+- The user is asked to confirm the relocation and warned of any association losses before it takes place
