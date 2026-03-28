@@ -15,7 +15,7 @@ draft: false
 
 Novel-It shall provide the user with a markdown editor that supports the following markdown elements:
 
-- Heading H1 to H6
+- Headings H1 to H6 (toolbar shortcuts provided for H1–H3; H4–H6 available via direct markdown input)
 - Typography. E.g. Bold, italic, srikethrough
 - Blockquotes
 - Unordered (bullet point) lists
@@ -37,7 +37,7 @@ Tables are not fully supported by the preview mode
 
 ### Description
 
-The editor shall automatically save the content every 30 seconds.
+The editor shall automatically save the content if the text has been updaated. The default is every 30 seconds, which can be overridden in the user's profile.
 
 ## FEAT-0303 Lossless navigation
 
@@ -48,7 +48,11 @@ The editor shall automatically save the content every 30 seconds.
 
 ### Description
 
-If there are unsaved changes and the user attempts to navigate away from the editor, then the system shall warn the user they will loose their changes and give them the option to continue or to cancel.
+If there are unsaved changes and the user attempts to navigate away from the editor using in-application navigation (links, breadcrumbs, previous/next scene buttons), the system shall display an in-application confirmation dialog giving the user the option to continue or cancel the navigation.
+
+#### Note:
+
+Browser-level navigation (back button, closing the tab) is outside the application's control. The browser's own native dialog will be displayed in these cases.
 
 ## FEAT-0304 Word count
 
@@ -60,7 +64,8 @@ If there are unsaved changes and the user attempts to navigate away from the edi
 ### Description
 
 - The system shall keep a count of the number of words in the scene. 
-- Word counts are rolled up to chapter, part and novel levels
+- The word count for the scene is updated as the user types.
+- Word counts are rolled up to chapter, part and novel levels when the scene is saaved.
 
 ## FEAT-0305 Preview mode
 
