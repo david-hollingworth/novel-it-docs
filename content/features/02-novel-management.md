@@ -119,12 +119,7 @@ When a novel is duplicated all associated parts, chapters, scenes, characters, l
 
 ### Description
 
-The user shall be able to export a novel in one of the following formats:
-
-- Markdown
-- HTML
-- PDF
-- ePub
+Novel export is fully described in [10 Export](/features/10-export). See [FEAT-1002 Export manuscript](/features/10-export#feat-1002-export-manuscript) for manuscript export and [FEAT-1001 Include in compile](/features/10-export#feat-1001-include-in-compile) for controlling which content is included.
 
 ## FEAT-0209 Novel list display
 
