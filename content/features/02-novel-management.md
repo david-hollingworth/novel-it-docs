@@ -22,7 +22,7 @@ In addition to the properties inherited from the base entity, novels have the fo
 - Subtitle
 - Author name
 - Genre
-- Target word count
+- Target word count — see [FEAT-1204 Novel word count goal](/features/12-writing-statistics#feat-1204-novel-word-count-goal)
 - Status - [FEAT-0229](#feat-0229-status-selection)
 - Synopsis (overrides base entity Description)
 - Premise (overrides base entity Notes)
