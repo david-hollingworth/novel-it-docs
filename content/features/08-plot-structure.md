@@ -14,13 +14,11 @@ All entities in this module extend the base entity features defined in [00 Base 
 
 The plotting module is accessed via a **Plotting** tab displayed at the top of all entity boards within a novel, alongside a **Manuscript** tab. The tab pair is available on all boards except the Novels board and the scene editor.
 
----
-
 ## Plot
 
 A plot is the top-level entity in the plotting module. It represents a single narrative thread within the novel — a main plot, a subplot, a character arc, or any other story strand the author wishes to track separately.
 
-## FEAT-0801 Plot list board
+### FEAT-0801 Plot list board
 
 | | |
 |---|---|
@@ -28,13 +26,13 @@ A plot is the top-level entity in the plotting module. It represents a single na
 | **Phase** | 2 |
 | **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
 
-### Description
+#### Description
 
 The plot list board is displayed when the user selects the Plotting tab. It displays all plot lines belonging to the current novel.
 
 As plots have no parent entity within the plotting module, the parent summary section is not displayed. The board displays plot cards only.
 
-## FEAT-0802 Add plot
+### FEAT-0802 Add plot
 
 | | |
 |---|---|
@@ -42,7 +40,7 @@ As plots have no parent entity within the plotting module, the parent summary se
 | **Phase** | 2 |
 | **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
-### Description
+#### Description
 
 In addition to the properties inherited from the base entity, plots have the following properties:
 
@@ -60,7 +58,7 @@ When a template is selected the application shall automatically create the appro
 
 When Freeform is selected the plot is created empty and the author adds acts, sequences, beats, and plot scenes manually.
 
-## FEAT-0803 Edit plot
+### FEAT-0803 Edit plot
 
 | | |
 |---|---|
@@ -68,7 +66,7 @@ When Freeform is selected the plot is created empty and the author adds acts, se
 | **Phase** | 2 |
 | **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
-### Description
+#### Description
 
 In addition to the functions inherited from the base entity, the plot edit page provides the following function:
 
@@ -76,7 +74,7 @@ In addition to the functions inherited from the base entity, the plot edit page 
 
 When sequences are disabled any existing child beats are reparented directly onto their parent act.
 
-## FEAT-0804 Archive plot
+### FEAT-0804 Archive plot
 
 | | |
 |---|---|
@@ -84,11 +82,11 @@ When sequences are disabled any existing child beats are reparented directly ont
 | **Phase** | 2 |
 | **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
-### Description
+#### Description
 
 No plot-specific extensions to the base behaviour.
 
-## FEAT-0805 Unarchive plot
+### FEAT-0805 Unarchive plot
 
 | | |
 |---|---|
@@ -96,11 +94,11 @@ No plot-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
-### Description
+#### Description
 
 No plot-specific extensions to the base behaviour.
 
-## FEAT-0806 Delete plot
+### FEAT-0806 Delete plot
 
 | | |
 |---|---|
@@ -108,11 +106,11 @@ No plot-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
-### Description
+#### Description
 
 When a plot is deleted all associated acts, sequences, beats, and plot scenes are also deleted. Any associations between deleted plot scenes and manuscript scenes are also removed.
 
-## FEAT-0807 Duplicate plot
+### FEAT-0807 Duplicate plot
 
 | | |
 |---|---|
@@ -120,7 +118,7 @@ When a plot is deleted all associated acts, sequences, beats, and plot scenes ar
 | **Phase** | 4 |
 | **Extends** | [FEAT-0007 - Duplicate entity](/features/00-base-entity-features#feat-0007-duplicate-entity) |
 
-### Description
+#### Description
 
 When a plot is duplicated all associated acts, sequences, beats, and plot scenes are duplicated. Associations between plot scenes and manuscript scenes are not duplicated.
 
@@ -130,7 +128,7 @@ When a plot is duplicated all associated acts, sequences, beats, and plot scenes
 
 Acts are the major structural divisions of a plot. They are the direct children of a plot.
 
-## FEAT-0808 Plot structure display
+### FEAT-0808 Plot structure display
 
 | | |
 |---|---|
@@ -138,11 +136,11 @@ Acts are the major structural divisions of a plot. They are the direct children 
 | **Phase** | 2 |
 | **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
 
-### Description
+#### Description
 
 When the user clicks on a plot name on the plot list board the view changes to the plot structure display for that plot. This board displays the acts belonging to the plot.
 
-## FEAT-0809 Add act
+### FEAT-0809 Add act
 
 | | |
 |---|---|
@@ -150,11 +148,11 @@ When the user clicks on a plot name on the plot list board the view changes to t
 | **Phase** | 2 |
 | **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
-### Description
+#### Description
 
 No act-specific extensions to the base behaviour.
 
-## FEAT-0810 Edit act
+### FEAT-0810 Edit act
 
 | | |
 |---|---|
@@ -162,11 +160,11 @@ No act-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
-### Description
+#### Description
 
 No act-specific extensions to the base behaviour.
 
-## FEAT-0811 Archive act
+### FEAT-0811 Archive act
 
 | | |
 |---|---|
@@ -174,11 +172,11 @@ No act-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
-### Description
+#### Description
 
 No act-specific extensions to the base behaviour.
 
-## FEAT-0812 Unarchive act
+### FEAT-0812 Unarchive act
 
 | | |
 |---|---|
@@ -186,11 +184,11 @@ No act-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
-### Description
+#### Description
 
 No act-specific extensions to the base behaviour.
 
-## FEAT-0813 Reparent act
+### FEAT-0813 Reparent act
 
 | | |
 |---|---|
@@ -198,11 +196,11 @@ No act-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
-### Description
+#### Description
 
 An act may be moved to a different plot line within the same novel.
 
-## FEAT-0814 Cross-novel act relocation
+### FEAT-0814 Cross-novel act relocation
 
 | | |
 |---|---|
@@ -210,11 +208,11 @@ An act may be moved to a different plot line within the same novel.
 | **Phase** | 4 |
 | **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
-### Description
+#### Description
 
 No act-specific extensions to the base behaviour.
 
-## FEAT-0815 Delete act
+### FEAT-0815 Delete act
 
 | | |
 |---|---|
@@ -222,7 +220,7 @@ No act-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
-### Description
+#### Description
 
 When an act is deleted all associated sequences, beats, and plot scenes are also deleted. Any associations between deleted plot scenes and manuscript scenes are also removed.
 
@@ -234,7 +232,7 @@ Sequences are an optional level of the plot hierarchy, sitting between acts and 
 
 When sequences are disabled, beats are parented directly off acts.
 
-## FEAT-0816 Add sequence
+### FEAT-0816 Add sequence
 
 | | |
 |---|---|
@@ -242,11 +240,11 @@ When sequences are disabled, beats are parented directly off acts.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
-### Description
+#### Description
 
 No sequence-specific extensions to the base behaviour.
 
-## FEAT-0817 Edit sequence
+### FEAT-0817 Edit sequence
 
 | | |
 |---|---|
@@ -254,11 +252,11 @@ No sequence-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
-### Description
+#### Description
 
 No sequence-specific extensions to the base behaviour.
 
-## FEAT-0818 Archive sequence
+### FEAT-0818 Archive sequence
 
 | | |
 |---|---|
@@ -266,11 +264,11 @@ No sequence-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
-### Description
+#### Description
 
 No sequence-specific extensions to the base behaviour.
 
-## FEAT-0819 Unarchive sequence
+### FEAT-0819 Unarchive sequence
 
 | | |
 |---|---|
@@ -278,11 +276,11 @@ No sequence-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
-### Description
+#### Description
 
 No sequence-specific extensions to the base behaviour.
 
-## FEAT-0820 Reparent sequence
+### FEAT-0820 Reparent sequence
 
 | | |
 |---|---|
@@ -290,11 +288,11 @@ No sequence-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
-### Description
+#### Description
 
 A sequence may be moved to a different act within the same plot line.
 
-## FEAT-0821 Delete sequence
+### FEAT-0821 Delete sequence
 
 | | |
 |---|---|
@@ -302,7 +300,7 @@ A sequence may be moved to a different act within the same plot line.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
-### Description
+#### Description
 
 When a sequence is deleted all associated beats and plot scenes are also deleted. Any associations between deleted plot scenes and manuscript scenes are also removed.
 
@@ -312,7 +310,7 @@ When a sequence is deleted all associated beats and plot scenes are also deleted
 
 Beats are the named dramatic units within an act or sequence. A beat describes a section of the story with a specific dramatic purpose — for example "Fun and Games" or "Dark Night of the Soul". A beat may span multiple manuscript scenes.
 
-## FEAT-0822 Add beat
+### FEAT-0822 Add beat
 
 | | |
 |---|---|
@@ -320,7 +318,7 @@ Beats are the named dramatic units within an act or sequence. A beat describes a
 | **Phase** | 2 |
 | **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
-### Description
+#### Description
 
 In addition to the properties inherited from the base entity, beats have the following properties:
 
@@ -332,7 +330,7 @@ In addition to the properties inherited from the base entity, beats have the fol
 #### Note:
 The characters, locations, and items fields are planning prompts only. They have no formal association with planning entities in the manuscript module.
 
-## FEAT-0823 Edit beat
+### FEAT-0823 Edit beat
 
 | | |
 |---|---|
@@ -340,11 +338,11 @@ The characters, locations, and items fields are planning prompts only. They have
 | **Phase** | 2 |
 | **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
-### Description
+#### Description
 
 No beat-specific extensions to the base behaviour.
 
-## FEAT-0824 Archive beat
+### FEAT-0824 Archive beat
 
 | | |
 |---|---|
@@ -352,11 +350,11 @@ No beat-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
-### Description
+#### Description
 
 No beat-specific extensions to the base behaviour.
 
-## FEAT-0825 Unarchive beat
+### FEAT-0825 Unarchive beat
 
 | | |
 |---|---|
@@ -364,11 +362,11 @@ No beat-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
-### Description
+#### Description
 
 No beat-specific extensions to the base behaviour.
 
-## FEAT-0826 Reparent beat
+### FEAT-0826 Reparent beat
 
 | | |
 |---|---|
@@ -376,11 +374,11 @@ No beat-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
-### Description
+#### Description
 
 A beat may be moved to a different act or sequence within the same plot line.
 
-## FEAT-0827 Delete beat
+### FEAT-0827 Delete beat
 
 | | |
 |---|---|
@@ -388,7 +386,7 @@ A beat may be moved to a different act or sequence within the same plot line.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
-### Description
+#### Description
 
 When a beat is deleted all associated plot scenes are also deleted. Any associations between deleted plot scenes and manuscript scenes are also removed.
 
@@ -400,7 +398,7 @@ Plot scenes are the leaf nodes of the plot hierarchy. They represent a discrete 
 
 Plot scenes have an optional many-to-many association with manuscript scenes. A plot scene may be associated with zero, one, or many manuscript scenes. A manuscript scene may be associated with zero, one, or many plot scenes, across any number of plot lines.
 
-## FEAT-0828 Add plot scene
+### FEAT-0828 Add plot scene
 
 | | |
 |---|---|
@@ -408,11 +406,11 @@ Plot scenes have an optional many-to-many association with manuscript scenes. A 
 | **Phase** | 2 |
 | **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
-### Description
+#### Description
 
 No plot scene-specific extensions to the base behaviour.
 
-## FEAT-0829 Edit plot scene
+### FEAT-0829 Edit plot scene
 
 | | |
 |---|---|
@@ -420,11 +418,11 @@ No plot scene-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
-### Description
+#### Description
 
 No plot scene-specific extensions to the base behaviour.
 
-## FEAT-0830 Archive plot scene
+### FEAT-0830 Archive plot scene
 
 | | |
 |---|---|
@@ -432,11 +430,11 @@ No plot scene-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
-### Description
+#### Description
 
 No plot scene-specific extensions to the base behaviour.
 
-## FEAT-0831 Unarchive plot scene
+### FEAT-0831 Unarchive plot scene
 
 | | |
 |---|---|
@@ -444,11 +442,11 @@ No plot scene-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
-### Description
+#### Description
 
 No plot scene-specific extensions to the base behaviour.
 
-## FEAT-0832 Reparent plot scene
+### FEAT-0832 Reparent plot scene
 
 | | |
 |---|---|
@@ -456,11 +454,11 @@ No plot scene-specific extensions to the base behaviour.
 | **Phase** | 2 |
 | **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
-### Description
+#### Description
 
 A plot scene may be moved to a different beat within the same plot line. All associations with manuscript scenes are preserved.
 
-## FEAT-0833 Delete plot scene
+### FEAT-0833 Delete plot scene
 
 | | |
 |---|---|
@@ -468,7 +466,7 @@ A plot scene may be moved to a different beat within the same plot line. All ass
 | **Phase** | 2 |
 | **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
-### Description
+#### Description
 
 When a plot scene is deleted any associations with manuscript scenes are also removed.
 
@@ -476,14 +474,16 @@ When a plot scene is deleted any associations with manuscript scenes are also re
 
 ## Manuscript Association
 
-## FEAT-0834 Associate plot scene with manuscript scene
+The manuscript association features define how plot scenes connect to the manuscript. Associations are optional and many-to-many — a plot scene may be linked to any number of manuscript scenes, and a manuscript scene may be linked to plot scenes from any number of plot lines. This flexibility supports both detailed plotters and pantsers who wish to map their plot retrospectively.
+
+### FEAT-0834 Associate plot scene with manuscript scene
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
 
-### Description
+#### Description
 
 The user shall be able to associate a plot scene with one or more manuscript scenes.
 
@@ -492,14 +492,14 @@ The user shall be able to associate a plot scene with one or more manuscript sce
 - A plot scene may be associated with manuscript scenes from any chapter within the novel
 - The user shall be able to remove an association between a plot scene and a manuscript scene without deleting either entity
 
-## FEAT-0835 Plot scene sidebar in editor
+### FEAT-0835 Plot scene sidebar in editor
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
 
-### Description
+#### Description
 
 When writing a manuscript scene in the editor, any plot scenes associated with that manuscript scene shall be displayed as cards in the right-hand sidebar.
 
@@ -507,14 +507,14 @@ When writing a manuscript scene in the editor, any plot scenes associated with t
 - The cards provide the author with dramatic context without leaving the writing interface
 - If the manuscript scene has no plot scene associations the sidebar shall display no plot cards
 
-## FEAT-0836 Plot coverage reporting
+### FEAT-0836 Plot coverage reporting
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
 
-### Description
+#### Description
 
 The system shall provide reporting to identify gaps between the plot and the manuscript.
 
