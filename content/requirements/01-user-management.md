@@ -27,6 +27,7 @@ Account creation is the entry point for all application use. Without it no user 
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0101.01.01
 Scenario: Successfully register a new account
   Given I am not logged in
   And I am on the registration page
@@ -62,6 +63,7 @@ Usernames are used to identify users at login. Duplicate usernames would make au
 ### Acceptance Criteria
 
 ```gherkin
+@T-SEC-0101.01.01
 Scenario: Attempt to register with an existing username
   Given a user account with the username "david" already exists
   And I am on the registration page
@@ -95,6 +97,7 @@ A minimum password complexity requirement reduces the risk of accounts being com
 ### Acceptance Criteria
 
 ```gherkin
+@T-SEC-0101.02.01
 Scenario: Attempt to register with a non-compliant password
   Given I am on the registration page
   When I enter a password that does not meet the minimum complexity requirements
@@ -127,6 +130,7 @@ The email address is captured at registration to support Phase 4 features includ
 ### Acceptance Criteria
 
 ```gherkin
+@T-DATA-0101.01.01
 Scenario: Email address is persisted at registration
   Given I am on the registration page
   When I register a new account with a valid email address
@@ -156,6 +160,7 @@ Requiring password confirmation at the point of entry reduces the risk of a user
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0101.02.01
 Scenario: Password is entered only once
   Given I am on the registration page
   When I enter a unique user name
@@ -165,6 +170,7 @@ Scenario: Password is entered only once
   Then my account is not created
   And I see an error message indicating the passwords do not match
 
+@T-FUNC-0101.02.02
 Scenario: Passwords do not match at registration
   Given I am on the registration page
   When I enter a unique user name
@@ -172,7 +178,7 @@ Scenario: Passwords do not match at registration
   And I enter a different value in the confirm password field
   And I click the Register button
   Then my account is not created
-  And I see an error message indicating the passwords do R-FUNC-0103.02not match
+  And I see an error message indicating the passwords do not match
 ```
 
 ### Verification Method
@@ -200,6 +206,7 @@ Login is the gateway to all application functionality. Without it no authenticat
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0102.01.01
 Scenario: Successfully log in
   Given I am a registered user
   And I am on the login page
@@ -207,6 +214,7 @@ Scenario: Successfully log in
   And I click the Login button
   Then I am redirected to my novels list
 
+@T-FUNC-0102.01.02
 Scenario: Attempt to log in with an incorrect password
   Given I am a registered user
   And I am on the login page
@@ -239,12 +247,14 @@ Users must be able to end their session to prevent unauthorised access when leav
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0102.02.01
 Scenario: Successfully log out
   Given I am logged in
   When I click the Logout button
   Then my session is terminated
   And I am redirected to the login page
 
+@T-FUNC-0102.02.02
 Scenario: Attempt to access the application after logging out
   Given I have logged out
   When I attempt to navigate to my novels list directly
@@ -274,6 +284,7 @@ All user content is private. An unauthenticated user must not be able to view or
 ### Acceptance Criteria
 
 ```gherkin
+@T-SEC-0102.01.01
 Scenario: Unauthenticated user attempts to access a protected page
   Given I am not logged in
   When I navigate directly to any application URL other than the login or registration page
@@ -304,12 +315,14 @@ Disclosing which credential was wrong allows an attacker to enumerate valid user
 ### Acceptance Criteria
 
 ```gherkin
+@T-USER-0102.01.01
 Scenario: Login fails due to unknown username
   Given I am on the login page
   When I enter a username that does not exist and any password
   And I click the Login button
   Then I see a generic error message that does not confirm or deny whether the username exists
 
+@T-USER-0102.01.02
 Scenario: Login fails due to incorrect password
   Given I am a registered user
   And I am on the login page
@@ -341,6 +354,7 @@ Users must be able to change their password when they choose to. This is a basic
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0103.01.01
 Scenario: Successfully change password
   Given I am logged in
   And I am on the password reset page
@@ -351,6 +365,7 @@ Scenario: Successfully change password
   Then my password is updated
   And I see a confirmation message
 
+@T-FUNC-0103.01.02
 Scenario: Attempt to change password with incorrect current password
   Given I am logged in
   And I am on the password reset page
@@ -383,6 +398,7 @@ Requiring confirmation of the new password reduces the risk of a user inadverten
 ### Acceptance Criteria
 
 ```gherkin
+@T-FUNC-0103.02.01
 Scenario: New passwords do not match on password change
   Given I am logged in
   And I am on the password reset page
