@@ -72,7 +72,7 @@ Goals are stored per novel. An author working on multiple novels may set differe
 
 ### Description
 
-The user shall be able to set a target word count for the novel. This is defined as a property of the novel — see [FEAT-0201 Add novel](/features/02-novel-management#feat-0201-add-novel).
+The user shall be able to set a target word count for the novel. This is defined as a property of the novel — see [FEAT-0201 Add novel](/novel-it-docs/features/02-novel-management#feat-0201-add-novel).
 
 The statistics dashboard shall display progress towards the novel word count goal alongside the time-based goals.
 

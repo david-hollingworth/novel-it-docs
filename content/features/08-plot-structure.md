@@ -8,7 +8,7 @@ The plotting module allows the user to plan the narrative structure of their nov
 
 A novel may have one or more named plot lines — for example a main plot and one or more subplots. Each plot line has its own independent hierarchy of acts, beats, and plot scenes.
 
-All entities in this module extend the base entity features defined in [00 Base Entity Features](/features/00-base-entity-features).
+All entities in this module extend the base entity features defined in [00 Base Entity Features](/novel-it-docs/features/00-base-entity-features).
 
 ## Navigation
 
@@ -24,7 +24,7 @@ A plot is the top-level entity in the plotting module. It represents a single na
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 #### Description
 
@@ -38,7 +38,7 @@ As plots have no parent entity within the plotting module, the parent summary se
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 #### Description
 
@@ -64,7 +64,7 @@ When Freeform is selected the plot is created empty and the author adds acts, se
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 #### Description
 
@@ -80,7 +80,7 @@ When sequences are disabled any existing child beats are reparented directly ont
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 #### Description
 
@@ -92,7 +92,7 @@ No plot-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 #### Description
 
@@ -104,7 +104,7 @@ No plot-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 #### Description
 
@@ -116,7 +116,7 @@ When a plot is deleted all associated acts, sequences, beats, and plot scenes ar
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0007 - Duplicate entity](/features/00-base-entity-features#feat-0007-duplicate-entity) |
+| **Extends** | [FEAT-0007 - Duplicate entity](/novel-it-docs/features/00-base-entity-features#feat-0007-duplicate-entity) |
 
 #### Description
 
@@ -194,7 +194,7 @@ No act-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 #### Description
 
@@ -206,7 +206,7 @@ An act may be moved to a different plot line within the same novel.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/novel-it-docs/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 #### Description
 

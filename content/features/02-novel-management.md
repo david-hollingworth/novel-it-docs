@@ -10,7 +10,7 @@ draft: false
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -22,7 +22,7 @@ In addition to the properties inherited from the base entity, novels have the fo
 - Subtitle
 - Author name
 - Genre
-- Target word count — see [FEAT-1204 Novel word count goal](/features/12-writing-statistics#feat-1204-novel-word-count-goal)
+- Target word count — see [FEAT-1204 Novel word count goal](/novel-it-docs/features/12-writing-statistics#feat-1204-novel-word-count-goal)
 - Status - [FEAT-0229](#feat-0229-status-selection)
 - Synopsis (overrides base entity Description)
 - Premise (overrides base entity Notes)
@@ -50,7 +50,7 @@ Novels shall follow this hierarchical structure:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
@@ -68,7 +68,7 @@ In addition to the functions inherited from the base entity, the novel edit page
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
@@ -80,7 +80,7 @@ No novel-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -92,7 +92,7 @@ No novel-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -104,7 +104,7 @@ When a novel is deleted all associated parts, chapters, scenes, characters, loca
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0007 - Duplicate entity](/features/00-base-entity-features#feat-0007-duplicate-entity) |
+| **Extends** | [FEAT-0007 - Duplicate entity](/novel-it-docs/features/00-base-entity-features#feat-0007-duplicate-entity) |
 
 ### Description
 
@@ -119,7 +119,7 @@ When a novel is duplicated all associated parts, chapters, scenes, characters, l
 
 ### Description
 
-Novel export is fully described in [10 Export](/features/10-export). See [FEAT-1002 Export manuscript](/features/10-export#feat-1002-export-manuscript) for manuscript export and [FEAT-1001 Include in compile](/features/10-export#feat-1001-include-in-compile) for controlling which content is included.
+Novel export is fully described in [10 Export](/novel-it-docs/features/10-export). See [FEAT-1002 Export manuscript](/novel-it-docs/features/10-export#feat-1002-export-manuscript) for manuscript export and [FEAT-1001 Include in compile](/novel-it-docs/features/10-export#feat-1001-include-in-compile) for controlling which content is included.
 
 ## FEAT-0209 Novel list display
 
@@ -127,7 +127,7 @@ Novel export is fully described in [10 Export](/features/10-export). See [FEAT-1
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 ### Description
 
@@ -220,7 +220,7 @@ When a part is deleted all associated chapters and scenes are also deleted.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/novel-it-docs/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
@@ -382,7 +382,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 ### Description
 
