@@ -12,7 +12,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0201](/features/02-novel-management/#feat-0201-add-novel) |
+| **Relates to** | [FEAT-0201](/novel-it-docs/features/02-novel-management/#feat-0201-add-novel) |
 
 ### Statement
 
@@ -113,7 +113,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0203](/features/02-novel-management/#feat-0203-edit-novel) |
+| **Relates to** | [FEAT-0203](/novel-it-docs/features/02-novel-management/#feat-0203-edit-novel) |
 
 ### Statement
 
@@ -150,7 +150,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0202](/features/02-novel-management/#feat-0202-novel-structure) |
+| **Relates to** | [FEAT-0202](/novel-it-docs/features/02-novel-management/#feat-0202-novel-structure) |
 
 ### Statement
 
@@ -297,7 +297,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0204](/features/02-novel-management/#feat-0204-archive-novel) |
+| **Relates to** | [FEAT-0204](/novel-it-docs/features/02-novel-management/#feat-0204-archive-novel) |
 
 ### Statement
 
@@ -339,7 +339,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0205](/features/02-novel-management/#feat-0205-unarchive-novel) |
+| **Relates to** | [FEAT-0205](/novel-it-docs/features/02-novel-management/#feat-0205-unarchive-novel) |
 
 ### Statement
 
@@ -384,7 +384,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0206](/features/02-novel-management/#feat-0206-delete-novel) |
+| **Relates to** | [FEAT-0206](/novel-it-docs/features/02-novel-management/#feat-0206-delete-novel) |
 
 ### Statement
 
@@ -457,7 +457,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0209](/features/02-novel-management/#feat-0209-novel-list-display) |
+| **Relates to** | [FEAT-0209](/novel-it-docs/features/02-novel-management/#feat-0209-novel-list-display) |
 
 ### Statement
 
@@ -494,7 +494,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0210](/features/02-novel-management/#feat-0210-novel-structure-display) |
+| **Relates to** | [FEAT-0210](/novel-it-docs/features/02-novel-management/#feat-0210-novel-structure-display) |
 
 ### Statement
 
@@ -534,7 +534,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0211](/features/02-novel-management/#feat-0211-add-part) |
+| **Relates to** | [FEAT-0211](/novel-it-docs/features/02-novel-management/#feat-0211-add-part) |
 
 ### Statement
 
@@ -604,7 +604,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0212](/features/02-novel-management/#feat-0212-edit-part) |
+| **Relates to** | [FEAT-0212](/novel-it-docs/features/02-novel-management/#feat-0212-edit-part) |
 
 ### Statement
 
@@ -683,7 +683,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0213](/features/02-novel-management/#feat-0213-archive-part) |
+| **Relates to** | [FEAT-0213](/novel-it-docs/features/02-novel-management/#feat-0213-archive-part) |
 
 ### Statement
 
@@ -725,7 +725,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0214](/features/02-novel-management/#feat-0214-unarchive-part) |
+| **Relates to** | [FEAT-0214](/novel-it-docs/features/02-novel-management/#feat-0214-unarchive-part) |
 
 ### Statement
 
@@ -770,7 +770,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0215](/features/02-novel-management/#feat-0215-delete-part) |
+| **Relates to** | [FEAT-0215](/novel-it-docs/features/02-novel-management/#feat-0215-delete-part) |
 
 ### Statement
 
@@ -843,7 +843,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0217](/features/02-novel-management/#feat-0217-add-chapter) |
+| **Relates to** | [FEAT-0217](/novel-it-docs/features/02-novel-management/#feat-0217-add-chapter) |
 
 ### Statement
 
@@ -917,7 +917,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0218](/features/02-novel-management/#feat-0218-edit-chapter) |
+| **Relates to** | [FEAT-0218](/novel-it-docs/features/02-novel-management/#feat-0218-edit-chapter) |
 
 ### Statement
 
@@ -996,7 +996,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0219](/features/02-novel-management/#feat-0219-archive-chapter) |
+| **Relates to** | [FEAT-0219](/novel-it-docs/features/02-novel-management/#feat-0219-archive-chapter) |
 
 ### Statement
 
@@ -1038,7 +1038,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0220](/features/02-novel-management/#feat-0220-unarchive-chapter) |
+| **Relates to** | [FEAT-0220](/novel-it-docs/features/02-novel-management/#feat-0220-unarchive-chapter) |
 
 ### Statement
 
@@ -1083,7 +1083,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0221](/features/02-novel-management/#feat-0221-delete-chapter) |
+| **Relates to** | [FEAT-0221](/novel-it-docs/features/02-novel-management/#feat-0221-delete-chapter) |
 
 ### Statement
 
@@ -1156,7 +1156,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0223](/features/02-novel-management/#feat-0223-add-scene) |
+| **Relates to** | [FEAT-0223](/novel-it-docs/features/02-novel-management/#feat-0223-add-scene) |
 
 ### Statement
 
@@ -1220,7 +1220,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0224](/features/02-novel-management/#feat-0224-edit-scene) |
+| **Relates to** | [FEAT-0224](/novel-it-docs/features/02-novel-management/#feat-0224-edit-scene) |
 
 ### Statement
 
@@ -1330,7 +1330,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0225](/features/02-novel-management/#feat-0225-archive-scene) |
+| **Relates to** | [FEAT-0225](/novel-it-docs/features/02-novel-management/#feat-0225-archive-scene) |
 
 ### Statement
 
@@ -1372,7 +1372,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0226](/features/02-novel-management/#feat-0226-unarchive-scene) |
+| **Relates to** | [FEAT-0226](/novel-it-docs/features/02-novel-management/#feat-0226-unarchive-scene) |
 
 ### Statement
 
@@ -1417,7 +1417,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0227](/features/02-novel-management/#feat-0227-delete-scene) |
+| **Relates to** | [FEAT-0227](/novel-it-docs/features/02-novel-management/#feat-0227-delete-scene) |
 
 ### Statement
 
@@ -1459,7 +1459,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0228](/features/02-novel-management/#feat-0228-scene-relocation) |
+| **Relates to** | [FEAT-0228](/novel-it-docs/features/02-novel-management/#feat-0228-scene-relocation) |
 
 ### Statement
 
@@ -1490,7 +1490,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0229](/features/02-novel-management/#feat-0229-status-selection) |
+| **Relates to** | [FEAT-0229](/novel-it-docs/features/02-novel-management/#feat-0229-status-selection) |
 
 ### Statement
 

@@ -12,7 +12,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0501](/features/05-location-management/#feat-0501-location-list-board) |
+| **Relates to** | [FEAT-0501](/novel-it-docs/features/05-location-management/#feat-0501-location-list-board) |
 
 ### Statement
 
@@ -80,7 +80,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0502](/features/05-location-management/#feat-0502-add-location) |
+| **Relates to** | [FEAT-0502](/novel-it-docs/features/05-location-management/#feat-0502-add-location) |
 
 ### Statement
 
@@ -398,7 +398,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0503](/features/05-location-management/#feat-0503-edit-location) |
+| **Relates to** | [FEAT-0503](/novel-it-docs/features/05-location-management/#feat-0503-edit-location) |
 
 ### Statement
 
@@ -471,7 +471,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0510](/features/05-location-management/#feat-0510-location-relationships) |
+| **Relates to** | [FEAT-0510](/novel-it-docs/features/05-location-management/#feat-0510-location-relationships) |
 
 ### Statement
 

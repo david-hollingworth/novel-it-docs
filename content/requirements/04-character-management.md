@@ -12,7 +12,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0401](/features/04-character-management/#feat-0401-character-list-board) |
+| **Relates to** | [FEAT-0401](/novel-it-docs/features/04-character-management/#feat-0401-character-list-board) |
 
 ### Statement
 
@@ -116,7 +116,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0402](/features/04-character-management/#feat-0402-edit-character) |
+| **Relates to** | [FEAT-0402](/novel-it-docs/features/04-character-management/#feat-0402-edit-character) |
 
 ### Statement
 
@@ -189,7 +189,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0403](/features/04-character-management/#feat-0403-add-character) |
+| **Relates to** | [FEAT-0403](/novel-it-docs/features/04-character-management/#feat-0403-add-character) |
 
 ### Statement
 
@@ -471,7 +471,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0410](/features/04-character-management/#feat-0410-character-relationships) |
+| **Relates to** | [FEAT-0410](/novel-it-docs/features/04-character-management/#feat-0410-character-relationships) |
 
 ### Statement
 

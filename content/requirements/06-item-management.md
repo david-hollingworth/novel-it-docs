@@ -12,7 +12,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0601](/features/06-item-management/#feat-0601-item-list-board) |
+| **Relates to** | [FEAT-0601](/novel-it-docs/features/06-item-management/#feat-0601-item-list-board) |
 
 ### Statement
 
@@ -116,7 +116,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0602](/features/06-item-management/#feat-0602-add-item) |
+| **Relates to** | [FEAT-0602](/novel-it-docs/features/06-item-management/#feat-0602-add-item) |
 
 ### Statement
 
@@ -398,7 +398,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0603](/features/06-item-management/#feat-0603-edit-item) |
+| **Relates to** | [FEAT-0603](/novel-it-docs/features/06-item-management/#feat-0603-edit-item) |
 
 ### Statement
 
@@ -471,7 +471,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0610](/features/06-item-management/#feat-0610-item-relationships) |
+| **Relates to** | [FEAT-0610](/novel-it-docs/features/06-item-management/#feat-0610-item-relationships) |
 
 ### Statement
 

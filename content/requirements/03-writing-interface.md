@@ -10,7 +10,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0301](/features/03-writing-interface/#feat-0301-editor) |
+| **Relates to** | [FEAT-0301](/novel-it-docs/features/03-writing-interface/#feat-0301-editor) |
 
 ### Statement
 
@@ -94,7 +94,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0302](/features/03-writing-interface/#feat-0302-autosave) |
+| **Relates to** | [FEAT-0302](/novel-it-docs/features/03-writing-interface/#feat-0302-autosave) |
 
 ### Statement
 
@@ -164,7 +164,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0303](/features/03-writing-interface/#feat-0303-lossless-navigation) |
+| **Relates to** | [FEAT-0303](/novel-it-docs/features/03-writing-interface/#feat-0303-lossless-navigation) |
 
 ### Statement
 
@@ -219,7 +219,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0304](/features/03-writing-interface/#feat-0304-word-count) |
+| **Relates to** | [FEAT-0304](/novel-it-docs/features/03-writing-interface/#feat-0304-word-count) |
 
 ### Statement
 
@@ -480,7 +480,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0305](/features/03-writing-interface/#feat-0305-preview-mode) |
+| **Relates to** | [FEAT-0305](/novel-it-docs/features/03-writing-interface/#feat-0305-preview-mode) |
 
 ### Statement
 
@@ -519,7 +519,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0306](/features/03-writing-interface/#feat-0306-distraction-free-mode) |
+| **Relates to** | [FEAT-0306](/novel-it-docs/features/03-writing-interface/#feat-0306-distraction-free-mode) |
 
 ### Statement
 
@@ -558,7 +558,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0307](/features/03-writing-interface/#feat-0307-automatic-cross-referencing) |
+| **Relates to** | [FEAT-0307](/novel-it-docs/features/03-writing-interface/#feat-0307-automatic-cross-referencing) |
 
 ### Statement
 

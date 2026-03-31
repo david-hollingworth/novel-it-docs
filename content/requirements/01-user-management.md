@@ -14,7 +14,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0101](/features/01-user-management/#feat-0101-user-registration) |
+| **Relates to** | [FEAT-0101](/novel-it-docs/features/01-user-management/#feat-0101-user-registration) |
 
 ### Statement
 
@@ -50,7 +50,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0101](/features/01-user-management/#feat-0101-user-registration) |
+| **Relates to** | [FEAT-0101](/novel-it-docs/features/01-user-management/#feat-0101-user-registration) |
 
 ### Statement
 
@@ -84,7 +84,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0101](/features/01-user-management/#feat-0101-user-registration) |
+| **Relates to** | [FEAT-0101](/novel-it-docs/features/01-user-management/#feat-0101-user-registration) |
 
 ### Statement
 
@@ -117,7 +117,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0101](/features/01-user-management/#feat-0101-user-registration) |
+| **Relates to** | [FEAT-0101](/novel-it-docs/features/01-user-management/#feat-0101-user-registration) |
 
 ### Statement
 
@@ -147,7 +147,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0101](/features/01-user-management/#feat-0101-user-registration) |
+| **Relates to** | [FEAT-0101](/novel-it-docs/features/01-user-management/#feat-0101-user-registration) |
 
 ### Statement
 
@@ -193,7 +193,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0102](/features/01-user-management/#feat-0102-login-and-logout) |
+| **Relates to** | [FEAT-0102](/novel-it-docs/features/01-user-management/#feat-0102-login-and-logout) |
 
 ### Statement
 
@@ -234,7 +234,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0102](/features/01-user-management/#feat-0102-login-and-logout) |
+| **Relates to** | [FEAT-0102](/novel-it-docs/features/01-user-management/#feat-0102-login-and-logout) |
 
 ### Statement
 
@@ -271,7 +271,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0102](/features/01-user-management/#feat-0102-login-and-logout) |
+| **Relates to** | [FEAT-0102](/novel-it-docs/features/01-user-management/#feat-0102-login-and-logout) |
 
 ### Statement
 
@@ -302,7 +302,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0102](/features/01-user-management/#feat-0102-login-and-logout) |
+| **Relates to** | [FEAT-0102](/novel-it-docs/features/01-user-management/#feat-0102-login-and-logout) |
 
 ### Statement
 
@@ -341,7 +341,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0103](/features/01-user-management/#feat-0103-password-reset) |
+| **Relates to** | [FEAT-0103](/novel-it-docs/features/01-user-management/#feat-0103-password-reset) |
 
 ### Statement
 
@@ -385,7 +385,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0103](/features/01-user-management/#feat-0103-password-reset) |
+| **Relates to** | [FEAT-0103](/novel-it-docs/features/01-user-management/#feat-0103-password-reset) |
 
 ### Statement
 

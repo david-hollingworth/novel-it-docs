@@ -12,7 +12,7 @@ draft: false
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0701](/features/07-world-building/#feat-0701-world-building-list-board) |
+| **Relates to** | [FEAT-0701](/novel-it-docs/features/07-world-building/#feat-0701-world-building-list-board) |
 
 ### Statement
 
@@ -116,7 +116,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0702](/features/07-world-building/#feat-0702-add-world-building-item) |
+| **Relates to** | [FEAT-0702](/novel-it-docs/features/07-world-building/#feat-0702-add-world-building-item) |
 
 ### Statement
 
@@ -398,7 +398,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0703](/features/07-world-building/#feat-0703-edit-world-building-item) |
+| **Relates to** | [FEAT-0703](/novel-it-docs/features/07-world-building/#feat-0703-edit-world-building-item) |
 
 ### Statement
 
@@ -471,7 +471,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0710](/features/07-world-building/#feat-0710-world-building-item-relationships) |
+| **Relates to** | [FEAT-0710](/novel-it-docs/features/07-world-building/#feat-0710-world-building-item-relationships) |
 
 ### Statement
 
