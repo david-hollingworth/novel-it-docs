@@ -254,6 +254,119 @@ Scenario: Add character form presents all required fields
 
 Manual Test
 
+## R-FUNC-0403.03 Add a character role value
+
+| | |
+|---|---|
+| **Status** | Draft |
+| **Phase** | 1 |
+| **Relates to** | [FEAT-0403](/features/04-character-management/#feat-0403-add-character) |
+
+### Statement
+
+The system SHALL allow the user to add new character role values from within the character form. New role values SHALL be scoped to the current novel and SHALL become immediately available for selection.
+
+### Rationale
+
+Character roles are novel-specific and cannot be defined in advance by the application. The author must be able to define roles that are meaningful to their particular story without leaving the character form.
+
+### Acceptance Criteria
+
+```gherkin
+@T-FUNC-0403.03.01
+Scenario: Successfully add a new character role value
+  Given I am on the character form for a novel
+  When I open the role manager
+  And I enter a new role name
+  And I click the Add button
+  Then the new role value is saved
+  And it is immediately available for selection in the role field
+
+@T-FUNC-0403.03.02
+Scenario: Role values are scoped to the current novel
+  Given I have added a role value to Novel A
+  When I open the character form for Novel B
+  Then the role value from Novel A is not available in Novel B's role field
+```
+
+### Verification Method
+
+Manual Test
+
+## R-FUNC-0403.04 Rename a character role value
+
+| | |
+|---|---|
+| **Status** | Draft |
+| **Phase** | 1 |
+| **Relates to** | [FEAT-0403](/features/04-character-management/#feat-0403-add-character) |
+
+### Statement
+
+The system SHALL allow the user to rename an existing character role value from within the character form. The renamed value SHALL be reflected immediately wherever it is displayed.
+
+### Rationale
+
+Role names may need to evolve as the author develops their story structure. Renaming must be possible without losing the association between the role and any characters already assigned to it.
+
+### Acceptance Criteria
+
+```gherkin
+@T-FUNC-0403.04.01
+Scenario: Successfully rename a character role value
+  Given a character role value exists
+  And I am on the character form
+  When I open the role manager
+  And I rename the role value
+  And I click the Save button
+  Then the role value is updated
+  And any characters assigned to that role display the new name
+```
+
+### Verification Method
+
+Manual Test
+
+## R-FUNC-0403.05 Delete a character role value
+
+| | |
+|---|---|
+| **Status** | Draft |
+| **Phase** | 1 |
+| **Relates to** | [FEAT-0403](/features/04-character-management/#feat-0403-add-character) |
+
+### Statement
+
+The system SHALL allow the user to delete an existing character role value from within the character form. Deleting a role value SHALL NOT delete any characters assigned to that role; those characters SHALL have their role field set to empty.
+
+### Rationale
+
+Role values that are no longer relevant should be removable without data loss. The relationship between a character and a role is optional, so removing the role value simply clears the field on affected characters.
+
+### Acceptance Criteria
+
+```gherkin
+@T-FUNC-0403.05.01
+Scenario: Successfully delete a character role value
+  Given a character role value exists
+  And I am on the character form
+  When I open the role manager
+  And I delete the role value
+  Then the role value is removed from the available options
+
+@T-FUNC-0403.05.02
+Scenario: Deleting a role value does not delete assigned characters
+  Given a character role value exists
+  And one or more characters are assigned to that role
+  When I delete the role value
+  Then the characters assigned to that role are not deleted
+  And those characters have no role assigned
+```
+
+### Verification Method
+
+Manual Test
+
 ## R-FUNC-0403.02 Upload a character image
 
 | | |
