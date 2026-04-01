@@ -1,20 +1,13 @@
 ---
 title: "Traceability"
-description: "Mapping of features to requirements to test coverage"
+description: "Mapping of requirements to features and test results for Phase 1 (v1.0.0)"
+draft: false
 ---
 
-This matrix maps each feature to its supporting requirements and records the current
-implementation and verification status. It is the single point of truth for what has
-been specified, built, and tested.
+This matrix maps each Phase 1 requirement to its feature and records the current test status. It is generated automatically from the requirements and test results data files — no manual maintenance is required.
+
+**Test status** shows the result of the most recent execution recorded in the test results data. Requirements with no recorded executions show **Not run**.
 
 ## Matrix
 
-| Feature ID | Feature | Requirement IDs | GitHub Issue | Feature File | Status |
-|---|---|---|---|---|---|
-| FEAT-0101 | User Registration | R-FUNC-00101 | | | Draft |
-| FEAT-0102 | Login / Logout | R-FUNC-00102 | | | Draft |
-| FEAT-0103 | Password Reset | R-FUNC-00103 | | | Draft |
-| FEAT-0104 | Profile Management | R-FUNC-00104 | | | Draft |
-| FEAT-0201 | Novel CRUD | R-FUNC-00201, R-FUNC-00202, R-FUNC-00203 | | | Draft |
-| FEAT-0202 | Novel Metadata | R-FUNC-00202 | | | Draft |
-| FEAT-0203 | Archive / Unarchive | R-FUNC-00204, R-FUNC-00205 | | | Draft |
+{{< trace-matrix >}}

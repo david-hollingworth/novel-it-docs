@@ -1,0 +1,49 @@
+{{/* test-results shortcode
+     Usage: {{< test-results id="T-FUNC-0101.01.01" file="01-user-management" >}}
+     Looks up the test ID in data/test-results/<file>.yaml and renders execution history.
+*/}}
+
+{{ $id     := .Get "id" }}
+{{ $file   := .Get "file" }}
+{{ $data   := index (index .Site.Data "test-results") $file }}
+{{ $ghBase := "https://github.com/david-hollingworth/novel-it/issues/" }}
+
+{{ $records := slice }}
+{{ if $data }}
+  {{ $records = where $data "test_id" $id }}
+{{ end }}
+{{ range $records }}
+  <div class="test-results not-prose mt-4 mb-6">
+    <table class="w-full text-sm border-collapse border border-slate-300">
+      <thead>
+        <tr class="bg-slate-100 text-slate-700">
+          <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Date</th>
+          <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Result</th>
+          <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Issue</th>
+          <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Comment</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range .executions }}
+        <tr class="even:bg-slate-50">
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap">{{ .date }}</td>
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap font-semibold
+            {{ if eq .result "PASS" }}text-green-700{{ else if eq .result "FAIL" }}text-red-700{{ else }}text-slate-500{{ end }}">
+            {{ .result }}
+          </td>
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap">
+            {{ if .issue }}
+              <a href="{{ $ghBase }}{{ .issue }}" class="text-blue-600 hover:underline" target="_blank">#{{ .issue }}</a>
+            {{ else }}
+              —
+            {{ end }}
+          </td>
+          <td class="border border-slate-300 px-3 py-2">{{ .comment }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+{{ else }}
+  <p class="text-slate-400 text-sm italic mt-2">No test executions recorded for {{ $id }}.</p>
+{{ end }}

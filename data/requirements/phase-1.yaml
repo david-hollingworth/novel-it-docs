@@ -1,0 +1,814 @@
+# Phase 1 requirements — maps each requirement to its feature, source document, and test IDs
+# Used by the traceability matrix template
+
+# --- 01 User Management ---
+
+- req_id: R-FUNC-0101.01
+  feature_id: FEAT-0101
+  feature_label: User Registration
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0101.01.01]
+
+- req_id: R-SEC-0101.01
+  feature_id: FEAT-0101
+  feature_label: User Registration
+  source_file: 01-user-management
+  test_ids: [T-SEC-0101.01.01]
+
+- req_id: R-SEC-0101.02
+  feature_id: FEAT-0101
+  feature_label: User Registration
+  source_file: 01-user-management
+  test_ids: [T-SEC-0101.02.01]
+
+- req_id: R-DATA-0101.01
+  feature_id: FEAT-0101
+  feature_label: User Registration
+  source_file: 01-user-management
+  test_ids: [T-DATA-0101.01.01]
+
+- req_id: R-FUNC-0101.02
+  feature_id: FEAT-0101
+  feature_label: User Registration
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0101.02.01, T-FUNC-0101.02.02]
+
+- req_id: R-FUNC-0102.01
+  feature_id: FEAT-0102
+  feature_label: Login / Logout
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0102.01.01, T-FUNC-0102.01.02]
+
+- req_id: R-FUNC-0102.02
+  feature_id: FEAT-0102
+  feature_label: Login / Logout
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0102.02.01, T-FUNC-0102.02.02]
+
+- req_id: R-SEC-0102.01
+  feature_id: FEAT-0102
+  feature_label: Login / Logout
+  source_file: 01-user-management
+  test_ids: [T-SEC-0102.01.01]
+
+- req_id: R-USER-0102.01
+  feature_id: FEAT-0102
+  feature_label: Login / Logout
+  source_file: 01-user-management
+  test_ids: [T-USER-0102.01.01, T-USER-0102.01.02]
+
+- req_id: R-FUNC-0103.01
+  feature_id: FEAT-0103
+  feature_label: Password Reset
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0103.01.01, T-FUNC-0103.01.02]
+
+- req_id: R-FUNC-0103.02
+  feature_id: FEAT-0103
+  feature_label: Password Reset
+  source_file: 01-user-management
+  test_ids: [T-FUNC-0103.02.01]
+
+# --- 02 Novel Management ---
+
+- req_id: R-FUNC-0201.01
+  feature_id: FEAT-0201
+  feature_label: Add Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0201.01.01, T-FUNC-0201.01.02]
+
+- req_id: R-UI-0201.01
+  feature_id: FEAT-0201
+  feature_label: Add Novel
+  source_file: 02-novel-management
+  test_ids: [T-UI-0201.01.01]
+
+- req_id: R-FUNC-0201.02
+  feature_id: FEAT-0201
+  feature_label: Add Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0201.02.01]
+
+- req_id: R-FUNC-0202.01
+  feature_id: FEAT-0202
+  feature_label: Novel Structure
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0202.01.01]
+
+- req_id: R-FUNC-0202.02
+  feature_id: FEAT-0202
+  feature_label: Novel Structure
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0202.02.01]
+
+- req_id: R-UI-0203.01
+  feature_id: FEAT-0203
+  feature_label: Edit Novel
+  source_file: 02-novel-management
+  test_ids: [T-UI-0203.01.01, T-UI-0203.01.02]
+
+- req_id: R-FUNC-0203.01
+  feature_id: FEAT-0203
+  feature_label: Edit Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0203.01.01, T-FUNC-0203.01.02]
+
+- req_id: R-FUNC-0203.02
+  feature_id: FEAT-0203
+  feature_label: Edit Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0203.02.01, T-FUNC-0203.02.02]
+
+- req_id: R-FUNC-0204.01
+  feature_id: FEAT-0204
+  feature_label: Archive Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0204.01.01, T-FUNC-0204.01.02]
+
+- req_id: R-FUNC-0205.01
+  feature_id: FEAT-0205
+  feature_label: Unarchive Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0205.01.01, T-FUNC-0205.01.02]
+
+- req_id: R-FUNC-0206.01
+  feature_id: FEAT-0206
+  feature_label: Delete Novel
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0206.01.01, T-FUNC-0206.01.02]
+
+- req_id: R-DATA-0206.01
+  feature_id: FEAT-0206
+  feature_label: Delete Novel
+  source_file: 02-novel-management
+  test_ids: [T-DATA-0206.01.01]
+
+- req_id: R-FUNC-0209.01
+  feature_id: FEAT-0209
+  feature_label: Novel List Display
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0209.01.01, T-FUNC-0209.01.02]
+
+- req_id: R-FUNC-0210.01
+  feature_id: FEAT-0210
+  feature_label: Novel Structure Display
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0210.01.01, T-FUNC-0210.01.02]
+
+- req_id: R-FUNC-0211.01
+  feature_id: FEAT-0211
+  feature_label: Add Part
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0211.01.01, T-FUNC-0211.01.02]
+
+- req_id: R-UI-0211.01
+  feature_id: FEAT-0211
+  feature_label: Add Part
+  source_file: 02-novel-management
+  test_ids: [T-UI-0211.01.01]
+
+- req_id: R-FUNC-0212.01
+  feature_id: FEAT-0212
+  feature_label: Edit Part
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0212.01.01, T-FUNC-0212.01.02]
+
+- req_id: R-UI-0212.01
+  feature_id: FEAT-0212
+  feature_label: Edit Part
+  source_file: 02-novel-management
+  test_ids: [T-UI-0212.01.01, T-UI-0212.01.02]
+
+- req_id: R-FUNC-0213.01
+  feature_id: FEAT-0213
+  feature_label: Archive Part
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0213.01.01, T-FUNC-0213.01.02]
+
+- req_id: R-FUNC-0214.01
+  feature_id: FEAT-0214
+  feature_label: Unarchive Part
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0214.01.01, T-FUNC-0214.01.02]
+
+- req_id: R-FUNC-0215.01
+  feature_id: FEAT-0215
+  feature_label: Delete Part
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0215.01.01, T-FUNC-0215.01.02]
+
+- req_id: R-DATA-0215.01
+  feature_id: FEAT-0215
+  feature_label: Delete Part
+  source_file: 02-novel-management
+  test_ids: [T-DATA-0215.01.01]
+
+- req_id: R-FUNC-0217.01
+  feature_id: FEAT-0217
+  feature_label: Add Chapter
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0217.01.01, T-FUNC-0217.01.02]
+
+- req_id: R-UI-0217.01
+  feature_id: FEAT-0217
+  feature_label: Add Chapter
+  source_file: 02-novel-management
+  test_ids: [T-UI-0217.01.01]
+
+- req_id: R-FUNC-0218.01
+  feature_id: FEAT-0218
+  feature_label: Edit Chapter
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0218.01.01, T-FUNC-0218.01.02]
+
+- req_id: R-UI-0218.01
+  feature_id: FEAT-0218
+  feature_label: Edit Chapter
+  source_file: 02-novel-management
+  test_ids: [T-UI-0218.01.01, T-UI-0218.01.02]
+
+- req_id: R-FUNC-0219.01
+  feature_id: FEAT-0219
+  feature_label: Archive Chapter
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0219.01.01, T-FUNC-0219.01.02]
+
+- req_id: R-FUNC-0220.01
+  feature_id: FEAT-0220
+  feature_label: Unarchive Chapter
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0220.01.01, T-FUNC-0220.01.02]
+
+- req_id: R-FUNC-0221.01
+  feature_id: FEAT-0221
+  feature_label: Delete Chapter
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0221.01.01, T-FUNC-0221.01.02]
+
+- req_id: R-DATA-0221.01
+  feature_id: FEAT-0221
+  feature_label: Delete Chapter
+  source_file: 02-novel-management
+  test_ids: [T-DATA-0221.01.01]
+
+- req_id: R-FUNC-0223.01
+  feature_id: FEAT-0223
+  feature_label: Add Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0223.01.01]
+
+- req_id: R-UI-0223.01
+  feature_id: FEAT-0223
+  feature_label: Add Scene
+  source_file: 02-novel-management
+  test_ids: [T-UI-0223.01.01]
+
+- req_id: R-FUNC-0224.01
+  feature_id: FEAT-0224
+  feature_label: Edit Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0224.01.01, T-FUNC-0224.01.02]
+
+- req_id: R-UI-0224.01
+  feature_id: FEAT-0224
+  feature_label: Edit Scene
+  source_file: 02-novel-management
+  test_ids: [T-UI-0224.01.01, T-UI-0224.01.02]
+
+- req_id: R-FUNC-0224.02
+  feature_id: FEAT-0224
+  feature_label: Edit Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0224.02.01]
+
+- req_id: R-FUNC-0225.01
+  feature_id: FEAT-0225
+  feature_label: Archive Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0225.01.01, T-FUNC-0225.01.02]
+
+- req_id: R-FUNC-0226.01
+  feature_id: FEAT-0226
+  feature_label: Unarchive Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0226.01.01, T-FUNC-0226.01.02]
+
+- req_id: R-FUNC-0227.01
+  feature_id: FEAT-0227
+  feature_label: Delete Scene
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0227.01.01, T-FUNC-0227.01.02]
+
+- req_id: R-FUNC-0228.01
+  feature_id: FEAT-0228
+  feature_label: Scene Relocation
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0228.01.01]
+
+- req_id: R-FUNC-0229.01
+  feature_id: FEAT-0229
+  feature_label: Status Selection
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0229.01.01, T-FUNC-0229.01.02, T-FUNC-0229.01.03, T-FUNC-0229.01.04]
+
+- req_id: R-FUNC-0229.02
+  feature_id: FEAT-0229
+  feature_label: Status Selection
+  source_file: 02-novel-management
+  test_ids: [T-FUNC-0229.02.01, T-FUNC-0229.02.02, T-FUNC-0229.02.03, T-FUNC-0229.02.04]
+
+# --- 03 Writing Interface ---
+
+- req_id: R-FUNC-0301.01
+  feature_id: FEAT-0301
+  feature_label: Editor
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0301.01.01, T-FUNC-0301.01.02, T-FUNC-0301.01.03, T-FUNC-0301.01.04]
+
+- req_id: R-UI-0301.01
+  feature_id: FEAT-0301
+  feature_label: Editor
+  source_file: 03-writing-interface
+  test_ids: [T-UI-0301.01.01, T-UI-0301.01.02]
+
+- req_id: R-FUNC-0302.01
+  feature_id: FEAT-0302
+  feature_label: Autosave
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0302.01.01, T-FUNC-0302.01.02]
+
+- req_id: R-PERF-0302.01
+  feature_id: FEAT-0302
+  feature_label: Autosave
+  source_file: 03-writing-interface
+  test_ids: [T-PERF-0302.01.01]
+
+- req_id: R-USER-0303.01
+  feature_id: FEAT-0303
+  feature_label: Lossless Navigation
+  source_file: 03-writing-interface
+  test_ids: [T-USER-0303.01.01, T-USER-0303.01.02, T-USER-0303.01.03, T-USER-0303.01.04]
+
+- req_id: R-FUNC-0304.01
+  feature_id: FEAT-0304
+  feature_label: Word Count
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0304.01.01, T-FUNC-0304.01.02]
+
+- req_id: R-FUNC-0304.02
+  feature_id: FEAT-0304
+  feature_label: Word Count
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0304.02.01, T-FUNC-0304.02.02, T-FUNC-0304.02.03]
+
+- req_id: R-FUNC-0304.03
+  feature_id: FEAT-0304
+  feature_label: Word Count
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0304.03.01, T-FUNC-0304.03.02, T-FUNC-0304.03.03, T-FUNC-0304.03.04, T-FUNC-0304.03.05, T-FUNC-0304.03.06]
+
+- req_id: R-FUNC-0304.04
+  feature_id: FEAT-0304
+  feature_label: Word Count
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0304.04.01, T-FUNC-0304.04.02, T-FUNC-0304.04.03, T-FUNC-0304.04.04, T-FUNC-0304.04.05, T-FUNC-0304.04.06]
+
+- req_id: R-FUNC-0304.05
+  feature_id: FEAT-0304
+  feature_label: Word Count
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0304.05.01, T-FUNC-0304.05.02, T-FUNC-0304.05.03, T-FUNC-0304.05.04, T-FUNC-0304.05.05, T-FUNC-0304.05.06]
+
+- req_id: R-FUNC-0305.01
+  feature_id: FEAT-0305
+  feature_label: Preview Mode
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0305.01.01, T-FUNC-0305.01.02]
+
+- req_id: R-FUNC-0306.01
+  feature_id: FEAT-0306
+  feature_label: Distraction Free Mode
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0306.01.01, T-FUNC-0306.01.02]
+
+- req_id: R-FUNC-0307.01
+  feature_id: FEAT-0307
+  feature_label: Automatic Cross-referencing
+  source_file: 03-writing-interface
+  test_ids: [T-FUNC-0307.01.01, T-FUNC-0307.01.02, T-FUNC-0307.01.03, T-FUNC-0307.01.04]
+
+# --- 04 Character Management ---
+
+- req_id: R-FUNC-0401.01
+  feature_id: FEAT-0401
+  feature_label: Character List Board
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0401.01.01, T-FUNC-0401.01.02]
+
+- req_id: R-UI-0401.01
+  feature_id: FEAT-0401
+  feature_label: Character List Board
+  source_file: 04-character-management
+  test_ids: [T-UI-0401.01.01]
+
+- req_id: R-UI-0401.02
+  feature_id: FEAT-0401
+  feature_label: Character List Board
+  source_file: 04-character-management
+  test_ids: [T-UI-0401.02.01, T-UI-0401.02.02]
+
+- req_id: R-FUNC-0402.01
+  feature_id: FEAT-0402
+  feature_label: Edit Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0402.01.01, T-FUNC-0402.01.02]
+
+- req_id: R-UI-0402.01
+  feature_id: FEAT-0402
+  feature_label: Edit Character
+  source_file: 04-character-management
+  test_ids: [T-UI-0402.01.01]
+
+- req_id: R-FUNC-0403.01
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0403.01.01, T-FUNC-0403.01.02]
+
+- req_id: R-UI-0403.01
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-UI-0403.01.01]
+
+- req_id: R-FUNC-0403.02
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0403.02.01, T-FUNC-0403.02.02, T-FUNC-0403.02.03]
+
+- req_id: R-FUNC-0403.03
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0403.03.01, T-FUNC-0403.03.02]
+
+- req_id: R-FUNC-0403.04
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0403.04.01]
+
+- req_id: R-FUNC-0403.05
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0403.05.01, T-FUNC-0403.05.02]
+
+- req_id: R-SEC-0403.01
+  feature_id: FEAT-0403
+  feature_label: Add Character
+  source_file: 04-character-management
+  test_ids: [T-SEC-0403.01.01, T-SEC-0403.01.02, T-SEC-0403.01.03, T-SEC-0403.01.04]
+
+- req_id: R-FUNC-0410.01
+  feature_id: FEAT-0410
+  feature_label: Character Relationships
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0410.01.01, T-FUNC-0410.01.02]
+
+- req_id: R-FUNC-0410.02
+  feature_id: FEAT-0410
+  feature_label: Character Relationships
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0410.02.01]
+
+- req_id: R-FUNC-0410.03
+  feature_id: FEAT-0410
+  feature_label: Character Relationships
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0410.03.01]
+
+- req_id: R-FUNC-0410.04
+  feature_id: FEAT-0410
+  feature_label: Character Relationships
+  source_file: 04-character-management
+  test_ids: [T-FUNC-0410.04.01]
+
+- req_id: R-DATA-0410.01
+  feature_id: FEAT-0410
+  feature_label: Character Relationships
+  source_file: 04-character-management
+  test_ids: [T-DATA-0410.01.01]
+
+# --- 05 Location Management ---
+
+- req_id: R-FUNC-0501.01
+  feature_id: FEAT-0501
+  feature_label: Location List Board
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0501.01.01, T-FUNC-0501.01.02]
+
+- req_id: R-UI-0501.01
+  feature_id: FEAT-0501
+  feature_label: Location List Board
+  source_file: 05-location-management
+  test_ids: [T-UI-0501.01.01]
+
+- req_id: R-UI-0501.02
+  feature_id: FEAT-0501
+  feature_label: Location List Board
+  source_file: 05-location-management
+  test_ids: [T-UI-0501.02.01, T-UI-0501.02.02]
+
+- req_id: R-FUNC-0502.01
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0502.01.01, T-FUNC-0502.01.02]
+
+- req_id: R-UI-0502.01
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-UI-0502.01.01]
+
+- req_id: R-FUNC-0502.02
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0502.02.01, T-FUNC-0502.02.02, T-FUNC-0502.02.03]
+
+- req_id: R-FUNC-0502.03
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0502.03.01, T-FUNC-0502.03.02]
+
+- req_id: R-FUNC-0502.04
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0502.04.01]
+
+- req_id: R-FUNC-0502.05
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0502.05.01, T-FUNC-0502.05.02]
+
+- req_id: R-SEC-0502.01
+  feature_id: FEAT-0502
+  feature_label: Add Location
+  source_file: 05-location-management
+  test_ids: [T-SEC-0502.01.01, T-SEC-0502.01.02, T-SEC-0502.01.03, T-SEC-0502.01.04]
+
+- req_id: R-FUNC-0503.01
+  feature_id: FEAT-0503
+  feature_label: Edit Location
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0503.01.01, T-FUNC-0503.01.02]
+
+- req_id: R-UI-0503.01
+  feature_id: FEAT-0503
+  feature_label: Edit Location
+  source_file: 05-location-management
+  test_ids: [T-UI-0503.01.01]
+
+- req_id: R-FUNC-0510.01
+  feature_id: FEAT-0510
+  feature_label: Location Relationships
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0510.01.01, T-FUNC-0510.01.02]
+
+- req_id: R-FUNC-0510.02
+  feature_id: FEAT-0510
+  feature_label: Location Relationships
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0510.02.01]
+
+- req_id: R-FUNC-0510.03
+  feature_id: FEAT-0510
+  feature_label: Location Relationships
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0510.03.01]
+
+- req_id: R-FUNC-0510.04
+  feature_id: FEAT-0510
+  feature_label: Location Relationships
+  source_file: 05-location-management
+  test_ids: [T-FUNC-0510.04.01]
+
+- req_id: R-DATA-0510.01
+  feature_id: FEAT-0510
+  feature_label: Location Relationships
+  source_file: 05-location-management
+  test_ids: [T-DATA-0510.01.01]
+
+# --- 06 Item Management ---
+
+- req_id: R-FUNC-0601.01
+  feature_id: FEAT-0601
+  feature_label: Item List Board
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0601.01.01, T-FUNC-0601.01.02]
+
+- req_id: R-UI-0601.01
+  feature_id: FEAT-0601
+  feature_label: Item List Board
+  source_file: 06-item-management
+  test_ids: [T-UI-0601.01.01]
+
+- req_id: R-UI-0601.02
+  feature_id: FEAT-0601
+  feature_label: Item List Board
+  source_file: 06-item-management
+  test_ids: [T-UI-0601.02.01, T-UI-0601.02.02]
+
+- req_id: R-FUNC-0602.01
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0602.01.01, T-FUNC-0602.01.02]
+
+- req_id: R-UI-0602.01
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-UI-0602.01.01]
+
+- req_id: R-FUNC-0602.02
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0602.02.01, T-FUNC-0602.02.02, T-FUNC-0602.02.03]
+
+- req_id: R-FUNC-0602.03
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0602.03.01, T-FUNC-0602.03.02]
+
+- req_id: R-FUNC-0602.04
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0602.04.01]
+
+- req_id: R-FUNC-0602.05
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0602.05.01, T-FUNC-0602.05.02]
+
+- req_id: R-SEC-0602.01
+  feature_id: FEAT-0602
+  feature_label: Add Item
+  source_file: 06-item-management
+  test_ids: [T-SEC-0602.01.01, T-SEC-0602.01.02, T-SEC-0602.01.03, T-SEC-0602.01.04]
+
+- req_id: R-FUNC-0603.01
+  feature_id: FEAT-0603
+  feature_label: Edit Item
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0603.01.01, T-FUNC-0603.01.02]
+
+- req_id: R-UI-0603.01
+  feature_id: FEAT-0603
+  feature_label: Edit Item
+  source_file: 06-item-management
+  test_ids: [T-UI-0603.01.01]
+
+- req_id: R-FUNC-0610.01
+  feature_id: FEAT-0610
+  feature_label: Item Relationships
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0610.01.01, T-FUNC-0610.01.02]
+
+- req_id: R-FUNC-0610.02
+  feature_id: FEAT-0610
+  feature_label: Item Relationships
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0610.02.01]
+
+- req_id: R-FUNC-0610.03
+  feature_id: FEAT-0610
+  feature_label: Item Relationships
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0610.03.01]
+
+- req_id: R-FUNC-0610.04
+  feature_id: FEAT-0610
+  feature_label: Item Relationships
+  source_file: 06-item-management
+  test_ids: [T-FUNC-0610.04.01]
+
+- req_id: R-DATA-0610.01
+  feature_id: FEAT-0610
+  feature_label: Item Relationships
+  source_file: 06-item-management
+  test_ids: [T-DATA-0610.01.01]
+
+# --- 07 World Building ---
+
+- req_id: R-FUNC-0701.01
+  feature_id: FEAT-0701
+  feature_label: World Building List Board
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0701.01.01, T-FUNC-0701.01.02]
+
+- req_id: R-UI-0701.01
+  feature_id: FEAT-0701
+  feature_label: World Building List Board
+  source_file: 07-world-building
+  test_ids: [T-UI-0701.01.01]
+
+- req_id: R-UI-0701.02
+  feature_id: FEAT-0701
+  feature_label: World Building List Board
+  source_file: 07-world-building
+  test_ids: [T-UI-0701.02.01, T-UI-0701.02.02]
+
+- req_id: R-FUNC-0702.01
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0702.01.01, T-FUNC-0702.01.02]
+
+- req_id: R-UI-0702.01
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-UI-0702.01.01]
+
+- req_id: R-FUNC-0702.02
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0702.02.01, T-FUNC-0702.02.02, T-FUNC-0702.02.03]
+
+- req_id: R-FUNC-0702.03
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0702.03.01, T-FUNC-0702.03.02]
+
+- req_id: R-FUNC-0702.04
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0702.04.01]
+
+- req_id: R-FUNC-0702.05
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0702.05.01, T-FUNC-0702.05.02]
+
+- req_id: R-SEC-0702.01
+  feature_id: FEAT-0702
+  feature_label: Add World Building Item
+  source_file: 07-world-building
+  test_ids: [T-SEC-0702.01.01, T-SEC-0702.01.02, T-SEC-0702.01.03, T-SEC-0702.01.04]
+
+- req_id: R-FUNC-0703.01
+  feature_id: FEAT-0703
+  feature_label: Edit World Building Item
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0703.01.01, T-FUNC-0703.01.02]
+
+- req_id: R-UI-0703.01
+  feature_id: FEAT-0703
+  feature_label: Edit World Building Item
+  source_file: 07-world-building
+  test_ids: [T-UI-0703.01.01]
+
+- req_id: R-FUNC-0710.01
+  feature_id: FEAT-0710
+  feature_label: World Building Relationships
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0710.01.01, T-FUNC-0710.01.02]
+
+- req_id: R-FUNC-0710.02
+  feature_id: FEAT-0710
+  feature_label: World Building Relationships
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0710.02.01]
+
+- req_id: R-FUNC-0710.03
+  feature_id: FEAT-0710
+  feature_label: World Building Relationships
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0710.03.01]
+
+- req_id: R-FUNC-0710.04
+  feature_id: FEAT-0710
+  feature_label: World Building Relationships
+  source_file: 07-world-building
+  test_ids: [T-FUNC-0710.04.01]
+
+- req_id: R-DATA-0710.01
+  feature_id: FEAT-0710
+  feature_label: World Building Relationships
+  source_file: 07-world-building
+  test_ids: [T-DATA-0710.01.01]

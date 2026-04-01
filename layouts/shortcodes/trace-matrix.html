@@ -1,0 +1,115 @@
+{{/* trace-matrix shortcode
+     Joins data/requirements/phase-1.yaml with data/test-results/<source_file>.yaml
+     to render a full traceability matrix with one row per test ID.
+     Feature and Requirement cells use rowspan when a requirement has multiple tests.
+*/}}
+
+{{ $requirements := .Site.Data.requirements }}
+{{ $testResults  := index .Site.Data "test-results" }}
+{{ $ghBase       := "https://github.com/david-hollingworth/novel-it/issues/" }}
+
+<div class="not-prose overflow-x-auto mt-4">
+<table class="w-full text-sm border-collapse border border-slate-300">
+  <thead>
+    <tr class="bg-slate-100 text-slate-700">
+      <th class="border border-slate-300 px-3 py-2 text-left font-semibold w-40">Feature</th>
+      <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Requirement</th>
+      <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Test ID</th>
+      <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Test Status</th>
+      <th class="border border-slate-300 px-3 py-2 text-left font-semibold">Issue</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range index $requirements "phase-1" }}
+    {{ $req := . }}
+
+    {{/* Build a lookup map of test_id -> latest execution for this requirement */}}
+    {{ $fileData := index $testResults $req.source_file }}
+    {{ $execByTestID := dict }}
+    {{ if $fileData }}
+      {{ range where $fileData "requirement_id" $req.req_id }}
+        {{ $latestResult := "" }}
+        {{ $latestDate   := "" }}
+        {{ $latestIssue  := 0 }}
+        {{ range .executions }}
+          {{ if or (eq $latestDate "") (gt .date $latestDate) }}
+            {{ $latestResult = .result }}
+            {{ $latestDate   = .date }}
+            {{ $latestIssue  = .issue }}
+          {{ end }}
+        {{ end }}
+        {{ $execByTestID = merge $execByTestID (dict .test_id (dict "result" $latestResult "issue" $latestIssue)) }}
+      {{ end }}
+    {{ end }}
+
+    {{/* Derive URLs */}}
+    {{ $anchor  := $req.req_id | lower | replaceRE "\\." "-" }}
+    {{ $reqURL  := printf "/requirements/%s/#%s" $req.source_file $anchor }}
+    {{ $testResultURL := printf "/test-results/%s/#%s" $req.source_file $anchor }}
+
+    {{/* Count test IDs for rowspan */}}
+    {{ $testCount := len $req.test_ids }}
+    {{ if eq $testCount 0 }}{{ $testCount = 1 }}{{ end }}
+
+    {{/* Emit one row per test ID */}}
+    {{ if $req.test_ids }}
+      {{ range $i, $tid := $req.test_ids }}
+        {{ $exec   := index $execByTestID $tid }}
+        {{ $result := "" }}
+        {{ $issue  := 0 }}
+        {{ if $exec }}
+          {{ $result = index $exec "result" }}
+          {{ $issue  = index $exec "issue" }}
+        {{ end }}
+        <tr class="even:bg-slate-50">
+          {{/* Feature and Requirement cells only on the first row — use rowspan */}}
+          {{ if eq $i 0 }}
+          <td class="border border-slate-300 px-3 py-2 align-top" rowspan="{{ $testCount }}">
+            <span class="font-mono text-xs text-slate-500">{{ $req.feature_id }}</span><br>
+            {{ $req.feature_label }}
+          </td>
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap font-mono text-xs align-top" rowspan="{{ $testCount }}">
+            <a href="{{ $reqURL }}" class="text-blue-600 hover:underline">{{ $req.req_id }}</a>
+          </td>
+          {{ end }}
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap font-mono text-xs">
+            {{ if $exec }}
+              <a href="{{ $testResultURL }}" class="text-blue-600 hover:underline">{{ $tid }}</a>
+            {{ else }}
+              {{ $tid }}
+            {{ end }}
+          </td>
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap font-semibold
+            {{ if eq $result "PASS" }}text-green-700
+            {{ else if eq $result "FAIL" }}text-red-700
+            {{ else }}text-slate-400{{ end }}">
+            {{ if $result }}{{ $result }}{{ else }}Not run{{ end }}
+          </td>
+          <td class="border border-slate-300 px-3 py-2 whitespace-nowrap">
+            {{ if $issue }}
+              <a href="{{ $ghBase }}{{ $issue }}" class="text-blue-600 hover:underline" target="_blank">#{{ $issue }}</a>
+            {{ else }}
+              —
+            {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+    {{ else }}
+      {{/* No tests defined — single row with a gap indicator */}}
+      <tr class="bg-red-50">
+        <td class="border border-slate-300 px-3 py-2">
+          <span class="font-mono text-xs text-slate-500">{{ $req.feature_id }}</span><br>
+          {{ $req.feature_label }}
+        </td>
+        <td class="border border-slate-300 px-3 py-2 whitespace-nowrap font-mono text-xs">
+          <a href="{{ $reqURL }}" class="text-blue-600 hover:underline">{{ $req.req_id }}</a>
+        </td>
+        <td class="border border-slate-300 px-3 py-2 text-red-600 font-semibold" colspan="3">
+          No tests defined
+        </td>
+      </tr>
+    {{ end }}
+    {{ end }}
+  </tbody>
+</table>
+</div>

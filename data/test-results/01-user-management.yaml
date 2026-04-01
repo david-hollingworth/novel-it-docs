@@ -1,0 +1,20 @@
+# Test execution records for 01 User Management
+# Format:
+#
+# - test_id: T-FUNC-0101.01.01
+#   requirement_id: R-FUNC-0101.01
+#   executions:
+#     - date: YYYY-MM-DD
+#       result: PASS
+#       issue:
+#       comment: Brief description
+#     - date: YYYY-MM-DD
+#       result: FAIL
+#       issue: 23
+#       comment: "Retest after issue #23 closed — description"
+#
+# Notes:
+#   - result must be exactly PASS or FAIL (uppercase)
+#   - issue is the GitHub issue number only (no # prefix)
+#   - Any comment containing # must be wrapped in double quotes
+#   - Always append new executions — never edit past entries
