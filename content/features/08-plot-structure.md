@@ -134,7 +134,7 @@ Acts are the major structural divisions of a plot. They are the direct children 
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 #### Description
 
@@ -146,7 +146,7 @@ When the user clicks on a plot name on the plot list board the view changes to t
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 #### Description
 
@@ -158,7 +158,7 @@ No act-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 #### Description
 
@@ -170,7 +170,7 @@ No act-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 #### Description
 
@@ -218,7 +218,7 @@ No act-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 #### Description
 
@@ -238,7 +238,7 @@ When sequences are disabled, beats are parented directly off acts.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 #### Description
 
@@ -250,7 +250,7 @@ No sequence-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 #### Description
 
@@ -262,7 +262,7 @@ No sequence-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 #### Description
 
@@ -286,7 +286,7 @@ No sequence-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 #### Description
 
@@ -298,7 +298,7 @@ A sequence may be moved to a different act within the same plot line.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 #### Description
 
@@ -316,7 +316,7 @@ Beats are the named dramatic units within an act or sequence. A beat describes a
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 #### Description
 
@@ -336,7 +336,7 @@ The characters, locations, and items fields are planning prompts only. They have
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 #### Description
 
@@ -348,7 +348,7 @@ No beat-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 #### Description
 
@@ -372,7 +372,7 @@ No beat-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 #### Description
 
@@ -384,7 +384,7 @@ A beat may be moved to a different act or sequence within the same plot line.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 #### Description
 
@@ -404,7 +404,7 @@ Plot scenes have an optional many-to-many association with manuscript scenes. A 
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 #### Description
 
@@ -416,7 +416,7 @@ No plot scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 #### Description
 
@@ -428,7 +428,7 @@ No plot scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 #### Description
 
@@ -452,7 +452,7 @@ No plot scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 #### Description
 
@@ -464,7 +464,7 @@ A plot scene may be moved to a different beat within the same plot line. All ass
 |---|---|
 | **Status** | Draft |
 | **Phase** | 2 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 #### Description
 

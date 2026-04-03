@@ -142,7 +142,7 @@ The novel list display is an exception to the Entity list board. As novels have 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 ### Description
 
@@ -154,7 +154,7 @@ When the user clicks on a novel title on the novel list display the view changes
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -170,7 +170,7 @@ In addition to the properties inherited from the base entity, parts have the fol
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
@@ -184,7 +184,7 @@ The following properties are read-only in edit mode:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
@@ -196,7 +196,7 @@ No part-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -208,7 +208,7 @@ No part-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -234,7 +234,7 @@ When parts are disabled on a novel, any existing child chapters are reparented d
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -250,7 +250,7 @@ In addition to the properties inherited from the base entity, chapters have the 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
@@ -264,7 +264,7 @@ The following properties are read-only in edit mode:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
@@ -276,7 +276,7 @@ No chapter-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -288,7 +288,7 @@ No chapter-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -300,7 +300,7 @@ When a chapter is deleted all associated scenes are also deleted.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/novel-it-docs/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
@@ -312,7 +312,7 @@ If the destination novel has parts enabled, a destination part must be selected 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -328,7 +328,7 @@ In addition to the properties inherited from the base entity, scenes have the fo
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
@@ -346,7 +346,7 @@ In addition to the functions inherited from the base entity, the scene edit page
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
@@ -358,7 +358,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -370,7 +370,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
