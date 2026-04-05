@@ -677,7 +677,7 @@ Scenario: Edit part form displays word count as read-only
 
 Manual Test
 
-## R-FUNC-0213.01 Archive a part
+## R-FUNC-0213.01 Archive a novel part
 
 | | |
 |---|---|
@@ -685,34 +685,105 @@ Manual Test
 | **Phase** | 1 |
 | **Relates to** | [FEAT-0213](/novel-it-docs/features/02-novel-management/#feat-0213-archive-part) |
 
+### Note:
+
+The behvaiour of the system is slightly different depending on whether the user is archiving the final active part or whether there are more than one active part.
+
 ### Statement
 
-The system SHALL allow the user to archive a part and SHALL require confirmation before doing so.
+The system SHALL allow the user to archive a novel part and SHALL require confirmation before doing so. 
+
+If there are existing active chapters for the part and there is more than one active part then the user shall be prompted:
+
+1. Move Chapters to another Part?
+2. Archive the Chapters with the Part?
+3. Cancel
+
+If there are existing active chapters for the part and this is the final active part then the user shall be prompted:
+
+1. Move Chapters to the Novel?
+2. Archive the Chapters with the Part?
+3. Cancel
+
+If there are no active Chapters for this part then the user shall be prompted:
+
+1. Continue
+2. Cancel
+
+#### Note:
+
+Archived Chapters are ignored in all cases.
 
 ### Rationale
 
-Archiving is a recoverable action but should not be triggered accidentally.
+The user may wish to retain access to the chapters after the part has been archived, or they may wish to archive everything.
 
 ### Acceptance Criteria
 
 ```gherkin
 @T-FUNC-0213.01.01
-Scenario: Successfully archive a part
-  Given I have an existing part on the novel structure display
-  When I click the Archive button for that part
-  And I am shown a confirmation dialog
-  And I click the Continue button
-  Then the part is archived
-  And it no longer appears on the novel structure display
-
+Scenario: Successfully archive a part with chapters when there are more than 1 active Parts
+  Given I have more then one Part on the novel structure display
+  And a Part has Chapters
+  When I click the Archive button for that Part
+  Then I am prompted "Move Chapters to another Part?, Archive the Chapters with the Part?, Cancel"
+  
 @T-FUNC-0213.01.02
+Scenario: Successfully archive a Part, moving the Chapters to another Part
+  Given I have more then one Part on the novel structure display
+  And a Part has Chapters
+  When I click the Archive button for that Part
+  And I click the button to move the chapters to another part
+  And I select another part to move the chapters to
+  Then the part is archived and no longer appears on the novel structure display
+  And the chapters are moved to the other part and are displayed on that part's structure display
+
+@T-FUNC-0213.01.03
+Scenario: Successfully archive a Part and its Chapters
+  Given I have an existing part on the novel structure display
+  And the Part has Chapters
+  When I click the Archive button for that Part
+  And I click the button to archive the Chapters with the Part
+  Then the Part is archived
+  And the Part no longer appears on the Novel structure display 
+  And the Chapters do not appear on any part's structure display
+
+@T-FUNC-0213.01.04
 Scenario: Cancel archiving a part
   Given I have an existing part on the novel structure display
-  When I click the Archive button for that part
+  And I have clicked the Archive button for that part
   And I am shown a confirmation dialog
-  And I click the Cancel button
+  When I click the Cancel button
   Then the part is not archived
   And it remains on the novel structure display
+
+@T-FUNC-0213.01.05
+Scenario: Successfully archive a part with chapters when there is only 1 active Part
+  Given I have only one Part on the novel structure display
+  And the Part has Chapters
+  When I click the Archive button for that Part
+  Then I am prompted "Move Chapters to the Novel?, Archive the Chapters with the Part?, Cancel"
+
+@T-FUNC-0213.01.06
+Scenario: Successfully archive the final active part, moving the chapters to the novel
+  Given I have only one part on the novel structure display
+  And the Part has Chapters
+  When I click the Archive button for that Part
+  And I click the button to move the Chapters to the Novel
+  Then the Part is archived
+  And the Part no longer appears on the Novel structure display 
+  And the Chapters are now displayed on the Novel structure display.
+  And Parts Enabled is set to "No"  
+
+@T-FUNC-0213.01.07
+Scenario: Successfully archive a part that has no chapters
+  Given I have an existing Part on the Novel structure display
+  And the Part has no Chapters
+  When I click the button to archive the Part
+  Then I am prompted "Continue?, Cancel"
+  And I click the Continue button
+  And the Part is archived
+  And the Part no longer appears on the Novel structure display 
 ```
 
 ### Verification Method
