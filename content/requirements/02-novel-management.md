@@ -185,7 +185,7 @@ Manual Test
 
 ### Statement
 
-When parts are enabled, the system SHALL organise the novel as a three-level hierarchy of parts containing chapters containing scenes, with chapters parented off parts rather than the novel directly.
+When parts are enabled, the system SHALL organise the novel as a three-level hierarchy of parts containing chapters containing scenes, with chapters parented off parts rather than the novel directly. When Parts are disabled Chapters SHALL be displayed directly under the Novel structure display.
 
 ### Rationale
 
@@ -200,7 +200,7 @@ Scenario: Novel structure with parts
   When I view the novel structure display
   Then I see parts listed under the novel
   And chapters are listed under their respective parts
-  And not directly under the novel
+  And chapters are not displayed directly under the novel
 ```
 
 ### Verification Method
@@ -261,6 +261,8 @@ Manual Test
 
 The system SHALL allow the user to enable or disable parts for a novel from the edit novel page.
 
+When parts are enabled and there are existing active chapters in the novel structure then the system SHALL move those chapters to the first part in the novel structure display.
+
 ### Rationale
 
 An author may decide to restructure their novel into parts after initial creation, or remove the parts level if it is no longer needed.
@@ -284,7 +286,7 @@ Scenario: Disable parts on an existing novel
   When I disable parts
   And I click the Save button
   Then parts are disabled for the novel
-  And any existing chapters are displayed directly under the novel
+  And any existing chapters are displayed directly under the novel structure display
 ```
 
 ### Verification Method
@@ -540,6 +542,8 @@ Manual Test
 
 The system SHALL allow the user to create a part with the following properties: name, description, notes, and status. The Add Part action SHALL only be available when parts are enabled for the novel.
 
+If there are Chapters present at the Novel level (from before Parts were enabled), when the Add Part dialogue is open the user shall be able to select any Chapters they want to appear under that Part. When the Part is saved those chapters will appear on the Part structure display.
+
 ### Rationale
 
 Parts are the top-level structural division of a multi-part novel. Each part groups related chapters under a named section.
@@ -558,9 +562,22 @@ Scenario: Successfully create a part
   And it appears on the novel structure display
 
 @T-FUNC-0211.01.02
+Scenario: Successfully create a part and assign existing Chapters
+  Given I have a novel with parts enabled
+  And I have Chapters present at the Novel level
+  And I am on the novel structure display
+  When I click the Add Part button
+  And I enter a name
+  And I select the Chapters I want attached to this Part
+  And I click the Save button
+  Then the part is created
+  And it appears on the novel structure display
+  And the Chapters are shown on the Part structure display.  
+
+@T-FUNC-0211.01.03
 Scenario: Add Part button is not available when parts are disabled
   Given I have a novel with parts disabled
-  When I am on the novel structure display
+  And I am on the novel structure display
   Then I do not see an Add Part button
 ```
 
