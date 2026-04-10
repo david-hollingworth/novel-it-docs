@@ -18,3 +18,140 @@
 #   - issue is the GitHub issue number only (no # prefix)
 #   - Any comment containing # must be wrapped in double quotes
 #   - Always append new executions — never edit past entries
+
+- test_id: T-FUNC-0101.01.01
+  requirement_id: R-FUNC-0101.01
+  executions:
+    - date: 2026-04-08
+      result: FAIL
+      issue: 62
+      comment: After creating the account I was logged in, not directed to the login page as expected.
+    # - date: YYYY-MM-DD
+    #   result: FAIL
+    #   issue: 23
+    #   comment: "Retest after issue #23 closed — description"
+
+- test_id: T-SEC-0101.01.01
+  requirement_id: R-SEC-0101.01
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: Duplicate user name rejected as expected.
+
+
+- test_id: T-SEC-0101.02.01
+  requirement_id: R-SEC-0101.02
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: Password complexity requirements enforced as expected.
+
+- test_id: T-DATA-0101.01.01
+  requirement_id: R-DATA-0101.01
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User data stored as expected. Verified with querying the database.
+      
+- test_id: T-FUNC-0101.02.01
+  requirement_id: R-FUNC-0101.02
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: Account not created with only one password field filled, as expected.
+
+- test_id: T-FUNC-0101.02.02
+  requirement_id: R-FUNC-0101.02
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment:  Account not created when password and confirm password do not match, as expected.
+
+- test_id: T-FUNC-0102.01.01
+  requirement_id: R-FUNC-0102.01
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User logged in as expected.
+
+- test_id: T-FUNC-0102.01.02
+  requirement_id: R-FUNC-0102.01
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User not logged in with incorrect password, as expected.
+
+- test_id: T-FUNC-0102.02.01
+  requirement_id: R-FUNC-0102.02
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User logged out successfully, as expected.
+
+- test_id: T-FUNC-0102.02.02
+  requirement_id: R-FUNC-0102.02
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User session terminated after logout, as expected. Verified by attempting to access a protected page after logout and being redirected to the login page.
+
+- test_id: T-SEC-0102.01.01
+  requirement_id: R-SEC-0102.01
+  executions:
+    - date: 2026-04-08
+      result: PASS
+      issue:
+      comment: User successfully redirected to the login page as expected.
+
+- test_id: T-USER-0102.01.01
+  requirement_id: R-USER-0102.01
+  executions:
+    - date: 2026-04-10
+      result: PASS
+      issue:
+      comment: Login was rejected with generic message, as expected.            
+
+- test_id: T-USER-0102.01.02
+  requirement_id: R-USER-0102.01
+  executions:
+    - date: 2026-04-10
+      result: PASS
+      issue:
+      comment: Login was rejected with generic message, as expected.  
+
+- test_id: T-FUNC-0103.01.01
+  requirement_id: R-FUNC-0103.01
+  executions:
+    - date: 2026-04-10
+      result: PASS
+      issue:
+      comment: Pasword was changed successfully, as expected. Verified by logging in with the new password after change.
+
+- test_id: T-FUNC-0103.01.02
+  requirement_id: R-FUNC-0103.01
+  executions:
+    - date: 2026-04-10
+      result: PASS
+      issue:
+      comment: The password change was rejected when the current password was incorrect, as expected.
+
+- test_id: T-FUNC-0103.02.01
+  requirement_id: R-FUNC-0103.02
+  executions:
+    - date: 2026-04-10
+      result: PASS
+      issue:
+      comment: The password change was rejected when the new passwords did not match, as expected.
+
+      
+                   
+
