@@ -1,0 +1,592 @@
+# Test execution records for 02 Novel Management
+# Format:
+#
+# - test_id: T-FUNC-0201.01.01
+#   requirement_id: R-FUNC-0201.01
+#   executions:
+#     - date: YYYY-MM-DD
+#       result: PASS
+#       issue:
+#       comment: Brief description
+#     - date: YYYY-MM-DD
+#       result: FAIL
+#       issue: 23
+#       comment: "Retest after issue #23 closed — description"
+#
+# Notes:
+#   - result must be exactly PASS or FAIL (uppercase)
+#   - issue is the GitHub issue number only (no # prefix)
+#   - Any comment containing # must be wrapped in double quotes
+#   - Always append new executions — never edit past entries
+
+- test_id: T-FUNC-0201.01.01
+  requirement_id: R-FUNC-0201.01
+  executions:
+  - date: 2026-04-10
+    result: PASS
+    issue: null
+    comment: The novel was created as expected.
+- test_id: T-FUNC-0201.01.02
+  requirement_id: R-FUNC-0201.01
+  executions:
+  - date: 2026-04-10
+    result: PASS
+    issue: null
+    comment: The novel was not creted when the title was missing, as expected.
+- test_id: T-UI-0201.01.01
+  requirement_id: R-UI-0201.01
+  executions:
+  - date: 2026-04-10
+    result: PASS
+    issue: null
+    comment: All fields are displayed correctly on the novel creation page as expected.
+  - date: 2026-04-11
+    result: PASS
+    issue: null
+    comment: All data fields were present as expected.
+- test_id: T-FUNC-0201.02.01
+  requirement_id: R-FUNC-0201.02
+  executions:
+  - date: 2026-04-11
+    result: PASS
+    issue: null
+    comment: The Parts Enabled button defaulted to No as expected.
+- test_id: T-FUNC-0202.01.01
+  requirement_id: R-FUNC-0202.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: WIth Parts not enabled Parts were not displayed as expected.
+- test_id: T-FUNC-0202.02.01
+  requirement_id: R-FUNC-0202.02
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: Parts were displayed under the Novel as expected
+- test_id: T-FUNC-0203.01.01
+  requirement_id: R-FUNC-0203.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The updated title was saved and displayed successfully
+- test_id: T-FUNC-0203.01.02
+  requirement_id: R-FUNC-0203.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The title was unchanged as expected.
+- test_id: T-FUNC-0203.02.01
+  requirement_id: R-FUNC-0203.02
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: Parts were enabled and displayed successfully.
+- test_id: T-FUNC-0203.02.02
+  requirement_id: R-FUNC-0203.02
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: Parts were disabled successfully and chapters displayed under the Novel
+      structure as expected.
+- test_id: T-FUNC-0204.01.01
+  requirement_id: R-FUNC-0204.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel was archived as expected.
+- test_id: T-FUNC-0204.01.02
+  requirement_id: R-FUNC-0204.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel archiving was cancelled and the novel was displayed as expected.
+- test_id: T-UI-0203.01.01
+  requirement_id: R-UI-0203.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: All fields were displayed as expected.
+- test_id: T-UI-0203.01.02
+  requirement_id: R-UI-0203.01
+  executions:
+  - date: '2026-04-11'
+    result: FAIL
+    issue: '63'
+    comment: The actual word count is not displayed on the edit novel page and so
+      this test cannot be completed.
+- test_id: T-FUNC-0205.01.01
+  requirement_id: R-FUNC-0205.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel was unarchived successfully and no longer appeared on the archived
+      novels board.
+- test_id: T-FUNC-0205.01.02
+  requirement_id: R-FUNC-0205.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel archiving was cancelled successfully and remained on the archived
+      novels board as expected.
+- test_id: T-FUNC-0206.01.01
+  requirement_id: R-FUNC-0206.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel was deleted as expected.
+- test_id: T-FUNC-0206.01.02
+  requirement_id: R-FUNC-0206.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel was not deleted as expected.
+- test_id: T-DATA-0206.01.01
+  requirement_id: R-DATA-0206.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel and all its constituent parts were successfully deleted.
+- test_id: T-FUNC-0209.01.01
+  requirement_id: R-FUNC-0209.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: Two novels were displayed as expected.
+- test_id: T-FUNC-0209.01.02
+  requirement_id: R-FUNC-0209.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: Archived novels were not displayed as expected.
+- test_id: T-FUNC-0210.01.01
+  requirement_id: R-FUNC-0210.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel structure and two chapters were displayed successfully
+- test_id: T-FUNC-0210.01.02
+  requirement_id: R-FUNC-0210.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The novel structure with two parts was displayed successfully
+- test_id: T-FUNC-0211.01.01
+  requirement_id: R-FUNC-0211.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was created and displayed successfully
+- test_id: T-FUNC-0211.01.02
+  requirement_id: R-FUNC-0211.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was created successfully, chapters were assigned successfully
+      and were displayed on the part structure as expected.
+- test_id: T-FUNC-0211.01.03
+  requirement_id: R-FUNC-0211.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The add part button was not displayed as expected.
+- test_id: T-UI-0211.01.01
+  requirement_id: R-UI-0211.01
+  executions:
+  - date: '2026-04-11'
+    result: FAIL
+    issue: '64'
+    comment: The field names are not displayed as expected - Summary replaces Description
+- test_id: T-FUNC-0212.01.01
+  requirement_id: R-FUNC-0212.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The Part name was changed successfully
+- test_id: T-FUNC-0212.01.02
+  requirement_id: R-FUNC-0212.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The name was not changed as expected
+- test_id: T-UI-0212.01.01
+  requirement_id: R-UI-0212.01
+  executions:
+  - date: '2026-04-11'
+    result: FAIL
+    issue: '64'
+    comment: The field names displayed do not match the requirement
+- test_id: T-UI-0212.01.02
+  requirement_id: R-UI-0212.01
+  executions:
+  - date: '2026-04-11'
+    result: FAIL
+    issue: '65'
+    comment: Word count is not displayed on the edit part page so the test cannot
+      be run.
+- test_id: T-FUNC-0213.01.01
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: When archiving a part with chapters the correct options were displayed
+      as expected.
+- test_id: T-FUNC-0213.01.02
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was archived successfully. The chapters were successfully moved
+      to another part and displayed on the part structure as expected.
+- test_id: T-FUNC-0213.01.03
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was archived successfully. The chapters were archived with the
+      part as expected.
+- test_id: T-FUNC-0213.01.04
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was not archived as expected.
+- test_id: T-FUNC-0213.01.05
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The options for archival were displayed as expected.
+- test_id: T-FUNC-0213.01.06
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was archived as expected. The chapters were displayed at the
+      novel structure level as expected. Parts were disabled as expected.
+- test_id: T-FUNC-0213.01.07
+  requirement_id: R-FUNC-0213.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The archive options were displayed as expected. The part was archived
+      as expected.
+- test_id: T-FUNC-0214.01.01
+  requirement_id: R-FUNC-0214.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was unarchived successfully and displayed on the novel structure
+      display as expected
+- test_id: T-FUNC-0214.01.02
+  requirement_id: R-FUNC-0214.01
+  executions:
+  - date: '2026-04-11'
+    result: PASS
+    issue: null
+    comment: The part was not unarchived as expected.
+- test_id: T-FUNC-0215.01.01
+  requirement_id: R-FUNC-0215.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The part was deleted as expected
+- test_id: T-FUNC-0215.01.02
+  requirement_id: R-FUNC-0215.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The part was not deleted as expected
+- test_id: T-DATA-0215.01.01
+  requirement_id: R-DATA-0215.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The part, all its chapters and scenes were successfully deleted as expected.
+- test_id: T-FUNC-0217.01.01
+  requirement_id: R-FUNC-0217.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The chapter was created under the novel as expected.
+- test_id: T-FUNC-0217.01.02
+  requirement_id: R-FUNC-0217.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The chapter was created under the part as expected.
+- test_id: T-UI-0217.01.01
+  requirement_id: R-UI-0217.01
+  executions:
+  - date: '2026-04-12'
+    result: FAIL
+    issue: '66'
+    comment: The Add Chapter form doesn't display the required fields.
+- test_id: T-FUNC-0218.01.01
+  requirement_id: R-FUNC-0218.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The chapter name was updated as expected.
+- test_id: T-FUNC-0218.01.02
+  requirement_id: R-FUNC-0218.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The chapter name was not updated as expected.
+- test_id: T-UI-0218.01.01
+  requirement_id: R-UI-0218.01
+  executions:
+  - date: '2026-04-12'
+    result: FAIL
+    issue: '66'
+    comment: The required fields were not displayed on the edit chapter form.
+- test_id: T-UI-0218.01.02
+  requirement_id: R-UI-0218.01
+  executions:
+  - date: '2026-04-12'
+    result: FAIL
+    issue: '67'
+    comment: The word count is not displayed anywhere on the edit chapter form and
+      so this test cannot be performed.
+- test_id: T-FUNC-0219.01.01
+  requirement_id: R-FUNC-0219.01
+  executions:
+  - date: '2026-04-12'
+    result: PASS
+    issue: null
+    comment: The chapter was archived as expected.
+- test_id: T-FUNC-0219.01.02
+  requirement_id: R-FUNC-0219.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter was not archived as expected.
+- test_id: T-FUNC-0220.01.01
+  requirement_id: R-FUNC-0220.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter was unarchived as expected.
+- test_id: T-FUNC-0220.01.02
+  requirement_id: R-FUNC-0220.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter was not archived as expected.
+- test_id: T-FUNC-0221.01.01
+  requirement_id: R-FUNC-0221.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter was deleted as expected
+- test_id: T-FUNC-0221.01.02
+  requirement_id: R-FUNC-0221.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter was not deleted, as expected.
+- test_id: T-DATA-0221.01.01
+  requirement_id: R-DATA-0221.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The chapter deletion successfully cascaded to deleting the scenes as
+      expected.
+- test_id: T-FUNC-0223.01.01
+  requirement_id: R-FUNC-0223.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The scene was created as expected
+- test_id: T-UI-0223.01.01
+  requirement_id: R-UI-0223.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '68'
+    comment: The fields displayed did not match the requirements.
+- test_id: T-FUNC-0224.01.01
+  requirement_id: R-FUNC-0224.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The scene title was changed as expected.
+- test_id: T-FUNC-0224.01.02
+  requirement_id: R-FUNC-0224.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The scene title was not updated, as expected
+- test_id: T-UI-0224.01.01
+  requirement_id: R-UI-0224.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '68'
+    comment: The fields displayed on the edit scene form do not match the requirements
+- test_id: T-UI-0224.01.02
+  requirement_id: R-UI-0224.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '69'
+    comment: The actual word count is not displayed and so the test cannot be performed.
+- test_id: T-FUNC-0224.02.01
+  requirement_id: R-FUNC-0224.02
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '70'
+    comment: The write button is not present on the edit scene form.
+- test_id: T-FUNC-0225.01.01
+  requirement_id: R-FUNC-0225.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: There's no archive button for the scene
+- test_id: T-FUNC-0225.01.02
+  requirement_id: R-FUNC-0225.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: There's no archive button for the scene
+- test_id: T-FUNC-0226.01.01
+  requirement_id: R-FUNC-0226.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: Scenes cannot be archived and so they cannot be restored either
+- test_id: T-FUNC-0226.01.02
+  requirement_id: R-FUNC-0226.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: Scenes cannot be archived and so they cannot be restored either
+- test_id: T-FUNC-0227.01.01
+  requirement_id: R-FUNC-0227.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: There is no delete button for the scene so this cannot be tested.
+- test_id: T-FUNC-0227.01.02
+  requirement_id: R-FUNC-0227.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: There is no delete button for the scene so this cannot be tested.
+- test_id: T-FUNC-0228.01.01
+  requirement_id: R-FUNC-0228.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The scenes were relocated successfully.
+- test_id: T-FUNC-0229.01.01
+  requirement_id: R-FUNC-0229.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status options were all displayed as expected.
+- test_id: T-FUNC-0229.01.02
+  requirement_id: R-FUNC-0229.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status options were all displayed as expected.
+- test_id: T-FUNC-0229.01.03
+  requirement_id: R-FUNC-0229.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '74'
+    comment: Status field not available for the chapter
+- test_id: T-FUNC-0229.01.04
+  requirement_id: R-FUNC-0229.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status field was displayed for the scene as expected.
+- test_id: T-FUNC-0229.02.01
+  requirement_id: R-FUNC-0229.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status default value was Not Started as expected
+- test_id: T-FUNC-0229.02.02
+  requirement_id: R-FUNC-0229.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status default value was Not Started as expected
+- test_id: T-FUNC-0229.02.03
+  requirement_id: R-FUNC-0229.02
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '74'
+    comment: The Status field is not available for the Chapter
+- test_id: T-FUNC-0229.02.04
+  requirement_id: R-FUNC-0229.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The status default value was Not Started as expected

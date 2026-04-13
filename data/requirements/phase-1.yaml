@@ -159,7 +159,7 @@
   feature_id: FEAT-0211
   feature_label: Add Part
   source_file: 02-novel-management
-  test_ids: [T-FUNC-0211.01.01, T-FUNC-0211.01.02]
+  test_ids: [T-FUNC-0211.01.01, T-FUNC-0211.01.02, T-FUNC-0211.01.03]
 
 - req_id: R-UI-0211.01
   feature_id: FEAT-0211
@@ -183,7 +183,7 @@
   feature_id: FEAT-0213
   feature_label: Archive Part
   source_file: 02-novel-management
-  test_ids: [T-FUNC-0213.01.01, T-FUNC-0213.01.02]
+  test_ids: [T-FUNC-0213.01.01, T-FUNC-0213.01.02, T-FUNC-0213.01.03, T-FUNC-0213.01.04, T-FUNC-0213.01.05, T-FUNC-0213.01.06, T-FUNC-0213.01.07]
 
 - req_id: R-FUNC-0214.01
   feature_id: FEAT-0214
