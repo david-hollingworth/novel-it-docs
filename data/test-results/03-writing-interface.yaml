@@ -1,0 +1,313 @@
+- test_id: T-FUNC-0301.01.01
+  requirement_id: R-FUNC-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: All heading elements were displayed as expected
+- test_id: T-FUNC-0301.01.02
+  requirement_id: R-FUNC-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: All typography elements were displayed as expected
+- test_id: T-FUNC-0301.01.03
+  requirement_id: R-FUNC-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: All list elements were displayed as expected.
+- test_id: T-FUNC-0301.01.04
+  requirement_id: R-FUNC-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: All remaining markdown elements were displayed as expected.
+- test_id: T-UI-0301.01.01
+  requirement_id: R-UI-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Shortcut buttons for H1, H2 and H3 were displayed as expected
+- test_id: T-UI-0301.01.02
+  requirement_id: R-UI-0301.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Shortcut buttons for H4, H5, H6 were not displayed, as expected
+- test_id: T-FUNC-0302.01.01
+  requirement_id: R-FUNC-0302.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: New content was automatically saved as expected.
+- test_id: T-FUNC-0302.01.02
+  requirement_id: R-FUNC-0302.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The editor is not saved if no changes have been made (in reality, if
+      you haven't made a change, you cannot tell if the save has been triggered or
+      not)
+- test_id: T-PERF-0302.01.01
+  requirement_id: R-PERF-0302.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The autosave interval defaults to 30 seconds as expected.
+- test_id: T-USER-0303.01.01
+  requirement_id: R-USER-0303.01
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '75'
+    comment: Clicking the breadcrumbs works as expected, but next scene / previous
+      scene display the browser notification, not the in app notification.
+- test_id: T-USER-0303.01.02
+  requirement_id: R-USER-0303.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Navigation was completed as expected.
+- test_id: T-USER-0303.01.03
+  requirement_id: R-USER-0303.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The navigation was cancelled as expected
+- test_id: T-USER-0303.01.04
+  requirement_id: R-USER-0303.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Navigation succeeded with no notification when there were no outstanding
+      changes, as expected.
+- test_id: T-FUNC-0304.01.01
+  requirement_id: R-FUNC-0304.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The word count updated as expected
+- test_id: T-FUNC-0304.01.02
+  requirement_id: R-FUNC-0304.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The word count successfully updated as words were deleted.
+- test_id: T-FUNC-0304.02.01
+  requirement_id: R-FUNC-0304.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The novel word count was updated as expected
+- test_id: T-FUNC-0304.02.02
+  requirement_id: R-FUNC-0304.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The novel word count was updated as expected
+- test_id: T-FUNC-0304.02.03
+  requirement_id: R-FUNC-0304.02
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The part word count was updated as expected.
+- test_id: T-FUNC-0304.03.01
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: No facility to archive scenes so this test cannot be performed.
+- test_id: T-FUNC-0304.03.02
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: No facility to archive scenes so this test cannot be performed.
+- test_id: T-FUNC-0304.03.03
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: No facility to archive scenes so this test cannot be performed.
+- test_id: T-FUNC-0304.03.04
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '76'
+    comment: Archiving a chapter did not reduce the number of words for the novel.
+- test_id: T-FUNC-0304.03.05
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '76'
+    comment: Archiving a chapter did not reduce the part word count.
+- test_id: T-FUNC-0304.03.06
+  requirement_id: R-FUNC-0304.03
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '77'
+    comment: Archiving a part did not reduce the novel word count.
+- test_id: T-FUNC-0304.04.01
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: There's no scene archive / restore capability
+- test_id: T-FUNC-0304.04.02
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: There is no scene archive / restore caapability
+- test_id: T-FUNC-0304.04.03
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '71'
+    comment: There is no scene archive / restore capability
+- test_id: T-FUNC-0304.04.04
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '78'
+    comment: Unarchiving a chapter did not increase the novel word count
+- test_id: T-FUNC-0304.04.05
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '78'
+    comment: Unarchiving a chapter did not increase the part word count
+- test_id: T-FUNC-0304.04.06
+  requirement_id: R-FUNC-0304.04
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '78'
+    comment: Unarchiving a part did not increase the novel word count.
+- test_id: T-FUNC-0304.05.01
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: Scenes cannot be deleted and so this test could not be performed.
+- test_id: T-FUNC-0304.05.02
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: Scenes cannot be deleted and so this test could not be performed.
+- test_id: T-FUNC-0304.05.03
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '73'
+    comment: Scenes cannot be deleted and so this test could not be performed.
+- test_id: T-FUNC-0304.05.04
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '79'
+    comment: Deleting a chapter did not reduce the novel's word count
+- test_id: T-FUNC-0304.05.05
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '79'
+    comment: Deleting a chapter did not reduce the part's word count
+- test_id: T-FUNC-0304.05.06
+  requirement_id: R-FUNC-0304.05
+  executions:
+  - date: '2026-04-13'
+    result: FAIL
+    issue: '79'
+    comment: Deleting a part did not reduce the novel's word count
+- test_id: T-FUNC-0305.01.01
+  requirement_id: R-FUNC-0305.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The preview rendered the text without markdown as expected.
+- test_id: T-FUNC-0305.01.02
+  requirement_id: R-FUNC-0305.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: The toggle back from preview to edit mode displayed the markdown as expected
+- test_id: T-FUNC-0306.01.01
+  requirement_id: R-FUNC-0306.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: In distraction free mode only the editor was displayed as expected.
+- test_id: T-FUNC-0306.01.02
+  requirement_id: R-FUNC-0306.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: When toggling off distraction free mode the full application was displayed
+      as expected
+- test_id: T-FUNC-0307.01.01
+  requirement_id: R-FUNC-0307.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Character cross reference behaved as expected.
+- test_id: T-FUNC-0307.01.02
+  requirement_id: R-FUNC-0307.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Location cross referencing behaved as expected
+- test_id: T-FUNC-0307.01.03
+  requirement_id: R-FUNC-0307.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Item cross referencing worked as expected.
+- test_id: T-FUNC-0307.01.04
+  requirement_id: R-FUNC-0307.01
+  executions:
+  - date: '2026-04-13'
+    result: PASS
+    issue: null
+    comment: Characters not mentioned in a scene are not cross referenced as expected.
