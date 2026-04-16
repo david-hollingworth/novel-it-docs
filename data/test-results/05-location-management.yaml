@@ -1,0 +1,203 @@
+- test_id: T-FUNC-0501.01.01
+  requirement_id: R-FUNC-0501.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: All locations were displayed as cards as expected.
+- test_id: T-FUNC-0501.01.02
+  requirement_id: R-FUNC-0501.01
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '82'
+    comment: Cannot archive locations so this test cannot be run.
+- test_id: T-UI-0501.01.01
+  requirement_id: R-UI-0501.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: No parent summary section was displayed on the locations list board.
+- test_id: T-FUNC-0502.01.01
+  requirement_id: R-FUNC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location was created as expected.
+- test_id: T-FUNC-0502.01.02
+  requirement_id: R-FUNC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: It was not possible to create a location without a name, as expected.
+- test_id: T-UI-0502.01.01
+  requirement_id: R-UI-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: All fields were displayed as expected.
+- test_id: T-UI-0501.02.01
+  requirement_id: R-UI-0501.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The image was displayed as expected.
+- test_id: T-UI-0501.02.02
+  requirement_id: R-UI-0501.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: When no image has been uploaded none is displayed, as expected.
+- test_id: T-FUNC-0502.02.01
+  requirement_id: R-FUNC-0502.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The image was uploaded as expected.
+- test_id: T-FUNC-0502.02.02
+  requirement_id: R-FUNC-0502.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The image was uploaded as expected.
+- test_id: T-FUNC-0502.02.03
+  requirement_id: R-FUNC-0502.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The image was replaced as expected.
+- test_id: T-SEC-0502.01.01
+  requirement_id: R-SEC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: A .png image was uploaded successfully.
+- test_id: T-SEC-0502.01.02
+  requirement_id: R-SEC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: A .jpg image was uploaded successfully
+- test_id: T-SEC-0502.01.03
+  requirement_id: R-SEC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: A .jpeg file was uploaded successfully
+- test_id: T-SEC-0502.01.04
+  requirement_id: R-SEC-0502.01
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '83'
+    comment: It was possible to upload a .bmp file, no as expected.
+- test_id: T-FUNC-0502.03.01
+  requirement_id: R-FUNC-0502.03
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location type was added successfully
+- test_id: T-FUNC-0502.03.02
+  requirement_id: R-FUNC-0502.03
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location type was scoped to the novel as expected.
+- test_id: T-FUNC-0502.04.01
+  requirement_id: R-FUNC-0502.04
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location type was renamed successfully
+- test_id: T-FUNC-0502.05.01
+  requirement_id: R-FUNC-0502.05
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '87'
+    comment: There's no facility to delete locations and so this test cannot be run
+- test_id: T-FUNC-0502.05.02
+  requirement_id: R-FUNC-0502.05
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '87'
+    comment: There's no facility to delete locations and so this test cannot be run
+- test_id: T-FUNC-0503.01.01
+  requirement_id: R-FUNC-0503.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location name was updated as expected.
+- test_id: T-FUNC-0503.01.02
+  requirement_id: R-FUNC-0503.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The location name was not updated, as expected.
+- test_id: T-UI-0503.01.01
+  requirement_id: R-UI-0503.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The Appears In field was read-only as expected.
+- test_id: T-FUNC-0510.01.01
+  requirement_id: R-FUNC-0510.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The relationship was created successfully.
+- test_id: T-FUNC-0510.01.02
+  requirement_id: R-FUNC-0510.01
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The relationship was created successfully
+- test_id: T-FUNC-0510.02.01
+  requirement_id: R-FUNC-0510.02
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The relationship was displayed on both entities as expected.
+- test_id: T-FUNC-0510.03.01
+  requirement_id: R-FUNC-0510.03
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '84'
+    comment: The forward label overwrites the reverse label when editing a relationship.
+- test_id: T-FUNC-0510.04.01
+  requirement_id: R-FUNC-0510.04
+  executions:
+  - date: '2026-04-16'
+    result: PASS
+    issue: null
+    comment: The relationship  was deleted as expected.
+- test_id: T-DATA-0510.01.01
+  requirement_id: R-DATA-0510.01
+  executions:
+  - date: '2026-04-16'
+    result: FAIL
+    issue: '88'
+    comment: There's no facility to delete locations.
