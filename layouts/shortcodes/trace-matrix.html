@@ -42,10 +42,14 @@
       {{ end }}
     {{ end }}
 
-    {{/* Derive URLs — absURL ensures the full baseURL (including subdirectory) is applied correctly on GitHub Pages */}}
+    {{/* Derive URLs
+         absURL without a leading slash concatenates directly onto baseURL,
+         correctly producing https://host/novel-it-docs/requirements/... on GitHub Pages.
+         A leading slash would cause Hugo to treat the path as absolute from the domain root,
+         stripping the /novel-it-docs/ subdirectory from the URL. */}}
     {{ $anchor        := $req.req_id | lower | replaceRE "\\." "-" }}
-    {{ $reqURL        := printf "/requirements/%s/#%s" $req.source_file $anchor | absURL }}
-    {{ $testResultURL := printf "/test-results/%s/#%s" $req.source_file $anchor | absURL }}
+    {{ $reqURL        := printf "requirements/%s/#%s" $req.source_file $anchor | absURL }}
+    {{ $testResultURL := printf "test-results/%s/#%s" $req.source_file $anchor | absURL }}
 
     {{/* Count test IDs for rowspan */}}
     {{ $testCount := len $req.test_ids }}
