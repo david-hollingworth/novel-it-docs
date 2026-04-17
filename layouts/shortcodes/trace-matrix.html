@@ -42,10 +42,10 @@
       {{ end }}
     {{ end }}
 
-    {{/* Derive URLs */}}
-    {{ $anchor  := $req.req_id | lower | replaceRE "\\." "-" }}
-    {{ $reqURL  := printf "/requirements/%s/#%s" $req.source_file $anchor }}
-    {{ $testResultURL := printf "/test-results/%s/#%s" $req.source_file $anchor }}
+    {{/* Derive URLs — relURL ensures the baseURL prefix is applied correctly on GitHub Pages */}}
+    {{ $anchor        := $req.req_id | lower | replaceRE "\\." "-" }}
+    {{ $reqURL        := printf "/requirements/%s/#%s" $req.source_file $anchor | relURL }}
+    {{ $testResultURL := printf "/test-results/%s/#%s" $req.source_file $anchor | relURL }}
 
     {{/* Count test IDs for rowspan */}}
     {{ $testCount := len $req.test_ids }}
