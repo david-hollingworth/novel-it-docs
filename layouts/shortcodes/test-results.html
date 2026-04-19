@@ -12,8 +12,10 @@
 {{ if $data }}
   {{ $records = where $data "test_id" $id }}
 {{ end }}
+
 {{ range $records }}
   <div class="test-results not-prose mt-4 mb-6">
+    <div class="text-xs font-mono text-slate-500 mb-1">{{ $id }}</div>
     <table class="w-full text-sm border-collapse border border-slate-300">
       <thead>
         <tr class="bg-slate-100 text-slate-700">
