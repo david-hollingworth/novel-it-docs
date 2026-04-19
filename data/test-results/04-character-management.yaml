@@ -5,14 +5,6 @@
     result: PASS
     issue: null
     comment: Three character cards were displayed as expected
-  - date: '2026-04-14'
-    result: FAIL
-    issue: '80'
-    comment: Characters cannot be archived and so this test cannot be executed.
-  - date: '2026-04-14'
-    result: PASS
-    issue: null
-    comment: Three character cards were displayed successfully.
 - test_id: T-FUNC-0401.01.02
   requirement_id: R-FUNC-0401.01
   executions:
