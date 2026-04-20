@@ -2,8 +2,8 @@
 title: "Test Report - Phase 1 - Run 1"
 description: "Report summarising the test results for development phase 1 - run 1"
 draft: false
-revision: "1.0"
-revision_date: "18-Apr-2026"
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## Introduction
@@ -29,8 +29,8 @@ A number of failures were recorded during the execution. Some of these were genu
 | Protocol | Tests Run | Passed | Genuine Fails | Untestable |
 | -------- | --------- | ------ | ------------- | ---------- |
 | 01-user-management | 16 | 15 | 1 | 0 |
-| 02-novel-management | 79 | 60 | 13 | 6 |
-| 03-writing-interface | 44 | 25 | 10 | 9 |
+| 02-novel-management | 79 | 60 | 19 | 0 |
+| 03-writing-interface | 44 | 25 | 19 | 0 |
 | 04-character-management | 29 | 24 | 3 | 2 |
 | 05-location-management | 29 | 23 | 4 | 2 |
 | 06-item-management | 29 | 23 | 4 | 2 |
@@ -45,31 +45,6 @@ A number of failures were recorded during the execution. Some of these were genu
 ## Addendum - Test Exclusions From Run 2
 
 These tests will not be included in phase-1 run-2 testing:
-
-### 02-novel-management
-
-| Test ID | Scenario |
-| --- | --- |
-| T-FUNC-0225.01.01 | Successfully archive a scene |
-| T-FUNC-0225.01.02 | Cancel archiving a scene |
-| T-FUNC-0226.01.01 | Successfully unarchive a scene |
-| T-FUNC-0226.01.02 | Cancel unarchiving a scene |
-| T-FUNC-0227.01.01 | Successfully delete a scene |
-| T-FUNC-0227.01.02 | Cancel deleting a scene |
-
-### 03-writing-interface
-
-| Test ID | Scenario |
-| --- | --- |
-| T-FUNC-0304.03.01 | Archiving a scene reduces the parent chapter word count |
-| T-FUNC-0304.03.02 | Archiving a scene reduces the novel word count |
-| T-FUNC-0304.03.03 | Archiving a scene reduces the part word count when parts are enabled |
-| T-FUNC-0304.04.01 | Unarchiving a scene increases the parent chapter word count |
-| T-FUNC-0304.04.02 | Unarchiving a scene increases the novel word count |
-| T-FUNC-0304.04.03 | Unarchiving a scene increases the part word count when parts are enabled |
-| T-FUNC-0304.05.01 | Deleting a scene reduces the parent chapter word count |
-| T-FUNC-0304.05.02 | Deleting a scene reduces the novel word count |
-| T-FUNC-0304.05.03 | Deleting a scene reduces the part word count when parts are enabled |
 
 ### 04-character-management
 
@@ -98,5 +73,13 @@ These tests will not be included in phase-1 run-2 testing:
 | --- | --- |
 | T-FUNC-0701.01.02 | Archived world building items do not appear on the world building list board |
 | T-DATA-0710.01.01 | Relationships are removed when a world building item is deleted |
+
+## Revision History
+
+| Revision | Date | Changes |
+| --- | ------------ | --- |
+| 1.0 | 18-Apr-2026 | Initial version |
+| 2.0 | 20-Apr-2026 | Moved untestable failures to genuine failures for 02-novel-management and 03-writing-interface. Removed sections for 02-novel-management and 03-writing-interface from the addendum |
+
 
 ## Individual Test Reports
