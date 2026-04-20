@@ -2,6 +2,8 @@
 title: "06 Item Management"
 description: "Test execution records for item profiles and relationships"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0601.01 Item list board displays all items

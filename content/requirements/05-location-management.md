@@ -2,6 +2,8 @@
 title: "05 Location Management"
 description: "Requirements for location profiles and relationships"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 2 and 4 features (FEAT-0504 Archive location, FEAT-0505 Unarchive location, FEAT-0506 Delete location, FEAT-0507 Duplicate location, FEAT-0508 Location relocation, FEAT-0509 Location sharing) are out of scope for this pass and have no requirements entries here.*

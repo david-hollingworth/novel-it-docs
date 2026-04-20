@@ -2,6 +2,8 @@
 title: "10 Export"
 description: "Export novel manuscript and planning entities to multiple formats"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The export feature allows the user to export novel content to a variety of formats for sharing, printing, or use in other applications. Export is available at multiple levels of the manuscript hierarchy and for individual planning entity types. Archived content is never included in an export.

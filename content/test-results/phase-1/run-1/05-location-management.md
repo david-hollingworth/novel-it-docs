@@ -2,6 +2,8 @@
 title: "05 Location Management"
 description: "Test execution records for location profiles and relationships"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0501.01 Location list board displays all locations

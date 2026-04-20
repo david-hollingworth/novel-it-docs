@@ -2,6 +2,8 @@
 title: "13 Visualisation"
 description: "Graph and visual representations of novel data"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The visualisation module provides graphical views of novel data that complement the board-based navigation. Rather than presenting a global view of all entities at once, the graph is always focused on a specific entity and expands outward to show its connections. This keeps the view manageable and meaningful regardless of the size of the novel.

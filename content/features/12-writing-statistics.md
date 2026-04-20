@@ -2,6 +2,8 @@
 title: "12 Writing Statistics and Goals"
 description: "Session tracking, word count statistics, and writing goals"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The writing statistics module tracks the author's writing activity and progress against self-defined goals. Statistics are recorded at the session level and aggregated to day, week, month, and year. Goals are set independently at each level and are not derived from one another.

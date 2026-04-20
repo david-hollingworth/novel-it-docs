@@ -2,6 +2,8 @@
 title: "02 Novel Management"
 description: "Requirements for novel, part, chapter, and scene management"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 3 and 4 features (FEAT-0207 Duplicate novel, FEAT-0208 Export novel, FEAT-0216 Part relocation, FEAT-0222 Chapter relocation) are out of scope for this pass and have no requirements entries here.*

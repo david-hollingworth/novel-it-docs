@@ -2,6 +2,8 @@
 title: "11 Search"
 description: "Global search across novel content and planning entities"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The search feature allows the user to search across all content within a novel, or across all novels they own. Search results are grouped by entity type and ranked by relevance within each group.

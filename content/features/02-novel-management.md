@@ -2,6 +2,8 @@
 title: "02 Novel Management"
 description: "Novel creation, metadata, archiving, and organisation"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0201 Add novel

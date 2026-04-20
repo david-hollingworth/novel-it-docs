@@ -2,6 +2,8 @@
 title: "05 Location Management"
 description: "Location database and tracking"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0501 Location list board

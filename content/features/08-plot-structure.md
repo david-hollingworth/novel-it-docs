@@ -2,6 +2,8 @@
 title: "08 Plot and Structure"
 description: "Plot lines, acts, sequences, beats, and plot scenes"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The plotting module allows the user to plan the narrative structure of their novel to whatever depth they choose. It is independent of the manuscript module but intersects with it at the scene level, where plot scenes can be associated with manuscript scenes.

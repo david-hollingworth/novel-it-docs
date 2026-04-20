@@ -2,6 +2,8 @@
 title: "03 Writing Interface"
 description: "Requirements for the markdown editor and writing features"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## R-FUNC-0301.01 Markdown editor element support

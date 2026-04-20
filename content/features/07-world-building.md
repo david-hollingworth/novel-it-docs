@@ -2,6 +2,8 @@
 title: "07 World Building Management"
 description: "World building database and notes"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The world building feature forms an addon function to locations and items. Not every genre of novel will require it.

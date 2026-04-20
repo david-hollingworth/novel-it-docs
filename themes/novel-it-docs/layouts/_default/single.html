@@ -5,6 +5,13 @@
     {{ with .Description }}
     <p class="mt-2 text-slate-500 text-sm">{{ . }}</p>
     {{ end }}
+    {{ if or .Params.revision .Params.revision_date }}
+    <p class="mt-1 text-slate-500 text-sm">
+      {{ with .Params.revision }}Revision: {{ . }}{{ end }}
+      {{ if and .Params.revision .Params.revision_date }} &middot; {{ end }}
+      {{ with .Params.revision_date }}{{ . }}{{ end }}
+    </p>
+    {{ end }}
   </header>
 
   <div class="prose max-w-none leading-relaxed">

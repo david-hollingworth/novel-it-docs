@@ -2,6 +2,8 @@
 title: "09 Research and Notes"
 description: "Research database and general notes"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 The research and notes module provides a structured repository for reference material gathered during the writing process. Research notes are scoped to a novel and are accessible from the left sidebar below World Building.

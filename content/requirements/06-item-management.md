@@ -2,6 +2,8 @@
 title: "06 Item Management"
 description: "Requirements for item profiles and relationships"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 2 and 4 features (FEAT-0604 Archive item, FEAT-0605 Unarchive item, FEAT-0606 Delete item, FEAT-0607 Duplicate item, FEAT-0608 Item relocation, FEAT-0609 Item sharing) are out of scope for this pass and have no requirements entries here.*

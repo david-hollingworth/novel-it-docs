@@ -2,6 +2,8 @@
 title: "03 Writing Interface"
 description: "Editor features"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0301 Editor

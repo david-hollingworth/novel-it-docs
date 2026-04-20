@@ -2,6 +2,8 @@
 title: "00 Base Entity Features"
 description: "Defines a base set of features that other features can inherit from."
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## Overview

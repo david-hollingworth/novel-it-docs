@@ -2,6 +2,8 @@
 title: "01 User Management"
 description: "Requirements for authentication, registration, and password reset"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 4 features (FEAT-0104 Profile Management, FEAT-0105 User Preferences) are out of scope for this pass and have no requirements entries here.*

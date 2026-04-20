@@ -2,6 +2,8 @@
 title: "04 Character Management"
 description: "Requirements for character profiles and relationships"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 2 and 4 features (FEAT-0404 Archive character, FEAT-0405 Unarchive character, FEAT-0406 Delete character, FEAT-0407 Duplicate character, FEAT-0408 Character relocation, FEAT-0409 Character sharing) are out of scope for this pass and have no requirements entries here.*

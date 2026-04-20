@@ -2,6 +2,8 @@
 title: "03 Writing Interface"
 description: "Test execution records for the markdown editor and writing features"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0301.01 Markdown editor element support

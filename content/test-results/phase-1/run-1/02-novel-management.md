@@ -2,6 +2,8 @@
 title: "02 Novel Management"
 description: "Test execution records for all novel structural functionality"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0201.01 Create a novel

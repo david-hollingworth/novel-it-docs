@@ -2,6 +2,8 @@
 title: "01 User Management"
 description: "Test execution records for authentication, registration, and password reset"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0101.01 User account registration

@@ -2,6 +2,8 @@
 title: "07 World Building Management"
 description: "Requirements for world building item profiles and relationships"
 draft: false
+revision: "2.0"
+revision_date: "20-Apr-2026"
 ---
 
 *Phase 2 and 4 features (FEAT-0704 Archive world building item, FEAT-0705 Unarchive world building item, FEAT-0706 Delete world building item, FEAT-0707 Duplicate world building item, FEAT-0708 World building item relocation, FEAT-0709 World building item sharing) are out of scope for this pass and have no requirements entries here.*

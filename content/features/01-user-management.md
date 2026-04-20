@@ -2,6 +2,8 @@
 title: "01 User Management"
 description: "Authentication, registration, and user preferences"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0101 User Registration

@@ -2,6 +2,8 @@
 title: "07 World Building"
 description: "Test execution records for world building item profiles and relationships"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0701.01 World building list board displays all world building items

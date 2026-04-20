@@ -2,6 +2,8 @@
 title: "04 Character Management"
 description: "Test execution records for character profiles and relationships"
 draft: false
+revision: "1.0"
+revision_date: "18-Apr-2026"
 ---
 
 ## R-FUNC-0401.01 Character list board displays all characters

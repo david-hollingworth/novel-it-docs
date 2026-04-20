@@ -2,6 +2,8 @@
 title: "06 Item Management"
 description: "Item database and tracking"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0601 Item list board

@@ -2,6 +2,8 @@
 title: "04 Character Management"
 description: "Character profiles, relationships, and scene appearances"
 draft: false
+revision: "1.0"
+revision_date: "20-Apr-2026"
 ---
 
 ## FEAT-0401 Character list board
