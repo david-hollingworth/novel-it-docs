@@ -2,8 +2,8 @@
 title: "00 Base Entity Features"
 description: "Defines a base set of features that other features can inherit from."
 draft: false
-revision: "1.0"
-revision_date: "20-Apr-2026"
+revision: "2.0"
+revision_date: "30-Apr-2026"
 ---
 
 ## Overview
@@ -28,6 +28,7 @@ The feature definitions below are intended to be generic. Each individual featur
 The entity board is the primary navigation view for an entity and its children. It consists of two sections:
 
 #### Parent summary section (top)
+
 The top section displays a summary of the parent entity and provides action buttons for operating on the parent. The following actions shall be available:
 
 - Edit Details
@@ -37,6 +38,7 @@ The top section displays a summary of the parent entity and provides action butt
 - Archived [child entities]
 
 #### Child entity board (below)
+
 Below the parent summary, the children of the parent entity are displayed as cards. Each card shall display the child entity's name. Additional card content is defined in each concrete entity specification.
 
 Child entity cards can be dragged on the board to reorder them within their current parent.
@@ -68,9 +70,9 @@ Child entity cards can be dragged on the board to reorder them within their curr
 
 - Archived entities shall be displayed as cards on a "board"
 - Each card shall display the entity's name property
-- Each card shall have an Unarchive button
-- Clicking Unarchive shall display a warning that the entity will be unarchived
-- Clicking the continue button will unarchive the entity
+- Each card shall have an restore button
+- Clicking restore shall display a warning that the entity will be restored
+- Clicking the continue button will restore the entity
 - Clicking the cancel button shall return the user to the archived entities board
 
 #### Note:
@@ -138,7 +140,7 @@ This board is filtered to show only entities with the "archived" property set to
 - The user is warned that any unsaved changes in the entity will be lost when the duplicate is made
 - The new duplicate entity is displayed for editing.
 
-## FEAT-0008 Entity reparenting
+## FEAT-0008 Entity re-parenting
 
 | | |
 |---|---|
@@ -149,15 +151,16 @@ This board is filtered to show only entities with the "archived" property set to
 
 The user shall be able to move an entity to a different parent of the same type within the same novel.
 
-Reparenting shall be achievable by two methods:
+Re-parenting shall be achievable by two methods:
 
 - **Drag and drop** — the user drags an entity card from its current parent board and drops it onto the target parent
-- **Reparent dialog** — the user selects a reparent option from the entity and is prompted to choose the destination parent from a list of available parents of the appropriate type
+- **Re-parent dialog** — the user selects a re-parent option from the entity and is prompted to choose the destination parent from a list of available parents of the appropriate type
 
-All child entities are moved along with the entity being reparented. Any associations the entity holds (e.g. plot scene to manuscript scene associations) are preserved. The entity appears under its new parent immediately after reparenting.
+All child entities are moved along with the entity being re-parented. Any associations the entity holds (e.g. plot scene to manuscript scene associations) are preserved. The entity appears under its new parent immediately after re-parenting.
 
 #### Note:
-Reparenting is distinct from reordering within the same parent. Reordering within a parent is covered by [FEAT-0001 Entity list board](#feat-0001-entity-list-board).
+
+Re-parenting is distinct from reordering within the same parent. Reordering within a parent is covered by [FEAT-0001 Entity list board](#feat-0001-entity-list-board).
 
 ## FEAT-0009 Entity sharing
 
@@ -210,3 +213,13 @@ The user shall be able to move an entity to a different novel entirely.
 - All child entities are moved along with the entity being relocated
 - Associations between the relocated entity and entities that remain in the source novel (e.g. plot scene to manuscript scene associations) are removed on relocation
 - The user is asked to confirm the relocation and warned of any association losses before it takes place
+
+## Revision History
+
+### Version 1.0 - 20-Apr-2026
+
+- Initial version.
+
+### Version 2.0 - 30-Apr-2026
+
+- Renamed "unarchive" / "unarchived" to "restore" / "restored"

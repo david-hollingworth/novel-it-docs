@@ -78,8 +78,8 @@ These tests will not be included in phase-1 run-2 testing:
 
 | Revision | Date | Changes |
 | --- | ------------ | --- |
-| 1.0 | 18-Apr-2026 | Initial version |
-| 2.0 | 20-Apr-2026 | Moved untestable failures to genuine failures for 02-novel-management and 03-writing-interface. Removed sections for 02-novel-management and 03-writing-interface from the addendum |
+| 1.0 | 18 Apr 2026 | Initial version |
+| 2.0 | 20 Apr 2026 | Moved untestable failures to genuine failures for 02-novel-management and 03-writing-interface. Removed sections for 02-novel-management and 03-writing-interface from the addendum |
 
 
 ## Individual Test Reports

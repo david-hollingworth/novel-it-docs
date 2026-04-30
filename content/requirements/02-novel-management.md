@@ -2,8 +2,8 @@
 title: "02 Novel Management"
 description: "Requirements for novel, part, chapter, and scene management"
 draft: false
-revision: "2.0"
-revision_date: "20-Apr-2026"
+revision: "3.0"
+revision_date: "30-Apr-2026"
 ---
 
 *Phase 3 and 4 features (FEAT-0207 Duplicate novel, FEAT-0208 Export novel, FEAT-0216 Part relocation, FEAT-0222 Chapter relocation) are out of scope for this pass and have no requirements entries here.*
@@ -14,7 +14,7 @@ revision_date: "20-Apr-2026"
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0201](/novel-it-docs/features/02-novel-management/#feat-0201-add-novel) |
+| **Relates to** | [FEAT-0201](/features/02-novel-management/#feat-0201-add-novel) |
 
 ### Statement
 
@@ -115,15 +115,15 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0203](/novel-it-docs/features/02-novel-management/#feat-0203-edit-novel) |
+| **Relates to** | [FEAT-0203](/features/02-novel-management/#feat-0203-edit-novel) |
 
 ### Statement
 
-The edit novel form SHALL present the following editable fields: title, subtitle, author name, genre, target word count, status, synopsis, premise, pitch, and parts enabled. The actual word count SHALL be displayed as a read-only field.
+The edit novel form SHALL present the following editable fields: title, subtitle, author name, genre, target word count, status, synopsis, premise, pitch, and parts enabled.
 
 ### Rationale
 
-All specified novel properties must be available for editing. The actual word count must be visible but protected from direct editing as it is a calculated value.
+All specified novel properties must be available for editing.
 
 ### Acceptance Criteria
 
@@ -133,13 +133,6 @@ Scenario: Edit novel form presents all editable fields
   Given I have an existing novel
   When I navigate to the edit novel page
   Then the form displays editable fields for: title, subtitle, author name, genre, target word count, status, synopsis, premise, pitch, and parts enabled
-
-@T-UI-0203.01.02
-Scenario: Edit novel form displays actual word count as read-only
-  Given I have an existing novel
-  When I navigate to the edit novel page
-  Then the actual word count is displayed
-  And it is not editable
 ```
 
 ### Verification Method
@@ -152,7 +145,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0202](/novel-it-docs/features/02-novel-management/#feat-0202-novel-structure) |
+| **Relates to** | [FEAT-0202](/features/02-novel-management/#feat-0202-novel-structure) |
 
 ### Statement
 
@@ -301,7 +294,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0204](/novel-it-docs/features/02-novel-management/#feat-0204-archive-novel) |
+| **Relates to** | [FEAT-0204](/features/02-novel-management/#feat-0204-archive-novel) |
 
 ### Statement
 
@@ -337,17 +330,17 @@ Scenario: Cancel archiving a novel
 
 Manual Test
 
-## R-FUNC-0205.01 Unarchive a novel
+## R-FUNC-0205.01 Restore a novel
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0205](/novel-it-docs/features/02-novel-management/#feat-0205-unarchive-novel) |
+| **Relates to** | [FEAT-0205](/features/02-novel-management/#feat-0205-restore-novel) |
 
 ### Statement
 
-The system SHALL display archived novels on a separate archived novels board and SHALL allow the user to unarchive a novel from that board, requiring confirmation before doing so.
+The system SHALL display archived novels on a separate archived novels board and SHALL allow the user to restore a novel from that board, requiring confirmation before doing so.
 
 ### Rationale
 
@@ -357,13 +350,13 @@ Archived novels must be recoverable. A dedicated board and confirmation step ens
 
 ```gherkin
 @T-FUNC-0205.01.01
-Scenario: Successfully unarchive a novel
+Scenario: Successfully restore a novel
   Given I have an archived novel
   And I am on the archived novels board
-  When I click the Unarchive button for that novel
+  When I click the restore button for that novel
   And I am shown a confirmation dialog
   And I click the Continue button
-  Then the novel is unarchived
+  Then the novel is restored
   And it appears on my novels board
   And it no longer appears on the archived novels board
 
@@ -371,10 +364,10 @@ Scenario: Successfully unarchive a novel
 Scenario: Cancel unarchiving a novel
   Given I have an archived novel
   And I am on the archived novels board
-  When I click the Unarchive button for that novel
+  When I click the restore button for that novel
   And I am shown a confirmation dialog
   And I click the Cancel button
-  Then the novel is not unarchived
+  Then the novel is not restored
   And it remains on the archived novels board
 ```
 
@@ -388,7 +381,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0206](/novel-it-docs/features/02-novel-management/#feat-0206-delete-novel) |
+| **Relates to** | [FEAT-0206](/features/02-novel-management/#feat-0206-delete-novel) |
 
 ### Statement
 
@@ -461,7 +454,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0209](/novel-it-docs/features/02-novel-management/#feat-0209-novel-list-display) |
+| **Relates to** | [FEAT-0209](/features/02-novel-management/#feat-0209-novel-list-display) |
 
 ### Statement
 
@@ -498,7 +491,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0210](/novel-it-docs/features/02-novel-management/#feat-0210-novel-structure-display) |
+| **Relates to** | [FEAT-0210](/features/02-novel-management/#feat-0210-novel-structure-display) |
 
 ### Statement
 
@@ -538,7 +531,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0211](/novel-it-docs/features/02-novel-management/#feat-0211-add-part) |
+| **Relates to** | [FEAT-0211](/features/02-novel-management/#feat-0211-add-part) |
 
 ### Statement
 
@@ -597,7 +590,7 @@ Manual Test
 
 ### Statement
 
-The add part form SHALL present the following fields: name, description, notes, and status.
+The add part form SHALL present the following fields: name, summary, notes, and status.
 
 ### Rationale
 
@@ -610,7 +603,7 @@ All specified part properties must be available for input when a part is created
 Scenario: Add part form presents all required fields
   Given I have a novel with parts enabled
   When I click the Add Part button
-  Then the add part form displays fields for: name, description, notes, and status
+  Then the add part form displays fields for: name, summary, notes, and status
 ```
 
 ### Verification Method
@@ -623,7 +616,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0212](/novel-it-docs/features/02-novel-management/#feat-0212-edit-part) |
+| **Relates to** | [FEAT-0212](/features/02-novel-management/#feat-0212-edit-part) |
 
 ### Statement
 
@@ -669,11 +662,11 @@ Manual Test
 
 ### Statement
 
-The edit part form SHALL present the following editable fields: name, description, notes, and status. The word count SHALL be displayed as a read-only field.
+The edit part form SHALL present the following editable fields: name, description, notes, and status.
 
 ### Rationale
 
-All specified part properties must be available for editing. The word count must be visible but protected from direct editing as it is a calculated value.
+All specified part properties must be available for editing.
 
 ### Acceptance Criteria
 
@@ -683,13 +676,6 @@ Scenario: Edit part form presents all editable fields
   Given I have an existing part
   When I navigate to the edit part page
   Then the form displays editable fields for: name, description, notes, and status
-
-@T-UI-0212.01.02
-Scenario: Edit part form displays word count as read-only
-  Given I have an existing part containing chapters with scenes
-  When I navigate to the edit part page
-  Then the word count is displayed
-  And it is not editable
 ```
 
 ### Verification Method
@@ -702,11 +688,11 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0213](/novel-it-docs/features/02-novel-management/#feat-0213-archive-part) |
+| **Relates to** | [FEAT-0213](/features/02-novel-management/#feat-0213-archive-part) |
 
 ### Note:
 
-The behvaiour of the system is slightly different depending on whether the user is archiving the final active part or whether there are more than one active part.
+The behaviour of the system is slightly different depending on whether the user is archiving the final active part or whether there are more than one active part.
 
 ### Statement
 
@@ -809,17 +795,17 @@ Scenario: Successfully archive a part that has no chapters
 
 Manual Test
 
-## R-FUNC-0214.01 Unarchive a part
+## R-FUNC-0214.01 Restore a part
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0214](/novel-it-docs/features/02-novel-management/#feat-0214-unarchive-part) |
+| **Relates to** | [FEAT-0214](/features/02-novel-management/#feat-0214-restore-part) |
 
 ### Statement
 
-The system SHALL display archived parts on a separate archived parts board and SHALL allow the user to unarchive a part from that board, requiring confirmation before doing so.
+The system SHALL display archived parts on a separate archived parts board and SHALL allow the user to restore a part from that board, requiring confirmation before doing so.
 
 ### Rationale
 
@@ -829,13 +815,13 @@ Archived parts must be recoverable. A dedicated board ensures the user can find 
 
 ```gherkin
 @T-FUNC-0214.01.01
-Scenario: Successfully unarchive a part
+Scenario: Successfully restore a part
   Given I have an archived part
   And I am on the archived parts board for that novel
-  When I click the Unarchive button for that part
+  When I click the restore button for that part
   And I am shown a confirmation dialog
   And I click the Continue button
-  Then the part is unarchived
+  Then the part is restored
   And it appears on the novel structure display
   And it no longer appears on the archived parts board
 
@@ -843,10 +829,10 @@ Scenario: Successfully unarchive a part
 Scenario: Cancel unarchiving a part
   Given I have an archived part
   And I am on the archived parts board for that novel
-  When I click the Unarchive button for that part
+  When I click the restore button for that part
   And I am shown a confirmation dialog
   And I click the Cancel button
-  Then the part is not unarchived
+  Then the part is not restored
   And it remains on the archived parts board
 ```
 
@@ -860,7 +846,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0215](/novel-it-docs/features/02-novel-management/#feat-0215-delete-part) |
+| **Relates to** | [FEAT-0215](/features/02-novel-management/#feat-0215-delete-part) |
 
 ### Statement
 
@@ -933,7 +919,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0217](/novel-it-docs/features/02-novel-management/#feat-0217-add-chapter) |
+| **Relates to** | [FEAT-0217](/features/02-novel-management/#feat-0217-add-chapter) |
 
 ### Statement
 
@@ -1007,7 +993,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0218](/novel-it-docs/features/02-novel-management/#feat-0218-edit-chapter) |
+| **Relates to** | [FEAT-0218](/features/02-novel-management/#feat-0218-edit-chapter) |
 
 ### Statement
 
@@ -1053,11 +1039,11 @@ Manual Test
 
 ### Statement
 
-The edit chapter form SHALL present the following editable fields: name, description, notes, and status. The word count SHALL be displayed as a read-only field.
+The edit chapter form SHALL present the following editable fields: name, description, notes, and status.
 
 ### Rationale
 
-All specified chapter properties must be available for editing. The word count must be visible but protected from direct editing as it is a calculated value.
+All specified chapter properties must be available for editing.
 
 ### Acceptance Criteria
 
@@ -1067,13 +1053,6 @@ Scenario: Edit chapter form presents all editable fields
   Given I have an existing chapter
   When I navigate to the edit chapter page
   Then the form displays editable fields for: name, description, notes, and status
-
-@T-UI-0218.01.02
-Scenario: Edit chapter form displays word count as read-only
-  Given I have an existing chapter containing scenes with text
-  When I navigate to the edit chapter page
-  Then the word count is displayed
-  And it is not editable
 ```
 
 ### Verification Method
@@ -1086,7 +1065,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0219](/novel-it-docs/features/02-novel-management/#feat-0219-archive-chapter) |
+| **Relates to** | [FEAT-0219](/features/02-novel-management/#feat-0219-archive-chapter) |
 
 ### Statement
 
@@ -1122,17 +1101,17 @@ Scenario: Cancel archiving a chapter
 
 Manual Test
 
-## R-FUNC-0220.01 Unarchive a chapter
+## R-FUNC-0220.01 Restore a chapter
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0220](/novel-it-docs/features/02-novel-management/#feat-0220-unarchive-chapter) |
+| **Relates to** | [FEAT-0220](/features/02-novel-management/#feat-0220-restore-chapter) |
 
 ### Statement
 
-The system SHALL display archived chapters on a separate archived chapters board and SHALL allow the user to unarchive a chapter from that board, requiring confirmation before doing so.
+The system SHALL display archived chapters on a separate archived chapters board and SHALL allow the user to restore a chapter from that board, requiring confirmation before doing so.
 
 ### Rationale
 
@@ -1142,13 +1121,13 @@ Archived chapters must be recoverable.
 
 ```gherkin
 @T-FUNC-0220.01.01
-Scenario: Successfully unarchive a chapter
+Scenario: Successfully restore a chapter
   Given I have an archived chapter
   And I am on the archived chapters board for that novel
-  When I click the Unarchive button for that chapter
+  When I click the restore button for that chapter
   And I am shown a confirmation dialog
   And I click the Continue button
-  Then the chapter is unarchived
+  Then the chapter is restored
   And it appears on the structure display
   And it no longer appears on the archived chapters board
 
@@ -1156,10 +1135,10 @@ Scenario: Successfully unarchive a chapter
 Scenario: Cancel unarchiving a chapter
   Given I have an archived chapter
   And I am on the archived chapters board for that novel
-  When I click the Unarchive button for that chapter
+  When I click the restore button for that chapter
   And I am shown a confirmation dialog
   And I click the Cancel button
-  Then the chapter is not unarchived
+  Then the chapter is not restored
   And it remains on the archived chapters board
 ```
 
@@ -1173,7 +1152,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0221](/novel-it-docs/features/02-novel-management/#feat-0221-delete-chapter) |
+| **Relates to** | [FEAT-0221](/features/02-novel-management/#feat-0221-delete-chapter) |
 
 ### Statement
 
@@ -1246,7 +1225,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0223](/novel-it-docs/features/02-novel-management/#feat-0223-add-scene) |
+| **Relates to** | [FEAT-0223](/features/02-novel-management/#feat-0223-add-scene) |
 
 ### Statement
 
@@ -1310,7 +1289,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0224](/novel-it-docs/features/02-novel-management/#feat-0224-edit-scene) |
+| **Relates to** | [FEAT-0224](/features/02-novel-management/#feat-0224-edit-scene) |
 
 ### Statement
 
@@ -1356,11 +1335,11 @@ Manual Test
 
 ### Statement
 
-The edit scene form SHALL present the following editable fields: name, description, notes, and status. The word count SHALL be displayed as a read-only field.
+The edit scene form SHALL present the following editable fields: name, description, notes, and status.
 
 ### Rationale
 
-All specified scene properties must be available for editing. The word count must be visible but protected from direct editing as it is a calculated value.
+All specified scene properties must be available for editing.
 
 ### Acceptance Criteria
 
@@ -1370,44 +1349,6 @@ Scenario: Edit scene form presents all editable fields
   Given I have an existing scene
   When I navigate to the edit scene page
   Then the form displays editable fields for: name, description, notes, and status
-
-@T-UI-0224.01.02
-Scenario: Edit scene form displays word count as read-only
-  Given I have an existing scene containing text
-  When I navigate to the edit scene page
-  Then the word count is displayed
-  And it is not editable
-```
-
-### Verification Method
-
-Manual Test
-
-## R-FUNC-0224.02 Write button opens the editor
-
-| | |
-|---|---|
-| **Status** | Draft |
-| **Phase** | 1 |
-| **Relates to** | [FEAT-0224](/features/02-novel-management/#feat-0224-edit-scene) |
-
-### Statement
-
-The system SHALL provide a Write button on the edit scene page that navigates the user to the writing interface for that scene.
-
-### Rationale
-
-The Write button provides a direct path from scene management into the writing interface, reducing the number of steps required to begin writing.
-
-### Acceptance Criteria
-
-```gherkin
-@T-FUNC-0224.02.01
-Scenario: Write button navigates to the editor
-  Given I have an existing scene
-  And I am on the edit scene page
-  When I click the Write button
-  Then I am navigated to the writing interface for that scene
 ```
 
 ### Verification Method
@@ -1420,7 +1361,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0225](/novel-it-docs/features/02-novel-management/#feat-0225-archive-scene) |
+| **Relates to** | [FEAT-0225](/features/02-novel-management/#feat-0225-archive-scene) |
 
 ### Statement
 
@@ -1456,17 +1397,17 @@ Scenario: Cancel archiving a scene
 
 Manual Test
 
-## R-FUNC-0226.01 Unarchive a scene
+## R-FUNC-0226.01 Restore a scene
 
 | | |
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0226](/novel-it-docs/features/02-novel-management/#feat-0226-unarchive-scene) |
+| **Relates to** | [FEAT-0226](/features/02-novel-management/#feat-0226-restore-scene) |
 
 ### Statement
 
-The system SHALL display archived scenes on a separate archived scenes board and SHALL allow the user to unarchive a scene from that board, requiring confirmation before doing so.
+The system SHALL display archived scenes on a separate archived scenes board and SHALL allow the user to restore a scene from that board, requiring confirmation before doing so.
 
 ### Rationale
 
@@ -1476,13 +1417,13 @@ Archived scenes must be recoverable.
 
 ```gherkin
 @T-FUNC-0226.01.01
-Scenario: Successfully unarchive a scene
+Scenario: Successfully restore a scene
   Given I have an archived scene
   And I am on the archived scenes board for that chapter
-  When I click the Unarchive button for that scene
+  When I click the restore button for that scene
   And I am shown a confirmation dialog
   And I click the Continue button
-  Then the scene is unarchived
+  Then the scene is restored
   And it appears on the chapter structure display
   And it no longer appears on the archived scenes board
 
@@ -1490,10 +1431,10 @@ Scenario: Successfully unarchive a scene
 Scenario: Cancel unarchiving a scene
   Given I have an archived scene
   And I am on the archived scenes board for that chapter
-  When I click the Unarchive button for that scene
+  When I click the restore button for that scene
   And I am shown a confirmation dialog
   And I click the Cancel button
-  Then the scene is not unarchived
+  Then the scene is not restored
   And it remains on the archived scenes board
 ```
 
@@ -1507,7 +1448,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0227](/novel-it-docs/features/02-novel-management/#feat-0227-delete-scene) |
+| **Relates to** | [FEAT-0227](/features/02-novel-management/#feat-0227-delete-scene) |
 
 ### Statement
 
@@ -1549,7 +1490,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0228](/novel-it-docs/features/02-novel-management/#feat-0228-scene-relocation) |
+| **Relates to** | [FEAT-0228](/features/02-novel-management/#feat-0228-scene-relocation) |
 
 ### Statement
 
@@ -1580,7 +1521,7 @@ Manual Test
 |---|---|
 | **Status** | Draft |
 | **Phase** | 1 |
-| **Relates to** | [FEAT-0229](/novel-it-docs/features/02-novel-management/#feat-0229-status-selection) |
+| **Relates to** | [FEAT-0229](/features/02-novel-management/#feat-0229-status-selection) |
 
 ### Statement
 
@@ -1665,3 +1606,26 @@ Scenario: Status defaults to Not started on a new scene
 ### Verification Method
 
 Manual Test
+
+## Revision History
+
+### Version 1.0
+
+- Initial Version
+
+### Version 2.0 | 20-Apr-2026
+
+- Published to the novel-it-docs site on GitHub
+
+### Version 3.0 | 30-Apr-2026
+
+- Introduced this revision history section
+- Removed the following requirements, identified during testing as not required:
+  - R-FUNC-0224.02 (Issue [#70](https://github.com/david-hollingworth/novel-it/issues/70))
+- Removed word count as a read-only field and related tests from the requirements:
+  - R-UI-0224.01 (Issue [#69](https://github.com/david-hollingworth/novel-it/issues/69))
+  - R-UI-0218.01 (Issue [#67](https://github.com/david-hollingworth/novel-it/issues/67))
+  - R-UI-0212.01 (Issue [#65](https://github.com/david-hollingworth/novel-it/issues/65))
+  - R-UI-0203.01 (Issue [#63](https://github.com/david-hollingworth/novel-it/issues/63))
+- Updated R-UI-0211.01 to change the field name "description" to "summary" in the requirement and related test. (Issue [#64](https://github.com/david-hollingworth/novel-it/issues/64))
+

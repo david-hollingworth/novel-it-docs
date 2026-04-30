@@ -2,8 +2,8 @@
 title: "02 Novel Management"
 description: "Novel creation, metadata, archiving, and organisation"
 draft: false
-revision: "1.0"
-revision_date: "20-Apr-2026"
+revision: "2.0"
+revision_date: "29-Apr-2026"
 ---
 
 ## FEAT-0201 Add novel
@@ -12,7 +12,7 @@ revision_date: "20-Apr-2026"
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -24,7 +24,7 @@ In addition to the properties inherited from the base entity, novels have the fo
 - Subtitle
 - Author name
 - Genre
-- Target word count — see [FEAT-1204 Novel word count goal](/novel-it-docs/features/12-writing-statistics#feat-1204-novel-word-count-goal)
+- Target word count — see [FEAT-1204 Novel word count goal](/features/12-writing-statistics#feat-1204-novel-word-count-goal)
 - Status - [FEAT-0229](#feat-0229-status-selection)
 - Synopsis (overrides base entity Description)
 - Premise (overrides base entity Notes)
@@ -52,13 +52,9 @@ Novels shall follow this hierarchical structure:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
-
-The following properties are read-only in edit mode:
-
-- Actual word count (calculated)
 
 In addition to the functions inherited from the base entity, the novel edit page provides the following function:
 
@@ -70,19 +66,19 @@ In addition to the functions inherited from the base entity, the novel edit page
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
 No novel-specific extensions to the base behaviour.
 
-## FEAT-0205 Unarchive novel
+## FEAT-0205 Restore novel
 
 | | |
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -94,7 +90,7 @@ No novel-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -106,7 +102,7 @@ When a novel is deleted all associated parts, chapters, scenes, characters, loca
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0007 - Duplicate entity](/novel-it-docs/features/00-base-entity-features#feat-0007-duplicate-entity) |
+| **Extends** | [FEAT-0007 - Duplicate entity](/features/00-base-entity-features#feat-0007-duplicate-entity) |
 
 ### Description
 
@@ -121,7 +117,7 @@ When a novel is duplicated all associated parts, chapters, scenes, characters, l
 
 ### Description
 
-Novel export is fully described in [10 Export](/novel-it-docs/features/10-export). See [FEAT-1002 Export manuscript](/novel-it-docs/features/10-export#feat-1002-export-manuscript) for manuscript export and [FEAT-1001 Include in compile](/novel-it-docs/features/10-export#feat-1001-include-in-compile) for controlling which content is included.
+Novel export is fully described in [10 Export](/features/10-export). See [FEAT-1002 Export manuscript](/features/10-export#feat-1002-export-manuscript) for manuscript export and [FEAT-1001 Include in compile](/features/10-export#feat-1001-include-in-compile) for controlling which content is included.
 
 ## FEAT-0209 Novel list display
 
@@ -129,7 +125,7 @@ Novel export is fully described in [10 Export](/novel-it-docs/features/10-export
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 ### Description
 
@@ -144,7 +140,7 @@ The novel list display is an exception to the Entity list board. As novels have 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0001 - Entity list board](/novel-it-docs/features/00-base-entity-features#feat-0001-entity-list-board) |
+| **Extends** | [FEAT-0001 - Entity list board](/features/00-base-entity-features#feat-0001-entity-list-board) |
 
 ### Description
 
@@ -156,7 +152,7 @@ When the user clicks on a novel title on the novel list display the view changes
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -172,13 +168,11 @@ In addition to the properties inherited from the base entity, parts have the fol
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
-The following properties are read-only in edit mode:
-
-- Word count (calculated)
+No scene-specific extensions to the base behaviour.
 
 ## FEAT-0213 Archive part
 
@@ -186,19 +180,19 @@ The following properties are read-only in edit mode:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
 No part-specific extensions to the base behaviour.
 
-## FEAT-0214 Unarchive part
+## FEAT-0214 Restore part
 
 | | |
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -210,7 +204,7 @@ No part-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -222,13 +216,13 @@ When a part is deleted all associated chapters and scenes are also deleted.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0011 - Cross-novel relocation](/novel-it-docs/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
 If a part is relocated to a novel where parts are not enabled, the system shall automatically enable parts for the destination novel.
 
-When parts are disabled on a novel, any existing child chapters are reparented directly onto the novel.
+When parts are disabled on a novel, any existing child chapters are re-parented directly onto the novel.
 
 ## FEAT-0217 Add chapter
 
@@ -236,7 +230,7 @@ When parts are disabled on a novel, any existing child chapters are reparented d
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -252,13 +246,11 @@ In addition to the properties inherited from the base entity, chapters have the 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
-The following properties are read-only in edit mode:
-
-- Word count (calculated)
+No scene-specific extensions to the base behaviour.
 
 ## FEAT-0219 Archive chapter
 
@@ -266,19 +258,19 @@ The following properties are read-only in edit mode:
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
 No chapter-specific extensions to the base behaviour.
 
-## FEAT-0220 Unarchive chapter
+## FEAT-0220 Restore chapter
 
 | | |
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -290,7 +282,7 @@ No chapter-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -302,7 +294,7 @@ When a chapter is deleted all associated scenes are also deleted.
 |---|---|
 | **Status** | Draft |
 | **Phase** | 4 |
-| **Extends** | [FEAT-0011 - Cross-novel relocation](/novel-it-docs/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
+| **Extends** | [FEAT-0011 - Cross-novel relocation](/features/00-base-entity-features#feat-0011-cross-novel-relocation) |
 
 ### Description
 
@@ -314,7 +306,7 @@ If the destination novel has parts enabled, a destination part must be selected 
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0004 - Add entity](/novel-it-docs/features/00-base-entity-features#feat-0004-add-entity) |
+| **Extends** | [FEAT-0004 - Add entity](/features/00-base-entity-features#feat-0004-add-entity) |
 
 ### Description
 
@@ -330,17 +322,11 @@ In addition to the properties inherited from the base entity, scenes have the fo
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0002 - Edit entity](/novel-it-docs/features/00-base-entity-features#feat-0002-edit-entity) |
+| **Extends** | [FEAT-0002 - Edit entity](/features/00-base-entity-features#feat-0002-edit-entity) |
 
 ### Description
 
-The following properties are read-only in edit mode:
-
-- Word count (calculated)
-
-In addition to the functions inherited from the base entity, the scene edit page provides the following function:
-
-- Write — opens the writing interface
+No scene-specific extensions to the base behaviour.
 
 ## FEAT-0225 Archive scene
 
@@ -348,19 +334,19 @@ In addition to the functions inherited from the base entity, the scene edit page
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0005 - Archive entity](/novel-it-docs/features/00-base-entity-features#feat-0005-archive-entity) |
+| **Extends** | [FEAT-0005 - Archive entity](/features/00-base-entity-features#feat-0005-archive-entity) |
 
 ### Description
 
 No scene-specific extensions to the base behaviour.
 
-## FEAT-0226 Unarchive scene
+## FEAT-0226 Restore scene
 
 | | |
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0003 - Archived entity list board](/novel-it-docs/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
+| **Extends** | [FEAT-0003 - Archived entity list board](/features/00-base-entity-features#feat-0003-archived-entity-list-board) |
 
 ### Description
 
@@ -372,7 +358,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0006 - Delete entity](/novel-it-docs/features/00-base-entity-features#feat-0006-delete-entity) |
+| **Extends** | [FEAT-0006 - Delete entity](/features/00-base-entity-features#feat-0006-delete-entity) |
 
 ### Description
 
@@ -384,7 +370,7 @@ No scene-specific extensions to the base behaviour.
 |---|---|
 | **Status** | In Progress |
 | **Phase** | 1 |
-| **Extends** | [FEAT-0008 - Entity reparenting](/novel-it-docs/features/00-base-entity-features#feat-0008-entity-reparenting) |
+| **Extends** | [FEAT-0008 - Entity re-parenting](/features/00-base-entity-features#feat-0008-entity-reparenting) |
 
 ### Description
 
@@ -412,3 +398,18 @@ Where indicated, manuscript entities include a Status property with the followin
 - Beta reading
 - Publishing
 - Published
+
+## Revision History
+
+### Version 1.0 - 20-Apr-2026
+
+- Initial version.
+
+### Version 2.0 - 29-Apr-2026
+
+- Introduced this revision history section
+- Replaced "unarchive" with "restore" throughout the document
+- Updated FEAT-0203 Edit Novel to remove Word Count as a displayed field. ([Issue #63](https://github.com/david-hollingworth/novel-it/issues/63))
+- Updated FEAT-0212 Edit Part to remove Word Count as a displayed field and reset the feature to "No scene-specific extensions to the base behaviour." ([Issue #65](https://github.com/david-hollingworth/novel-it/issues/65))
+- Updated FEAT-0218 Edit Chapter to remove Word Count as a displayed field and reset the feature to "No scene-specific extensions to the base behaviour." ([Issue #67](https://github.com/david-hollingworth/novel-it/issues/67))
+- Updated FEAT-0224 Edit Scene to remove Word Count ([Issue #69](https://github.com/david-hollingworth/novel-it/issues/69)) and the Write button ([Issue #70](https://github.com/david-hollingworth/novel-it/issues/70)) and reset the feature to "No scene-specific extensions to the base behaviour."
