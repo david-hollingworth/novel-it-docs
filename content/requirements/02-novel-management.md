@@ -2,8 +2,8 @@
 title: "02 Novel Management"
 description: "Requirements for novel, part, chapter, and scene management"
 draft: false
-revision: "3.0"
-revision_date: "30-Apr-2026"
+revision: "4.0"
+revision_date: "14-May-2026"
 ---
 
 *Phase 3 and 4 features (FEAT-0207 Duplicate novel, FEAT-0208 Export novel, FEAT-0216 Part relocation, FEAT-0222 Chapter relocation) are out of scope for this pass and have no requirements entries here.*
@@ -590,7 +590,7 @@ Manual Test
 
 ### Statement
 
-The add part form SHALL present the following fields: name, summary, notes, and status.
+The add part form SHALL present the following fields: name, description, notes, and status.
 
 ### Rationale
 
@@ -603,7 +603,7 @@ All specified part properties must be available for input when a part is created
 Scenario: Add part form presents all required fields
   Given I have a novel with parts enabled
   When I click the Add Part button
-  Then the add part form displays fields for: name, summary, notes, and status
+  Then the add part form displays fields for: name, description, notes, and status
 ```
 
 ### Verification Method
@@ -1629,3 +1629,6 @@ Manual Test
   - R-UI-0203.01 (Issue [#63](https://github.com/david-hollingworth/novel-it/issues/63))
 - Updated R-UI-0211.01 to change the field name "description" to "summary" in the requirement and related test. (Issue [#64](https://github.com/david-hollingworth/novel-it/issues/64))
 
+### Version 4.0 | 14-May-2026
+
+- R-UI-0211.01 Corrected the form field list to read "description" and not "summary" to be consistent with all other forms.
