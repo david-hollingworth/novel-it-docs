@@ -8,6 +8,8 @@ revision_date: "14-May-2026"
 
 *Phase 3 and 4 features (FEAT-0207 Duplicate novel, FEAT-0208 Export novel, FEAT-0216 Part relocation, FEAT-0222 Chapter relocation) are out of scope for this pass and have no requirements entries here.*
 
+*Cross-user data isolation (a user cannot view or access another user's novels, parts, chapters, or scenes) is enforced in the application and tested, but not yet documented as a formal requirement here -- see issue [#136](https://github.com/david-hollingworth/novel-it/issues/136).*
+
 ## R-FUNC-0201.01 Create a novel
 
 | | |

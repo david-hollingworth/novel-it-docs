@@ -8,6 +8,8 @@ revision_date: "20-Apr-2026"
 
 *Phase 4 features (FEAT-0104 Profile Management, FEAT-0105 User Preferences) are out of scope for this pass and have no requirements entries here.*
 
+*Cross-user data isolation (a user cannot access another user's account-adjacent data) is enforced in the application and tested, but not yet documented as a formal requirement here -- see issue [#136](https://github.com/david-hollingworth/novel-it/issues/136).*
+
 ---
 
 ## R-FUNC-0101.01 User account registration

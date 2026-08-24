@@ -6,6 +6,8 @@ revision: "2.0"
 revision_date: "20-Apr-2026"
 ---
 
+*Word-count calculation mechanics (markdown syntax excluded from the count) are implemented and tested, but not yet documented as a formal requirement here -- see issue [#137](https://github.com/david-hollingworth/novel-it/issues/137).*
+
 ## R-FUNC-0301.01 Markdown editor element support
 
 | | |

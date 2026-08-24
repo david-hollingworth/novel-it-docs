@@ -36,6 +36,12 @@
 #     Relationship's participants are GenericForeignKeys (ContentType +
 #     object_id), which Django does NOT cascade-delete automatically. Worth
 #     confirming a cleanup signal actually exists before trusting this test.
+#   - Four tests in novels/tests.py and planning/tests.py (NovelScopingTests,
+#     PlanningScopingTests, WordCountTests) test real application behaviour
+#     -- cross-user data isolation and word-count calculation mechanics --
+#     that has no corresponding documented requirement, so they carry no
+#     trace ID and aren't represented in this file. Tracked as issue #136
+#     (cross-user data isolation) and issue #137 (word-count mechanics).
 
 # --- 01 User Management (16 total, 16 included, 0 excluded) ---
 

@@ -8,6 +8,8 @@ revision_date: "20-Apr-2026"
 
 *Phase 2 and 4 features (FEAT-0404 Archive character, FEAT-0405 Unarchive character, FEAT-0406 Delete character, FEAT-0407 Duplicate character, FEAT-0408 Character relocation, FEAT-0409 Character sharing) are out of scope for this pass and have no requirements entries here.*
 
+*Cross-user data isolation (a user cannot view or access another user's characters) is enforced in the application and tested, but not yet documented as a formal requirement here -- see issue [#136](https://github.com/david-hollingworth/novel-it/issues/136).*
+
 ## R-FUNC-0401.01 Character list board displays all characters
 
 | | |
