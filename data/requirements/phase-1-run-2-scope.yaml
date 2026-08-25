@@ -42,6 +42,13 @@
 #     that has no corresponding documented requirement, so they carry no
 #     trace ID and aren't represented in this file. Tracked as issue #136
 #     (cross-user data isolation) and issue #137 (word-count mechanics).
+#   - T-FUNC-0301.01.01-04 and T-UI-0301.01.01/.02 (markdown preview
+#     rendering and toolbar buttons) were originally categorised as
+#     backend_state on the assumption that the Markdown package in
+#     requirements.txt handled rendering server-side. It doesn't -- both
+#     markdown rendering (marked.umd.js) and the toolbar itself (built via
+#     DOM manipulation in editor.js) are entirely client-side. Recategorised
+#     to js_dependent 24-Aug-2026 after reading editor.js directly.
 
 # --- 01 User Management (16 total, 16 included, 0 excluded) ---
 
@@ -414,27 +421,27 @@
 - test_id: T-FUNC-0301.01.01
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-FUNC-0301.01.02
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-FUNC-0301.01.03
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-FUNC-0301.01.04
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-UI-0301.01.01
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-UI-0301.01.02
   source_file: 03-writing-interface
   include_in_run2: true
-  category: backend_state
+  category: js_dependent
 - test_id: T-FUNC-0302.01.01
   source_file: 03-writing-interface
   include_in_run2: true
