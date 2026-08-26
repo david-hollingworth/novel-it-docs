@@ -3,8 +3,12 @@
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: Three character cards were displayed as expected
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0401.01.02
   requirement_id: R-FUNC-0401.01
   executions:
@@ -17,63 +21,93 @@
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character image was displayed as expected.
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: No parent summary section is displayed on the character list board
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0401.02.01
   requirement_id: R-UI-0401.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
-    comment: When an image has been uploaded for a character it is displayed on the
-      character card as expected
+    issue:
+    comment: When an image has been uploaded for a character it is displayed on the character card as expected
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0401.02.02
   requirement_id: R-UI-0401.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
-    comment: When no image has been uploaded then no image is displayed on the character
-      card.
+    issue:
+    comment: When no image has been uploaded then no image is displayed on the character card.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0402.01.01
   requirement_id: R-FUNC-0402.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character's name was changed and saved successfully
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0402.01.02
   requirement_id: R-FUNC-0402.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The name change was not saved, as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0402.01.01
   requirement_id: R-UI-0402.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The "Appears In" field was read only as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.01.01
   requirement_id: R-FUNC-0403.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character was created as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.01.02
   requirement_id: R-FUNC-0403.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character could not be created without the full name, as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0403.01.01
   requirement_id: R-UI-0403.01
   executions:
@@ -81,115 +115,175 @@
     result: FAIL
     issue: '81'
     comment: Not all the fields specified in the requirement are on the form.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.03.01
   requirement_id: R-FUNC-0403.03
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character role was added successfully.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.03.02
   requirement_id: R-FUNC-0403.03
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character roles are scoped to the novel as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.04.01
   requirement_id: R-FUNC-0403.04
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The characters displayed the renamed role as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.05.01
   requirement_id: R-FUNC-0403.05
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character role was deleted as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.05.02
   requirement_id: R-FUNC-0403.05
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
-    comment: When a character role was deleted the characters with that role were
-      not deleted and were no longer assigned to that role as expected.
+    issue:
+    comment: When a character role was deleted the characters with that role were not deleted and were no longer assigned to that role as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.02.01
   requirement_id: R-FUNC-0403.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
-    comment: The image was successfully uploaded and displayed on the character's
-      edit page.
+    issue:
+    comment: The image was successfully uploaded and displayed on the character's edit page.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.02.02
   requirement_id: R-FUNC-0403.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
-    comment: The image was uploaded and successfully displayed on the character edit
-      page
+    issue:
+    comment: The image was uploaded and successfully displayed on the character edit page
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.02.03
   requirement_id: R-FUNC-0403.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The image was uploaded and successfully replaced the previous image.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.01
   requirement_id: R-SEC-0403.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: A .png image was uploaded as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.02
   requirement_id: R-SEC-0403.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: A .jpg image was uploaded successfully
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.03
   requirement_id: R-SEC-0403.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: A .jpeg image was uploaded successfully
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.04
   requirement_id: R-SEC-0403.01
   executions:
   - date: '2026-04-14'
     result: FAIL
     issue: '83'
-    comment: A .bmp image was uploaded and displayed contrary to the requirement to
-      accept only .png or .jp(e)g files
+    comment: A .bmp image was uploaded and displayed contrary to the requirement to accept only .png or .jp(e)g files
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.01.01
   requirement_id: R-FUNC-0410.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The character relationship was created and displayed successfully
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.01.02
   requirement_id: R-FUNC-0410.01
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The relationship was created and displayed as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.02.01
   requirement_id: R-FUNC-0410.02
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The relationship was displayed on both entities as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.03.01
   requirement_id: R-FUNC-0410.03
   executions:
@@ -197,13 +291,21 @@
     result: FAIL
     issue: '84'
     comment: The forward label was replaced by the reverse label in error
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.04.01
   requirement_id: R-FUNC-0410.04
   executions:
   - date: '2026-04-14'
     result: PASS
-    issue: null
+    issue:
     comment: The relationship was deleted as expected.
+  - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-DATA-0410.01.01
   requirement_id: R-DATA-0410.01
   executions:

@@ -105,7 +105,7 @@
   feature_id: FEAT-0203
   feature_label: Edit Novel
   source_file: 02-novel-management
-  test_ids: [T-UI-0203.01.01, T-UI-0203.01.02]
+  test_ids: [T-UI-0203.01.01]
 
 - req_id: R-FUNC-0203.01
   feature_id: FEAT-0203
@@ -177,7 +177,7 @@
   feature_id: FEAT-0212
   feature_label: Edit Part
   source_file: 02-novel-management
-  test_ids: [T-UI-0212.01.01, T-UI-0212.01.02]
+  test_ids: [T-UI-0212.01.01]
 
 - req_id: R-FUNC-0213.01
   feature_id: FEAT-0213
@@ -225,7 +225,7 @@
   feature_id: FEAT-0218
   feature_label: Edit Chapter
   source_file: 02-novel-management
-  test_ids: [T-UI-0218.01.01, T-UI-0218.01.02]
+  test_ids: [T-UI-0218.01.01]
 
 - req_id: R-FUNC-0219.01
   feature_id: FEAT-0219
@@ -273,7 +273,7 @@
   feature_id: FEAT-0224
   feature_label: Edit Scene
   source_file: 02-novel-management
-  test_ids: [T-UI-0224.01.01, T-UI-0224.01.02]
+  test_ids: [T-UI-0224.01.01]
 
 - req_id: R-FUNC-0224.02
   feature_id: FEAT-0224

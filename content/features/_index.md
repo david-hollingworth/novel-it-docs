@@ -1,6 +1,8 @@
 ---
 title: "Features"
 description: "What the application does from the user's perspective"
+draft: false
+weight: 10
 ---
 
 Each feature describes a discrete area of Novel-It functionality from the user's
