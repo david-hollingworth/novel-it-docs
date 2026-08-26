@@ -9,6 +9,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0401.01.02
   requirement_id: R-FUNC-0401.01
   executions:
@@ -31,6 +35,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0401.02.01
   requirement_id: R-UI-0401.02
   executions:
@@ -39,6 +47,10 @@
     issue:
     comment: When an image has been uploaded for a character it is displayed on the character card as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -53,6 +65,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0402.01.01
   requirement_id: R-FUNC-0402.01
   executions:
@@ -61,6 +77,10 @@
     issue:
     comment: The character's name was changed and saved successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -75,6 +95,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0402.01.01
   requirement_id: R-UI-0402.01
   executions:
@@ -83,6 +107,10 @@
     issue:
     comment: The "Appears In" field was read only as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -97,6 +125,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.01.02
   requirement_id: R-FUNC-0403.01
   executions:
@@ -105,6 +137,10 @@
     issue:
     comment: The character could not be created without the full name, as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -119,6 +155,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.03.01
   requirement_id: R-FUNC-0403.03
   executions:
@@ -127,6 +167,10 @@
     issue:
     comment: The character role was added successfully.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -141,6 +185,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.04.01
   requirement_id: R-FUNC-0403.04
   executions:
@@ -149,6 +197,10 @@
     issue:
     comment: The characters displayed the renamed role as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -163,6 +215,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.05.02
   requirement_id: R-FUNC-0403.05
   executions:
@@ -171,6 +227,10 @@
     issue:
     comment: When a character role was deleted the characters with that role were not deleted and were no longer assigned to that role as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -185,6 +245,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0403.02.02
   requirement_id: R-FUNC-0403.02
   executions:
@@ -193,6 +257,10 @@
     issue:
     comment: The image was uploaded and successfully displayed on the character edit page
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -207,6 +275,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.01
   requirement_id: R-SEC-0403.01
   executions:
@@ -215,6 +287,10 @@
     issue:
     comment: A .png image was uploaded as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -229,6 +305,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0403.01.03
   requirement_id: R-SEC-0403.01
   executions:
@@ -237,6 +317,10 @@
     issue:
     comment: A .jpeg image was uploaded successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -251,6 +335,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.01.01
   requirement_id: R-FUNC-0410.01
   executions:
@@ -259,6 +347,10 @@
     issue:
     comment: The character relationship was created and displayed successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -273,6 +365,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.02.01
   requirement_id: R-FUNC-0410.02
   executions:
@@ -281,6 +377,10 @@
     issue:
     comment: The relationship was displayed on both entities as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -295,6 +395,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0410.04.01
   requirement_id: R-FUNC-0410.04
   executions:
@@ -303,6 +407,10 @@
     issue:
     comment: The relationship was deleted as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.

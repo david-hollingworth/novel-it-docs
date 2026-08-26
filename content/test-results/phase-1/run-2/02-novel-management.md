@@ -310,12 +310,6 @@ revision_date: "26-Aug-2026"
 
 {{< test-results id="T-UI-0224.01.01" file="02-novel-management" >}}
 
-## R-FUNC-0224.02 Write button opens the editor
-
-**Scenario:** Write button navigates to the editor
-
-{{< test-results id="T-FUNC-0224.02.01" file="02-novel-management" >}}
-
 ## R-FUNC-0225.01 Archive a scene
 
 **Scenario:** Successfully archive a scene

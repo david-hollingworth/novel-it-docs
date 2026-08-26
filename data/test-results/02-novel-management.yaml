@@ -30,6 +30,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0201.01.02
   requirement_id: R-FUNC-0201.01
   executions:
@@ -38,6 +42,10 @@
     issue:
     comment: The novel was not creted when the title was missing, as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -56,6 +64,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0201.02.01
   requirement_id: R-FUNC-0201.02
   executions:
@@ -64,6 +76,10 @@
     issue:
     comment: The Parts Enabled button defaulted to No as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -78,6 +94,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0202.02.01
   requirement_id: R-FUNC-0202.02
   executions:
@@ -86,6 +106,10 @@
     issue:
     comment: Parts were displayed under the Novel as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -100,6 +124,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0203.01.02
   requirement_id: R-FUNC-0203.01
   executions:
@@ -108,6 +136,10 @@
     issue:
     comment: The title was unchanged as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -122,6 +154,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0203.02.02
   requirement_id: R-FUNC-0203.02
   executions:
@@ -130,6 +166,10 @@
     issue:
     comment: Parts were disabled successfully and chapters displayed under the Novel structure as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -144,6 +184,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0204.01.02
   requirement_id: R-FUNC-0204.01
   executions:
@@ -155,6 +199,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0203.01.01
   requirement_id: R-UI-0203.01
   executions:
@@ -163,6 +211,10 @@
     issue:
     comment: All fields were displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -184,6 +236,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0205.01.02
   requirement_id: R-FUNC-0205.01
   executions:
@@ -192,6 +248,10 @@
     issue:
     comment: The novel archiving was cancelled successfully and remained on the archived novels board as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -206,6 +266,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0206.01.02
   requirement_id: R-FUNC-0206.01
   executions:
@@ -214,6 +278,10 @@
     issue:
     comment: The novel was not deleted as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -228,6 +296,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0209.01.01
   requirement_id: R-FUNC-0209.01
   executions:
@@ -236,6 +308,10 @@
     issue:
     comment: Two novels were displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -250,6 +326,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0210.01.01
   requirement_id: R-FUNC-0210.01
   executions:
@@ -258,6 +338,10 @@
     issue:
     comment: The novel structure and two chapters were displayed successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -272,6 +356,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0211.01.01
   requirement_id: R-FUNC-0211.01
   executions:
@@ -280,6 +368,10 @@
     issue:
     comment: The part was created and displayed successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -294,6 +386,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0211.01.03
   requirement_id: R-FUNC-0211.01
   executions:
@@ -302,6 +398,10 @@
     issue:
     comment: The add part button was not displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -316,6 +416,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0212.01.01
   requirement_id: R-FUNC-0212.01
   executions:
@@ -324,6 +428,10 @@
     issue:
     comment: The Part name was changed successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -338,6 +446,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0212.01.01
   requirement_id: R-UI-0212.01
   executions:
@@ -346,6 +458,10 @@
     issue: '64'
     comment: The field names displayed do not match the requirement
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -367,6 +483,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0213.01.02
   requirement_id: R-FUNC-0213.01
   executions:
@@ -375,6 +495,10 @@
     issue:
     comment: The part was archived successfully. The chapters were successfully moved to another part and displayed on the part structure as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -389,6 +513,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0213.01.04
   requirement_id: R-FUNC-0213.01
   executions:
@@ -397,6 +525,10 @@
     issue:
     comment: The part was not archived as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -411,6 +543,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0213.01.06
   requirement_id: R-FUNC-0213.01
   executions:
@@ -419,6 +555,10 @@
     issue:
     comment: The part was archived as expected. The chapters were displayed at the novel structure level as expected. Parts were disabled as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -433,6 +573,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0214.01.01
   requirement_id: R-FUNC-0214.01
   executions:
@@ -441,6 +585,10 @@
     issue:
     comment: The part was unarchived successfully and displayed on the novel structure display as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -455,6 +603,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0215.01.01
   requirement_id: R-FUNC-0215.01
   executions:
@@ -463,6 +615,10 @@
     issue:
     comment: The part was deleted as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -477,6 +633,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-DATA-0215.01.01
   requirement_id: R-DATA-0215.01
   executions:
@@ -485,6 +645,10 @@
     issue:
     comment: The part, all its chapters and scenes were successfully deleted as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -499,6 +663,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0217.01.02
   requirement_id: R-FUNC-0217.01
   executions:
@@ -507,6 +675,10 @@
     issue:
     comment: The chapter was created under the part as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -521,6 +693,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0218.01.01
   requirement_id: R-FUNC-0218.01
   executions:
@@ -529,6 +705,10 @@
     issue:
     comment: The chapter name was updated as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -543,6 +723,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0218.01.01
   requirement_id: R-UI-0218.01
   executions:
@@ -551,6 +735,10 @@
     issue: '66'
     comment: The required fields were not displayed on the edit chapter form.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -572,6 +760,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0219.01.02
   requirement_id: R-FUNC-0219.01
   executions:
@@ -580,6 +772,10 @@
     issue:
     comment: The chapter was not archived as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -594,6 +790,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0220.01.02
   requirement_id: R-FUNC-0220.01
   executions:
@@ -602,6 +802,10 @@
     issue:
     comment: The chapter was not archived as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -616,6 +820,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0221.01.02
   requirement_id: R-FUNC-0221.01
   executions:
@@ -624,6 +832,10 @@
     issue:
     comment: The chapter was not deleted, as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -638,6 +850,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0223.01.01
   requirement_id: R-FUNC-0223.01
   executions:
@@ -646,6 +862,10 @@
     issue:
     comment: The scene was created as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -660,6 +880,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0224.01.01
   requirement_id: R-FUNC-0224.01
   executions:
@@ -668,6 +892,10 @@
     issue:
     comment: The scene title was changed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -682,6 +910,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0224.01.01
   requirement_id: R-UI-0224.01
   executions:
@@ -690,6 +922,10 @@
     issue: '68'
     comment: The fields displayed on the edit scene form do not match the requirements
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -714,6 +950,10 @@
     result: FAIL
     issue: '71'
     comment: There's no archive button for the scene
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0225.01.02
   requirement_id: R-FUNC-0225.01
   executions:
@@ -721,6 +961,10 @@
     result: FAIL
     issue: '71'
     comment: There's no archive button for the scene
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0226.01.01
   requirement_id: R-FUNC-0226.01
   executions:
@@ -728,6 +972,10 @@
     result: FAIL
     issue: '71'
     comment: Scenes cannot be archived and so they cannot be restored either
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0226.01.02
   requirement_id: R-FUNC-0226.01
   executions:
@@ -735,6 +983,10 @@
     result: FAIL
     issue: '71'
     comment: Scenes cannot be archived and so they cannot be restored either
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0227.01.01
   requirement_id: R-FUNC-0227.01
   executions:
@@ -742,6 +994,10 @@
     result: FAIL
     issue: '73'
     comment: There is no delete button for the scene so this cannot be tested.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0227.01.02
   requirement_id: R-FUNC-0227.01
   executions:
@@ -749,6 +1005,10 @@
     result: FAIL
     issue: '73'
     comment: There is no delete button for the scene so this cannot be tested.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0228.01.01
   requirement_id: R-FUNC-0228.01
   executions:
@@ -757,6 +1017,10 @@
     issue:
     comment: The scenes were relocated successfully.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -771,6 +1035,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0229.01.02
   requirement_id: R-FUNC-0229.01
   executions:
@@ -779,6 +1047,10 @@
     issue:
     comment: The status options were all displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -793,6 +1065,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0229.01.04
   requirement_id: R-FUNC-0229.01
   executions:
@@ -801,6 +1077,10 @@
     issue:
     comment: The status field was displayed for the scene as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -815,6 +1095,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0229.02.02
   requirement_id: R-FUNC-0229.02
   executions:
@@ -823,6 +1107,10 @@
     issue:
     comment: The status default value was Not Started as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -837,6 +1125,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0229.02.04
   requirement_id: R-FUNC-0229.02
   executions:
@@ -845,6 +1137,10 @@
     issue:
     comment: The status default value was Not Started as expected
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.

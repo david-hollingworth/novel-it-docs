@@ -1,0 +1,85 @@
+# Phase 1 Run 3 — scope and automation categorisation
+#
+# Run 2 (data/requirements/phase-1-run-2-scope.yaml) excluded scene
+# archive/restore/delete (T-FUNC-0225/0226/0227) and their word-count
+# cascade effects (T-FUNC-0304.03.01-03, 0304.04.01-03, 0304.05.01-03) on
+# the assumption that scene archive/restore/delete weren't implemented.
+# That assumption was wrong: scene_archive_view, scene_restore_view, and
+# scene_delete_view all existed in novels/urls.py and novels/views.py all
+# along. What was actually missing was the UI buttons to reach them --
+# fixed when the card design was standardised, which incidentally added the
+# missing buttons. Confirmed by reading the view implementations directly:
+# all three correctly trigger the same word-count cascade mechanism already
+# proven correct for chapter/part (either via Scene.save()'s built-in
+# cascade for archive/restore, or an explicit chapter.update_word_count()
+# call for delete, matching chapter_delete_view's own pattern).
+#
+# Per-message agreement (25-Aug-2026): Run 2's own scope file and recorded
+# results are NOT edited retroactively -- they're a closed historical
+# record of what Run 2 actually covered. This file tracks the 15 tests
+# newly in scope for Run 3 instead, as a small, separate addendum.
+#
+# All 15 are backend_state (Django test client, no browser needed) --
+# same category as their chapter/part equivalents.
+
+- test_id: T-FUNC-0225.01.01
+  source_file: 02-novel-management
+  category: backend_state
+  note: Successfully archive a scene
+- test_id: T-FUNC-0225.01.02
+  source_file: 02-novel-management
+  category: backend_state
+  note: Cancel archiving a scene
+- test_id: T-FUNC-0226.01.01
+  source_file: 02-novel-management
+  category: backend_state
+  note: Successfully restore a scene
+- test_id: T-FUNC-0226.01.02
+  source_file: 02-novel-management
+  category: backend_state
+  note: Cancel unarchiving a scene
+- test_id: T-FUNC-0227.01.01
+  source_file: 02-novel-management
+  category: backend_state
+  note: Successfully delete a scene
+- test_id: T-FUNC-0227.01.02
+  source_file: 02-novel-management
+  category: backend_state
+  note: Cancel deleting a scene
+
+- test_id: T-FUNC-0304.03.01
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Archiving a scene reduces the parent chapter word count
+- test_id: T-FUNC-0304.03.02
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Archiving a scene reduces the novel word count
+- test_id: T-FUNC-0304.03.03
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Archiving a scene reduces the part word count when parts are enabled
+- test_id: T-FUNC-0304.04.01
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Unarchiving a scene increases the parent chapter word count
+- test_id: T-FUNC-0304.04.02
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Unarchiving a scene increases the novel word count
+- test_id: T-FUNC-0304.04.03
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Unarchiving a scene increases the part word count when parts are enabled
+- test_id: T-FUNC-0304.05.01
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Deleting a scene reduces the parent chapter word count
+- test_id: T-FUNC-0304.05.02
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Deleting a scene reduces the novel word count
+- test_id: T-FUNC-0304.05.03
+  source_file: 03-writing-interface
+  category: backend_state
+  note: Deleting a scene reduces the part word count when parts are enabled

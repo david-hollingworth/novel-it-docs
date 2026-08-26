@@ -9,6 +9,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0601.01.02
   requirement_id: R-FUNC-0601.01
   executions:
@@ -27,6 +31,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0601.02.01
   requirement_id: R-UI-0601.02
   executions:
@@ -35,6 +43,10 @@
     issue:
     comment: Uploaded images were displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -49,6 +61,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0602.01.01
   requirement_id: R-FUNC-0602.01
   executions:
@@ -57,6 +73,10 @@
     issue:
     comment: The item was created as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -71,6 +91,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-UI-0602.01.01
   requirement_id: R-UI-0602.01
   executions:
@@ -79,6 +103,10 @@
     issue: '90'
     comment: Not all the required field were displayed on the add item form.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -93,6 +121,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0602.02.02
   requirement_id: R-FUNC-0602.02
   executions:
@@ -101,6 +133,10 @@
     issue:
     comment: The image was uploaded successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -115,6 +151,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0602.01.01
   requirement_id: R-SEC-0602.01
   executions:
@@ -123,6 +163,10 @@
     issue:
     comment: A .png image was uploaded successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -137,6 +181,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-SEC-0602.01.03
   requirement_id: R-SEC-0602.01
   executions:
@@ -145,6 +193,10 @@
     issue:
     comment: A .jpeg image was uploaded successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -159,6 +211,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0602.03.01
   requirement_id: R-FUNC-0602.03
   executions:
@@ -167,6 +223,10 @@
     issue:
     comment: New item type was added and assigned successfully
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -181,6 +241,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0602.04.01
   requirement_id: R-FUNC-0602.04
   executions:
@@ -189,6 +253,10 @@
     issue:
     comment: The item type was renamed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -203,6 +271,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0602.05.02
   requirement_id: R-FUNC-0602.05
   executions:
@@ -211,6 +283,10 @@
     issue: '91'
     comment: There's no facility to delete tests so this test cannot be performed.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -225,6 +301,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0603.01.02
   requirement_id: R-FUNC-0603.01
   executions:
@@ -233,6 +313,10 @@
     issue:
     comment: The item was not renamed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -247,6 +331,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0610.01.01
   requirement_id: R-FUNC-0610.01
   executions:
@@ -255,6 +343,10 @@
     issue:
     comment: The relationship was created as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -269,6 +361,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0610.02.01
   requirement_id: R-FUNC-0610.02
   executions:
@@ -277,6 +373,10 @@
     issue:
     comment: The forward and reverse relationships were displayed as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.
@@ -291,6 +391,10 @@
     result: PASS
     issue:
     comment: Automated test passed.
+  - date: '2026-08-26'
+    result: PASS
+    issue:
+    comment: Automated test passed.
 - test_id: T-FUNC-0610.04.01
   requirement_id: R-FUNC-0610.04
   executions:
@@ -299,6 +403,10 @@
     issue:
     comment: The relationship was deleted as expected.
   - date: '2026-08-25'
+    result: PASS
+    issue:
+    comment: Automated test passed.
+  - date: '2026-08-26'
     result: PASS
     issue:
     comment: Automated test passed.

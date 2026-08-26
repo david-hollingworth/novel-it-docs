@@ -275,12 +275,6 @@
   source_file: 02-novel-management
   test_ids: [T-UI-0224.01.01]
 
-- req_id: R-FUNC-0224.02
-  feature_id: FEAT-0224
-  feature_label: Edit Scene
-  source_file: 02-novel-management
-  test_ids: [T-FUNC-0224.02.01]
-
 - req_id: R-FUNC-0225.01
   feature_id: FEAT-0225
   feature_label: Archive Scene
